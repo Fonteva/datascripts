@@ -1,0 +1,24 @@
+minimum_cumulusci_version: '3.16.0'
+project:
+    name: fondevhub
+    package:
+        name: fondevhub
+        api_version: '49.0'
+    git:
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/fondevhub/tests
+            options:
+                outputdir: robot/fondevhub/results
+
+    robot_testdoc:
+        options:
+            path: robot/fondevhub/tests
+            output: robot/fondevhub/doc/fondevhub_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 85
