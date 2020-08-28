@@ -6,6 +6,11 @@ project:
         api_version: '49.0'
     git:
     source_format: sfdx
+    dependencies:
+        - namespace: Framework
+          version: 120.7
+        - namespace: PagesApi
+          version: 120.0
 
 tasks:
     robot:
