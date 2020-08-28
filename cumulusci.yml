@@ -17,10 +17,10 @@ project:
           version: 120.9
         - namespace: EventApi
           version: 121.0
-        - namespace: ROEApi
-          version: 120.1
         - namespace: FDService
           version: 121.2
+        - namespace: ROEApi
+          version: 120.1
         - namespace: FDS19R2
           version: 121.8
         - namespace: LTE
