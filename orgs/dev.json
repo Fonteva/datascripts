@@ -1,12 +1,16 @@
 {
   "orgName": "fondevhub - Dev Org",
   "edition": "Developer",
+  "features": ["Communities"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
     "chatterSettings": {
       "enableChatter": true
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
     },
     "userManagementSettings": {
       "enableNewProfileUI": true
