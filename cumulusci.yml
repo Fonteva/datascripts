@@ -32,6 +32,12 @@ project:
         - namespace: joinapi
           version: 120.1
 
+orgs:
+    scratch:
+        dev:
+            config_file: orgs/dev.json
+            days: 30
+
 tasks:
     robot:
         options:
