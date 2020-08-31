@@ -27,6 +27,8 @@ project:
           version: 123.4
         - namespace: FontevaCom
           version: 90.0
+        - namespace: CPBase
+          version: 120.0
         - namespace: joinapi
           version: 120.1
 
