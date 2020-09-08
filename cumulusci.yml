@@ -31,6 +31,10 @@ project:
           version: 120.0
         - namespace: joinapi
           version: 120.1
+        - namespace: ProgramApi
+          version: 120.0
+        - namespace: PriceApi
+          version: 120.0
 
 tasks:
     run_tests:
