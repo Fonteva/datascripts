@@ -35,6 +35,8 @@ project:
           version: 120.0
         - namespace: PriceApi
           version: 120.0
+        - namespace: DonorApi
+          version: 120.0
 
 tasks:
     run_tests:
