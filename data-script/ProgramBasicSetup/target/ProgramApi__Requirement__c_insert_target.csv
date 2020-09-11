@@ -1,0 +1,11 @@
+ProgramApi__Dependency__c,ProgramApi__Display_Order__c,ProgramApi__End_Date__c,ProgramApi__Goal_Button_Label__c,ProgramApi__Maintenance__c,ProgramApi__Navigation_URL__c,ProgramApi__Program__c,ProgramApi__Published__c,ProgramApi__Requirement_Description__c,ProgramApi__Requirement_Name__c,ProgramApi__Requirement_Type__c,ProgramApi__Start_Date__c,Errors,Id
+,2,,Sign Up,false,#,a2JR0000001Yi9CMAS,true,Click to apply for your site visit and choose from available days.  We will confirm your scheduled visit and this task will be marked complete when the visit is completed and passed.,Site Visit,,,,a2KR00000012veRMAQ
+,3,,Start Course,false,#,a2JR0000001Yi9CMAS,true,You must complete the course prior to your site visit.,Course,,,,a2KR00000012veSMAQ
+,1,,Complete Form,false,https://us-tdm-tso-15eb63ff4c6-1626e3c741a.force.com/cpbase__form?ID=a0S6A000001F2Yt,a2JR0000001Yi9DMAS,true,The certification process begins once you fill out this form.,Registration Form,,,,a2KR00000012veTMAQ
+,2,,Launch Course,false,#,a2JR0000001Yi9DMAS,true,,Course: Advanced Vaulting Teaching Techniques,Course,,,a2KR00000012veUMAQ
+,3,,Launch Course,false,#,a2JR0000001Yi9DMAS,true,,Course: Vaulting with Confidence and Instilling it in Others,Course,,,a2KR00000012veVMAQ
+RN-00005,4,,Register,false,#,a2JR0000001Yi9DMAS,true,You must complete this exam to aquire your accreditation.,Exam: IVI Exam,Exam,,,a2KR00000012veWMAQ
+,,,Self Report Credits,false,,a2JR0000001Yi9CMAS,true,,CEU Credits,CEUs,,,a2KR00000012veXMAQ
+,,,Launch Exam,true,,a2JR0000001Yi9CMAS,true,,Maintenance Exam,Exam,,,a2KR00000012veYMAQ
+,,,Launch Exam,true,,a2JR0000001Yi9DMAS,false,,Maintenance Exam,Exam,,,a2KR00000012veZMAQ
+,1,,Complete Form,false,https://us-tdm-tso-15eb63ff4c6-1626e3c741a.force.com/cpbase__form?ID=a0S6A000001F2Yt,a2JR0000001Yi9CMAS,true,The certification process begins once you fill out this form.,Registration Form,,,,a2KR00000012veaMAA
