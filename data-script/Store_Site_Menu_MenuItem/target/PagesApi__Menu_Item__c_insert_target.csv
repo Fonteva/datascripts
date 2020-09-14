@@ -1,0 +1,25 @@
+Name,PagesApi__Menu__c,PagesApi__Custom_URL__c,PagesApi__Display_Order__c,PagesApi__Display_Text__c,PagesApi__Icon__c,PagesApi__Is_Standard__c,PagesApi__Link_Target__c,PagesApi__On_Click_Javascript__c,PagesApi__Page__c,PagesApi__Style_Class__c,PagesApi__Type__c,PagesApi__Value__c,Errors,Id
+Store,a0YR0000005u7lhMAA,https://us-tdm-tso-15eb63ff4c6-1626e3c741a.force.com/CPBase__store?page=a0Z6A000002kOUyUAM&site=a0d6A000001RhaOQAS,1,,,true,_self,,a0bR000000BhoZtIAJ,,Custom Page,,,a0XR0000007UkN4MAK
+Groups,a0YR0000005u7lhMAA,https://us-tdm-tso-15eb63ff4c6-1626e3c741a.force.com/CPBase__groups?page=a0Z6A000002kOV0UAM&site=a0d6A000001RhaOQAS,2,,,true,_self,,a0bR000000BhoZvIAJ,,Custom Page,,,a0XR0000007UkN5MAK
+Events,a0YR0000005u7lhMAA,https://us-tdm-tso-15eb63ff4c6-1626e3c741a.force.com/CPBase__events?page=a0Z6A000002kOV1UAM&site=a0d6A000001RhaOQAS,3,,,true,_self,,a0bR000000BhoZwIAJ,,Custom Page,,,a0XR0000007UkN6MAK
+Education,a0YR0000005u7lfMAA,,5,,,false,_self,,,,Custom Page,,,a0XR0000007UkN7MAK
+Directory,a0YR0000005u7lfMAA,,6,,,false,_self,,,,Custom Page,,,a0XR0000007UkN8MAK
+Fonteva.com,a0YR0000005u7lgMAA,http://fonteva.com,1,,,false,_self,,,,Custom Page,,,a0XR0000007UkN9MAK
+Store,a0YR0000005u7lfMAA,https://us-tdm-tso-15eb63ff4c6-1626e3c741a.force.com/CPBase__store?page=a0Z6A000002kOUKUA2&site=a0d6A000001RhaTQAS,1,,,true,_self,,a0bR000000BhoZdIAJ,,Custom Page,,,a0XR0000007UkNAMA0
+Groups,a0YR0000005u7lfMAA,https://us-tdm-tso-15eb63ff4c6-1626e3c741a.force.com/CPBase__groups?page=a0Z6A000002kOUMUA2&site=a0d6A000001RhaTQAS,2,,,true,_self,,a0bR000000BhoZfIAJ,,Custom Page,,,a0XR0000007UkNBMA0
+Events,a0YR0000005u7lfMAA,https://us-tdm-tso-15eb63ff4c6-1626e3c741a.force.com/CPBase__events?page=a0Z6A000002kOUNUA2&site=a0d6A000001RhaTQAS,3,,,true,_self,,a0bR000000BhoZgIAJ,,Custom Page,,,a0XR0000007UkNCMA0
+Fonteva.com,a0YR0000005u7liMAA,http://fonteva.com,1,,,false,_self,,,,Custom Page,,,a0XR0000007UkNDMA0
+Individual Member Directory,a0YR0000005u7lfMAA,/s/searchdirectory?id=a2n6A000000pgjDQAQ,7,,,false,_blank,,,,Custom URL,,,a0XR0000007UkNEMA0
+Organization Member Directory,a0YR0000005u7lfMAA,/s/searchdirectory?id=a2n6A000000pgjDQAQ,8,,,false,_blank,,,,Custom URL,,,a0XR0000007UkNFMA0
+Membership Applications,a0YR0000005u7lfMAA,,8,,,false,_self,,,,Custom Page,,,a0XR0000007UkNGMA0
+Individual Memberships,a0YR0000005u7lfMAA,/joinapi__membershiplist?id=a206A000000R93aQAC&order=1,8,,,false,_self,,,,Custom Page,,,a0XR0000007UkNHMA0
+Company Memberships,a0YR0000005u7lfMAA,/joinapi__membershiplist?id=a206A000000RAGiQAO&order=1,9,,,false,_self,,,,Custom Page,,,a0XR0000007UkNIMA0
+Update Company Profile,a0YR0000005u7lfMAA,https://us-tdm-tso-15eb63ff4c6-1626e3c741a.force.com/cpbase__form?id=a0S6A000001F2YtUAK&page=a0Z6A00000481lfUAA&site=a0d6A000001RhaTQAS,6,Update Company Profile,,false,_self,,a0bR000000BhoZxIAJ,,Custom URL,,,a0XR0000007UkNJMA0
+Company Profile,a0YR0000005u7lfMAA,,6,Company Profile Management,,false,_self,,,,Custom Page,,,a0XR0000007UkNKMA0
+Update Company Contacts,a0YR0000005u7lfMAA,https://us-tdm-tso-15eb63ff4c6-1626e3c741a.force.com/cpbase__form?ID=a0S6A000001Ftr3&page=a0Z6A00000481lkUAA&site=a0d6A000001RhaTQAS,8,Update Company Contacts,,false,_self,,a0bR000000BhoZyIAJ,,Custom URL,,,a0XR0000007UkNLMA0
+Apply/Maintain Today!,a0YR0000005u7lfMAA,/CPBase__store?site=a0d6A000001RhaTQAS&catalog=a0s6A000001CwDSQA0,7,Apply Today!,,false,_self,,,,Custom URL,,,a0XR0000007UkNMMA0
+Manage Your Certifications,a0YR0000005u7lfMAA,/ProgramApi__Programs?programtype=PT-00002,6,Manage Your Certification,,false,_self,,,,Custom URL,,,a0XR0000007UkNNMA0
+Manage Your Accreditations,a0YR0000005u7lfMAA,/ProgramApi__Programs?programtype=PT-00003,7,Manage Your Accreditations,,false,_self,,,,Custom URL,,,a0XR0000007UkNOMA0
+"Individual Membership(National, State & Local)",a0YR0000005u7lfMAA,/joinapi__membershiplist?id=a206A000000ZepCQAS&order=1,8,"Individual Membership(National, State & Local)",,false,_self,,,,Custom URL,,,a0XR0000007UkNPMA0
+Self Report Credits,a0YR0000005u7lfMAA,/cpbase__form?ID=a0S6A000002HeN3,6,Self Report Credits,,false,_self,,,,Custom Page,,,a0XR0000007UkNQMA0
+Fonteva.com,a0YR0000005u7lkMAA,http://fonteva.com,1,,,false,_self,,,,Custom Page,,,a0XR0000007UkNRMA0
