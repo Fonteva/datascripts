@@ -1,0 +1,6 @@
+Name,EventApi__Business_Group__c,EventApi__Calendar_Reminder_Text__c,EventApi__Capacity__c,EventApi__Description__c,EventApi__Email_Notification_Text__c,EventApi__Enable_Access_Permissions__c,EventApi__Enable_Registration_Groups__c,EventApi__Enable_Schedule_Items__c,EventApi__Enable_Sponsors__c,EventApi__Enable_Waitlist__c,EventApi__Media_Asset_Collection__c,EventApi__Registration_Instructions__c,EventApi__Registration_Style__c,Errors,Id
+Default Simple Event Category,a0sR0000004M9vaIAC,,,,,false,false,false,false,false,,,Conference,,a1gR0000002Zu3mIAC
+Default Conference Event Category,a0sR0000004M9vaIAC,,,,,false,false,false,false,false,,,Conference,,a1gR0000002Zu3nIAC
+FON-Lightning Event Category,a0sR0000004M9vaIAC,,,,,false,false,false,false,false,,,Lightning Event,,a1gR0000002Zu3oIAC
+Default Lightning Event Category,a0sR0000004M9vaIAC,,,,,false,false,false,false,false,,,Conference,,a1gR0000002Zu3pIAC
+Default Community Event Category,a0sR0000004M9vaIAC,,,,,false,false,false,false,false,,,Conference,,a1gR0000002Zu3qIAC
