@@ -33,12 +33,6 @@
             "operation":"Upsert",
             "externalId":"Id",
             "excluded":false
-        },
-        {
-            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, LastActivityDate, OrderApi__Actual_Amount__c, OrderApi__Actual_Count__c, OrderApi__Batch_Number__c, OrderApi__Business_Group__c, OrderApi__Closed_Date__c, OrderApi__Date__c, OrderApi__Deposit_Account__c, OrderApi__Entity__c, OrderApi__Expected_Amount__c, OrderApi__Expected_Count__c, OrderApi__Is_Closed__c, OrderApi__Is_Posted__c, OrderApi__Item__c, OrderApi__Opened_Date__c, OrderApi__Payment_Gateway__c, OrderApi__Payment_Type__c, OrderApi__Posted_Date__c, OrderApi__Source_Code__c, LastViewedDate, LastReferencedDate FROM OrderApi__Batch__c",
-            "operation":"Upsert",
-            "externalId":"Id",
-            "excluded":false
         }
     ]
 }
