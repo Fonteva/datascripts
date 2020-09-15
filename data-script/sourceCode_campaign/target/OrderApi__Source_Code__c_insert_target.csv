@@ -1,0 +1,5 @@
+Name,OrderApi__Active__c,OrderApi__Business_Group__c,OrderApi__Channel__c,Errors,Id
+event2020,true,,Direct Mail,,a1WR0000003Ib2TMAS
+Promotions,true,a0sR0000004M9vaIAC,Direct Mail,,a1WR0000003Ib2UMAS
+NewMember,true,a0sR0000004M9vaIAC,Direct Mail,,a1WR0000003Ib2VMAS
+FreeItem,true,a0sR0000004M9vaIAC,Direct Mail,,a1WR0000003Ib2WMAS

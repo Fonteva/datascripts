@@ -1,0 +1,60 @@
+PagesApi__Page_Element__c,PagesApi__Key__c,PagesApi__Type__c,PagesApi__Value__c,Errors,Id
+a0aR000000AH6ZYIA1,numberOfPaymentsAllTimeLabel,String,For All Time,,a0ZR0000005orJXMAY
+a0aR000000AH6ZYIA1,catalog,String,a0s4W00000ddtfHQAQ,,a0ZR0000005orJYMAY
+a0aR000000AH6ZYIA1,title,String,Fundraising for a Education!,,a0ZR0000005orJZMAY
+a0aR000000AH6ZYIA1,instructions,String,Donate today to make a difference..,,a0ZR0000005orJaMAI
+a0aR000000AH6ZYIA1,selectAmountLabel,String,Donate,,a0ZR0000005orJbMAI
+a0aR000000AH6ZYIA1,suggestedLevelOfGiving,String,"10,100, 200,500,100",,a0ZR0000005orJcMAI
+a0aR000000AH6ZYIA1,enableOtherAmount,Boolean,true,,a0ZR0000005orJdMAI
+a0aR000000AH6ZYIA1,otherDonationLabel,String,Other,,a0ZR0000005orJeMAI
+a0aR000000AH6ZYIA1,donationAmountLabel,String,Donation Amount,,a0ZR0000005orJfMAI
+a0aR000000AH6ZYIA1,donationTypeLabel,String,Donation Type,,a0ZR0000005orJgMAI
+a0aR000000AH6ZYIA1,oneTimeDonationLabel,String,One-Time,,a0ZR0000005orJhMAI
+a0aR000000AH6ZYIA1,recurringDonationLabel,String,Monthly,,a0ZR0000005orJiMAI
+a0aR000000AH6ZYIA1,numberOfPayments,String,"2,3,4,5,6,7,8,9,10,11,12,24,36",,a0ZR0000005orJjMAI
+a0aR000000AH6ZYIA1,supportingFundLabel,String,Available Funds,,a0ZR0000005orJkMAI
+a0aR000000AH6ZYIA1,areaOfGreatestNeedLabel,String,Area Of Greatest Need,,a0ZR0000005orJlMAI
+a0aR000000AH6ZYIA1,defaultFund,String,,,a0ZR0000005orJmMAI
+a0aR000000AH6ZYIA1,chooseFromAList,String,Select Funds,,a0ZR0000005orJnMAI
+a0aR000000AH6ZYIA1,fundSearchType,String,Picklist,,a0ZR0000005orJoMAI
+a0aR000000AH6ZYIA1,writeInLabel,String,Write In,,a0ZR0000005orJpMAI
+a0aR000000AH6ZYIA1,writeInDefaultItem,String,,,a0ZR0000005orJqMAI
+a0aR000000AH6ZYIA1,fundSearchLabel,String,Fund Search,,a0ZR0000005orJrMAI
+a0aR000000AH6ZYIA1,filterByCategoryLabel,String,Filter By Category,,a0ZR0000005orJsMAI
+a0aR000000AH6ZYIA1,viewMoreLabel,String,View More,,a0ZR0000005orJtMAI
+a0aR000000AH6ZYIA1,searchResultsHeaderLabel,String,Search Results,,a0ZR0000005orJuMAI
+a0aR000000AH6ZYIA1,noSearchResultsHeaderLabel,String,Uh oh! Couldn't find anything,,a0ZR0000005orJvMAI
+a0aR000000AH6ZYIA1,continueModalLabel,String,Continue,,a0ZR0000005orJwMAI
+a0aR000000AH6ZYIA1,preferencesLabel,String,Options,,a0ZR0000005orJxMAI
+a0aR000000AH6ZYIA1,iWishToGiveSummaryTableLabel,String,I Wish To Give...,,a0ZR0000005orJyMAI
+a0aR000000AH6ZYIA1,companyMatchLabel,String,"Yes, my company will match my donation",,a0ZR0000005orJzMAI
+a0aR000000AH6ZYIA1,inHonorMemoryLabel,String,Dedicate my donation in honor of or in memory of someone,,a0ZR0000005orK0MAI
+a0aR000000AH6ZYIA1,honorFieldSet,String,Fon_In_Memory_Of_Donation_Fields,,a0ZR0000005orK1MAI
+a0aR000000AH6ZYIA1,sidebarHTML,String,,,a0ZR0000005orK2MAI
+a0aR000000AH6ZYIA1,showCampaignStats,Boolean,true,,a0ZR0000005orK3MAI
+a0aR000000AH6ZYIA1,donationDescription,String,,,a0ZR0000005orK4MAI
+a0aR000000AH6ZYIA1,donationCampaignEndDate,Date,2018-08-14,,a0ZR0000005orK5MAI
+a0aR000000AH6ZYIA1,showCampaignProgress,Boolean,true,,a0ZR0000005orK6MAI
+a0aR000000AH6ZYIA1,progressDisplayStyle,String,Text,,a0ZR0000005orK7MAI
+a0aR000000AH6ZYIA1,areYouSureAlertLabel,String,Are You Sure?,,a0ZR0000005orK8MAI
+a0aR000000AH6ZYIA1,warningMessageAlertLabel,String,This will remove your donations!,,a0ZR0000005orK9MAI
+a0aR000000AH6ZYIA1,fundTableMissingAmount,String,Whoops!,,a0ZR0000005orKAMAY
+a0aR000000AH6ZYIA1,fundTableMissingAmountDescription,String,Forgot to enter an amount,,a0ZR0000005orKBMAY
+a0aR000000AH6ZYIA1,warningMessageDelete,String,No Donation amount specified,,a0ZR0000005orKCMAY
+a0aR000000AH6ZYIA1,warningMessageDeleteDescription,String,Must have at least one donation,,a0ZR0000005orKDMAY
+a0aR000000AH6ZYIA1,addCartLabel,String,Donate,,a0ZR0000005orKEMAY
+a0aR000000AH6ZYIA1,customCss,String,,,a0ZR0000005orKFMAY
+a0aR000000AH6ZYIA1,cancelModalButtonLabel,String,Cancel,,a0ZR0000005orKGMAY
+a0aR000000AH6ZYIA1,selectedItemCountLabel,String,Selected,,a0ZR0000005orKHMAY
+a0aR000000AH6ZYIA1,selectedItemHeaderLabel,String,Selected Items,,a0ZR0000005orKIMAY
+a0aR000000AH6ZYIA1,warningNoFundsSelectedTitle,String,Whoops!,,a0ZR0000005orKJMAY
+a0aR000000AH6ZYIA1,warningNoFundsSelectedDescription,String,At Least One Fund Must Be Selected,,a0ZR0000005orKKMAY
+a0aR000000AH6ZYIA1,errorCatalogNotPublishedTitle,String,Uh Oh!,,a0ZR0000005orKLMAY
+a0aR000000AH6ZYIA1,editFundTableDonationsLinkLabel,String,Edit,,a0ZR0000005orKMMAY
+a0aR000000AH6ZYIA1,termedRecurringOverviewText,String,"I wish to donate {{ donation }} {{ frequency }} for {{ installments }} months starting on {{ start_date }}, totaling {{ grand_total }}",,a0ZR0000005orKNMAY
+a0aR000000AH6ZYIA1,evergreenRecurringOverviewText,String,I wish to donate {{ donation }} {{ frequency }} starting on {{ start_date }},,a0ZR0000005orKOMAY
+a0aR000000AH6ZYIA1,companyNameLabel,String,Company Name,,a0ZR0000005orKPMAY
+a0aR000000AH6ZYIA1,writeInPlaceHolder,String,,,a0ZR0000005orKQMAY
+a0aR000000AH6ZYIA1,startDatePlaceHolder,String,Start Date,,a0ZR0000005orKRMAY
+a0aR000000AH6ZYIA1,companyInputPlaceHolder,String,Enter Company,,a0ZR0000005orKSMAY
+a0aR000000AH6ZYIA1,errorCatalogNotPublishedDescription,String,Houston we have a problem,,a0ZR0000005orKTMAY
