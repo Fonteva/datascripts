@@ -1,0 +1,7 @@
+Name,OrderApi__Business_Group__c,OrderApi__Display_Message__c,OrderApi__Display_Name__c,OrderApi__Variable__c,Errors,Id
+Due on Receipt,,Please remit payment upon receipt of this invoice.,Due at the time of Receipt,0,,a1IR0000007spxMMAQ
+NET 15,,Please remit payment 15 days from receipt of this invoice.,Due 15 Days from Receipt,15,,a1IR0000007spxNMAQ
+NET 30,,Please remit payment 30 days from receipt of this invoice.,Due 30 Days from Receipt,30,,a1IR0000007spxOMAQ
+Due on Receipt,a0sR0000004M9vaIAC,,Due on Receipt,0,,a1IR0000007spxPMAQ
+NET 15,a0sR0000004M9vaIAC,,NET 15,15,,a1IR0000007spxQMAQ
+NET 30,a0sR0000004M9vaIAC,,NET 30,30,,a1IR0000007spxRMAQ

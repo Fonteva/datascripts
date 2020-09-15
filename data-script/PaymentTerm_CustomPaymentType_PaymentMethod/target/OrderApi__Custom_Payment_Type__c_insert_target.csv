@@ -1,0 +1,16 @@
+Name,OrderApi__Display_On_Backend_Checkout__c,OrderApi__Display_On_Frontend_Checkout__c,OrderApi__Display_Order__c,OrderApi__Is_Enabled__c,OrderApi__Payment_Gateway__c,OrderApi__Store__c,OrderApi__Custom_Payment_Type_Template__c,OrderApi__Instructions__c,Errors,Id
+Saved Payment Methods,true,true,1,true,a1GR0000004beHYMAY,a1YR00000019HWDMA2,Saved_Payment_Methods,,,a11R0000006aO5dIAE
+Credit Card,true,true,2,true,a1GR0000004beHYMAY,a1YR00000019HWDMA2,Credit_Card,,,a11R0000006aO5eIAE
+ECheck,true,true,3,true,a1GR0000004beHYMAY,a1YR00000019HWDMA2,ECheck,,,a11R0000006aO5fIAE
+Invoice Me,false,false,4,true,,a1YR00000019HWDMA2,Offline,,,a11R0000006aO5gIAE
+Proforma Invoice,false,false,5,true,,a1YR00000019HWDMA2,Proforma_Invoice,,,a11R0000006aO5hIAE
+ECheck,true,true,3,true,a1GR0000004beHYMAY,a1YR00000019HWFMA2,ECheck,,,a11R0000006aO5iIAE
+Invoice Me,false,true,4,true,,a1YR00000019HWFMA2,Offline,,,a11R0000006aO5jIAE
+Proforma Invoice,false,false,5,true,,a1YR00000019HWFMA2,Proforma_Invoice,,,a11R0000006aO5kIAE
+Saved Payment Methods,true,true,1,true,a1GR0000004beHXMAY,a1YR00000019HWEMA2,Saved_Payment_Methods,,,a11R0000006aO5lIAE
+Credit Card,true,true,2,true,a1GR0000004beHXMAY,a1YR00000019HWEMA2,Credit_Card,,,a11R0000006aO5mIAE
+ECheck,true,true,3,true,a1GR0000004beHXMAY,a1YR00000019HWEMA2,ECheck,,,a11R0000006aO5nIAE
+Invoice Me,false,true,4,true,,a1YR00000019HWEMA2,Offline,,,a11R0000006aO5oIAE
+Proforma Invoice,false,false,5,true,,a1YR00000019HWEMA2,Proforma_Invoice,,,a11R0000006aO5pIAE
+Saved Payment Methods,true,true,1,true,a1GR0000004beHYMAY,a1YR00000019HWFMA2,Saved_Payment_Methods,,,a11R0000006aO5qIAE
+Credit Card,true,true,2,true,a1GR0000004beHYMAY,a1YR00000019HWFMA2,Credit_Card,"<p><b style=""color: rgb(218, 24, 24);"">Please do not click Process Payment more than once. It will charge your account twice.</b></p>",,a11R0000006aO5rIAE
