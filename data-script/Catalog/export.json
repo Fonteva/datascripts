@@ -1,0 +1,20 @@
+{
+    "pollingIntervalMs":1000,
+    "bulkApiVersion":1.0,
+    "bulkApiV1BatchSize" : 100,
+    "apiVersion" :"47.0",
+    "objects":[
+        {
+            "query":"SELECT Id, Name, OrderApi__Catalog__c, OrderApi__Description__c, OrderApi__Display_Order__c, OrderApi__Enable_Access_Permissions__c, OrderApi__Is_Published__c, OrderApi__Store__c, OrderApi__Catalog_Filters__c, OrderApi__Display_Featured_Items__c, OrderApi__Placeholder_Image__c FROM OrderApi__Catalog__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, Name, OrderApi__Catalog__c, OrderApi__Is_Featured__c, OrderApi__Is_Published__c, OrderApi__Item__c FROM OrderApi__Catalog_Item__c WHERE OrderApi__Item__r.OrderApi__Is_Active__c = true",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        }
+    ]
+}

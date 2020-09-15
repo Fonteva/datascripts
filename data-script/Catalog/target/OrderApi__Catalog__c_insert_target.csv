@@ -1,0 +1,14 @@
+Name,OrderApi__Description__c,OrderApi__Display_Order__c,OrderApi__Enable_Access_Permissions__c,OrderApi__Is_Published__c,OrderApi__Store__c,OrderApi__Catalog_Filters__c,OrderApi__Display_Featured_Items__c,OrderApi__Placeholder_Image__c,Errors,Id
+FON-Merchandise,,,false,true,a1YR00000019HWFMA2,,false,,,a0wR0000005qUMdIAM
+FON-Publications,,,false,true,a1YR00000019HWFMA2,,false,,,a0wR0000005qUMeIAM
+FON-Donations,,,false,false,,,false,,,a0wR0000005qUMfIAM
+FON-Memberships,,,false,true,a1YR00000019HWFMA2,,false,,,a0wR0000005qUMgIAM
+FON-Certifications and Accreditations,,,false,true,a1YR00000019HWFMA2,,false,,,a0wR0000005qUMhIAM
+FON-Education,,,false,true,,,false,,,a0wR0000005qUMiIAM
+FON-Other Giving Opportunities,,,false,true,,,false,,,a0wR0000005qUMjIAM
+FON-Law,,,false,true,,,false,,,a0wR0000005qUMkIAM
+FON-Academic Excellence,,,false,true,,,false,,,a0wR0000005qUMlIAM
+FON-Arts & Sciences,,,false,true,,,false,,,a0wR0000005qUMmIAM
+FON- Sponsorships,,,false,true,a1YR00000019HWFMA2,,false,,,a0wR0000005qUMnIAM
+FON-Booths,,,false,true,a1YR00000019HWFMA2,,false,,,a0wR0000005qUMoIAM
+FON-Featured Products,FON-Featured Products,,false,true,a1YR00000019HWFMA2,,false,,,a0wR0000005qUMpIAM
