@@ -1,0 +1,4 @@
+OrderApi__Renewal_Path__c,OrderApi__Field__c,OrderApi__Object__c,OrderApi__Operator__c,OrderApi__Value__c,Errors,Id
+a1OR0000003CU1pMAG,annualrevenue,account,greater than,500000,,a1NR0000005Y7R4MAK
+a1OR0000003CU1qMAG,role__c,contact,not equal to,Student,,a1NR0000005Y7R5MAK
+a1OR0000003CU1rMAG,role__c,contact,not equal to,Student,,a1NR0000005Y7R6MAK

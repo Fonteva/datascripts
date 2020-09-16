@@ -1,0 +1,22 @@
+{
+    "pollingIntervalMs":1000,
+    "bulkApiVersion":1.0,
+    "bulkApiV1BatchSize" : 100,
+    "apiVersion" :"47.0",
+    "objects":[
+        {
+            "query":"SELECT Id, Name, OrderApi__Is_Default__c, OrderApi__Item__c, OrderApi__Renew_Into_Item__c, OrderApi__Rule_Type__c, OrderApi__Term__c, OrderApi__Sort_Order__c FROM OrderApi__Renewal_Path__c",
+            "operation":"Upsert",
+            "externalId":"Name",
+            "allRecords":true,
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, Name, OrderApi__Renewal_Path__c, OrderApi__Field__c, OrderApi__Object__c, OrderApi__Operator__c, OrderApi__Value__c FROM OrderApi__Renewal_Path_Variable__c",
+            "operation":"Upsert",
+            "externalId":"Name",
+            "allRecords":true,
+            "excluded":false
+        }
+    ]
+}
