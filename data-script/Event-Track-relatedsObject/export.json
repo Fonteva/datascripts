@@ -8,73 +8,85 @@
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Business_Group__c, EventApi__Calendar_Reminder_Text__c, EventApi__Capacity__c, EventApi__Description__c, EventApi__Email_Notification_Text__c, EventApi__Enable_Access_Permissions__c, EventApi__Enable_Registration_Groups__c, EventApi__Enable_Schedule_Items__c, EventApi__Enable_Sponsors__c, EventApi__Enable_Waitlist__c, EventApi__Media_Asset_Collection__c, EventApi__Registration_Instructions__c, EventApi__Registration_Style__c,LastViewedDate, LastReferencedDate FROM EventApi__Event_Category__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false
+            "excluded":false,
+            "deleteOldData":true
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, LastActivityDate, EventApi__Agenda_HTML__c, EventApi__Attendees__c, EventApi__Auto_Sellout_Event__c, EventApi__Business_Group__c, EventApi__Calendar_Reminder_Text__c, EventApi__Capacity__c, EventApi__Community_Group__c, EventApi__Description__c, EventApi__Display_Name__c, EventApi__ETicket_Label_Color__c, EventApi__ETicket_Value_Color__c, EventApi__Email_Notification_Text__c, EventApi__Enable_Access_Permissions__c, EventApi__Enable_Registration_Groups__c, EventApi__Enable_Registration_Updates__c, EventApi__Enable_Schedule_Items__c, EventApi__Enable_Sponsors__c, EventApi__Enable_Waitlist__c, EventApi__End_Date_Time__c, EventApi__End_Date__c, EventApi__End_Time__c, EventApi__Event_Category__c, EventApi__Event_Key__c, EventApi__Form__c, EventApi__Group_Manager_HTML__c, EventApi__Guest_Registrant_FieldSet_CSV__c, EventApi__Image_URL__c, EventApi__Is_Active__c, EventApi__Is_Closed__c, EventApi__Is_Published__c, EventApi__Overview_HTML__c, EventApi__Quantity_Remaining__c, EventApi__Quantity_Sold__c, EventApi__Registration_Instructions__c, EventApi__Registration_Style__c, EventApi__Registration_URL__c, EventApi__Schedule_Item_Display_Name__c, EventApi__Schedule_Item_Item_Class__c, EventApi__Session_Shopping_Cart_Instructions__c, EventApi__Session_Shopping_Cart_Label__c, EventApi__Sold_Out__c, EventApi__Speakers_HTML__c, EventApi__Sponsor_Item_Class__c, EventApi__Sponsors_HTML__c, EventApi__Start_Date_Time__c, EventApi__Start_Date__c, EventApi__Start_Time__c, EventApi__Status__c, EventApi__Thumbnail_Image_URL__c, EventApi__Ticket_Sales_Start_Date__c, EventApi__Ticket_Type_Item_Class__c, EventApi__Ticket_Type_Sort_Field__c, EventApi__Ticket_Type_Sort_Order__c, EventApi__Time_Zone__c, EventApi__Venue_HTML__c, EventApi__Waitlist_Entries__c, ROEApi__Active_Ticket_Type_Count__c, ROEApi__Event_Duration_Text__c, EventApi__Body_Background_Color__c, EventApi__Contact_Search_Result_Fields_CSV__c, EventApi__Create_Contacts_for_Attendees__c, EventApi__Custom_CSS__c, EventApi__Enable_Assigned_Seating__c, EventApi__Enable_Contact_Search__c, EventApi__Heading_Color__c, EventApi__Hero_Button_Background_Color__c, EventApi__Hero_Button_Text_Color__c, EventApi__Hero_Text_Color__c, EventApi__Invitation_Only__c, EventApi__Lightning_Event_Style__c, EventApi__Link_Color__c, EventApi__Navbar_Background_Color__c, EventApi__Navbar_Text_Color__c, EventApi__Primary_Button_Background_Color__c, EventApi__Primary_Button_Text_Color__c, EventApi__Process_Bar_Color__c, EventApi__Process_Bar_Foreground_Color__c, EventApi__Registration_Timer__c, EventApi__Search_All_Contacts__c, EventApi__Text_Color__c, EventApi__Individual_Pages__c, EventApi__Enable_Contact_Restriction__c, EventApi__Agenda_Instructions_HTML__c, EventApi__Attendee_Selection_Instructions_HTML__c, EventApi__Disable_Attendee_Assignment__c, EventApi__Enable_Event_Display_Name_Date_Time__c, EventApi__Enable_QR_Event_Pass__c, EventApi__Event_Pass_Image_URL__c, EventApi__Guest_Email_Optional__c, EventApi__Location_And_Date_Text__c, EventApi__Logo_Image__c, EventApi__Attendee_Modal_Instructions__c, EventApi__Chatter_Group_Ids__c, EventApi__Featured_Event__c, EventApi__Event_Capacity_Remaining__c, EventApi__Free_Event__c, EventApi__Register_Now_Accept_Override_URL__c, EventApi__Total_Event_Capacity__c, EventApi__When_and_Where_Summary__c, EventApi__Disable_Guest_Checkout__c, EventApi__Disable_Login__c, EventApi__One_Form_Per_Order__c,EventApi__Topic__c,Event_URL__c,LastViewedDate, LastReferencedDate FROM EventApi__Event__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false
+            "excluded":false,
+            "deleteOldData":true
         },
         {
           "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Event_Category__c, EventApi__Site__c, EventApi__Is_Active__c, EventApi__Is_Default__c FROM EventApi__Site_Event_Category__c" ,
          "operation":"Upsert",
          "externalId":"Id",
-         "excluded":false
+         "excluded":false,
+         "deleteOldData":true
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Enable_Transition_for_Status__c, EventApi__Event__c, EventApi__Is_Current_Status_for_Event__c, EventApi__Is_Event_Active__c, EventApi__Is_Event_Published__c, EventApi__Order__c, EventApi__Status_Transition_Criteria__c, EventApi__Closed_Status_Text__c, EventApi__Filter_Transition_Criteria__c FROM EventApi__Event_Status__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false
+            "excluded":false,
+            "deleteOldData":true
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Navigation_Label__c, EventApi__Page_Name__c FROM EventApi__Event_Page__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false
+            "excluded":false,
+            "deleteOldData":true
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Component_Name__c, EventApi__Config__c, EventApi__Event_Page__c, EventApi__Order__c, EventApi__Title__c, EventApi__HTML__c FROM EventApi__Event_Page_Component__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false
+            "excluded":false,
+            "deleteOldData":true
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Event_Page__c, EventApi__Event_Status__c, EventApi__Is_Published__c, EventApi__Order__c, EventApi__Enable_Access_Permissions__c, EventApi__Required_Ticket_Types__c FROM EventApi__Event_Status_Page__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false
+            "excluded":false,
+            "deleteOldData":true
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Event__c, EventApi__Track_Color__c FROM EventApi__Track__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false
+            "excluded":false,
+            "deleteOldData":true
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Bio__c, EventApi__Company_Name__c, EventApi__Contact__c, EventApi__Email__c, EventApi__Event__c, EventApi__Large_Profile_Photo_URL__c, EventApi__Other_Phone__c, EventApi__Phone__c, EventApi__Special_Requests__c, EventApi__Status__c, EventApi__Title__c, LTE__Facebook_URL__c, LTE__Is_Featured__c, LTE__LinkedIn_URL__c, LTE__Twitter_URL__c, EventApi__Display_Order__c, EventApi__Is_Featured__c,LastViewedDate, LastReferencedDate FROM EventApi__Speaker__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false
+            "excluded":false,
+            "deleteOldData":true
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Account__c, EventApi__Airports__c, EventApi__Ameneties__c, EventApi__City__c, EventApi__Concierge_Phone__c, EventApi__Contact_Email__c, EventApi__Contact_Name__c, EventApi__Contact_Phone__c, EventApi__Contact_Title__c, EventApi__Country__c, EventApi__Description__c, EventApi__Double_Room_Rate__c, EventApi__Event__c, EventApi__Executive_Suite_Rate__c, EventApi__Family_Room_Rate__c, EventApi__Front_Desk_Phone__c, EventApi__Hotel_Ameneties_Description__c, EventApi__Hotel_Cancellation_Policy__c, EventApi__Hotel_Type__c, EventApi__Is_Published__c, EventApi__Local_Attractions__c, EventApi__Logo_Image_URL__c, EventApi__Number_of_Rooms__c, EventApi__Phone__c, EventApi__Postal_Code__c, EventApi__Preferred_Vendor__c, EventApi__Room_Rates_Description__c, EventApi__Single_Room_Rate__c, EventApi__Special_Discount_Information__c, EventApi__Standard_Suite_Rate__c, EventApi__State__c, EventApi__Street__c, EventApi__Type__c, EventApi__Vendor_Number__c, EventApi__Walking_Distance_Event__c,LastViewedDate, LastReferencedDate FROM EventApi__Vendor__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false
+            "excluded":false,
+            "deleteOldData":true
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, LastActivityDate, EventApi__City__c, EventApi__Country__c, EventApi__Description__c, EventApi__Display_Map__c, EventApi__Event_Category__c, EventApi__Event__c, EventApi__Image_URL__c, EventApi__Is_Primary_Venue__c, EventApi__Phone__c, EventApi__Postal_Code__c, EventApi__State__c, EventApi__Street__c, EventApi__Website__c, EventApi__HTML_Description__c, EventApi__Event_Location__Latitude__s, EventApi__Event_Location__Longitude__s, EventApi__Event_Location__c,LastViewedDate, LastReferencedDate FROM EventApi__Venue__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false
+            "excluded":false,
+            "deleteOldData":true
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Capacity__c, EventApi__Description__c, EventApi__Disabled_Access__c, EventApi__Drops__c, EventApi__Event__c, EventApi__Layout__c, EventApi__Location_Description__c, EventApi__Location_Name__c, EventApi__Minimum_Rental_Fee__c, EventApi__Podium__c, EventApi__Power_Outlets__c, EventApi__Rental_Rate_Basis__c, EventApi__Rental_Rate__c, EventApi__Square_Feet__c, EventApi__Stage__c, EventApi__Target_Capacity__c, EventApi__Venue__c, EventApi__Wireless_Internet__c FROM EventApi__Room__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false
+            "excluded":false,
+            "deleteOldData":true
         }
     ]
 }
