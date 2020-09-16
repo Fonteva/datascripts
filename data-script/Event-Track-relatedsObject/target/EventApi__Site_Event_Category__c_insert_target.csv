@@ -1,0 +1,5 @@
+EventApi__Event_Category__c,EventApi__Site__c,EventApi__Is_Active__c,EventApi__Is_Default__c,Errors,Id
+a1gR0000002ZuEFIA0,a0fR0000005aGKvIAM,true,true,,a1vR0000001NEZeIAO
+a1gR0000002ZuEFIA0,a0fR0000005aGKuIAM,true,false,,a1vR0000001NEZfIAO
+a1gR0000002ZuEDIA0,a0fR0000005aGKuIAM,true,true,,a1vR0000001NEZgIAO
+a1gR0000002ZuEDIA0,a0fR0000005aGKvIAM,true,true,,a1vR0000001NEZhIAO
