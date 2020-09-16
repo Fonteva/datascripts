@@ -8,31 +8,36 @@
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Additional_Payment_Types__c, OrderApi__Business_Group__c, OrderApi__Contact_Match_Custom_Field__c, OrderApi__Contact_Match_Rule__c, OrderApi__Default_Checkout__c, OrderApi__Description__c, OrderApi__Enable_Access_Permissions__c, OrderApi__Enable_Guest_Checkout__c, OrderApi__Enable_Guest_Save_Payment__c, OrderApi__Enable_Invoice_Payment_Option__c, OrderApi__Gateway__c, OrderApi__Guest_Checkout_Account__c, OrderApi__Is_Published__c, OrderApi__New_Contact_Fieldset_CSV__c, OrderApi__New_Contact_Parent_Account_Rule__c, OrderApi__New_User_Profile_ID__c, OrderApi__Payment_Confirmation_Message_HTML__c, OrderApi__Require_Contact_Match_Custom_Field__c, OrderApi__Theme__c, OrderApi__Account_Match_Criteria__c, OrderApi__Account_Search_Result_Fields_CSV__c, OrderApi__Enable_Account_Search__c, OrderApi__Enable_Proforma_Invoice_Payment_Option__c, OrderApi__Default_Store_Listing__c, OrderApi__Enable_Enhanced_List_View__c, OrderApi__Enable_Item_Facebook_Sharing__c, OrderApi__Enable_Item_Instagram_Sharing__c, OrderApi__Enable_Item_Link_Sharing__c, OrderApi__Enable_Item_Twitter_Sharing__c, OrderApi__Enable_Large_Tile_View__c, OrderApi__Enable_Small_Tile_View__c, OrderApi__Enable_Tax_Inclusive_Pricing__c, OrderApi__eStore_Sort_Fields__c, LTE__Enable_Partial_Payments_for_Invoices__c, OrderApi__Additional_Contact_Match_Emails__c, OrderApi__Invoice_Payment_Option_Fieldset__c, OrderApi__Proforma_Payment_Option_Fieldset__c, OrderApi__Enable_LIR_Payments__c, OrderApi__Fonteva_Supported_Currencies_CSV__c,LastViewedDate, LastReferencedDate FROM OrderApi__Store__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false
+            "excluded":false,
+            "deleteOldData":true
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, PagesApi__Auth_Provider_Default_Account__c, PagesApi__Base_Title_Tag__c, PagesApi__Community_Network_ID__c, PagesApi__Community_Network_Name__c, PagesApi__Default_Community_New_User_Profile__c, PagesApi__Description__c, PagesApi__Enable_SEF_URLs__c, PagesApi__Google_Login_URL__c, PagesApi__Group_Search_Default_Sort_Field__c, PagesApi__Group_Search_Filters_CSV__c, PagesApi__Group_Search_Page_Results__c, PagesApi__Group_Search_Result_Display_Fields_CSV__c, PagesApi__Group_Search_Results_Sort_Order__c, PagesApi__Is_Default__c, PagesApi__Is_Published__c, PagesApi__LinkedIn_Login_URL__c, PagesApi__Login_Redirect_URL__c, PagesApi__Menu__c, PagesApi__No_Archive__c, PagesApi__No_Follow__c, PagesApi__No_Index__c, PagesApi__Profile_Page_URL__c, PagesApi__SEF_Slug__c, PagesApi__Show_Group_Search_Filters__c, PagesApi__Site_Template_Key__c, PagesApi__Site_URL__c, PagesApi__Theme__c, PagesApi__Title_Tag_Separator__c, PagesApi__Twitter_Login_URL__c, PagesApi__User_Login_URL__c, PagesApi__User_Reset_Password_URL__c, PagesApi__User_Self_Registration_URL__c, OrderApi__Business_Group__c, OrderApi__Enable_Access_Permissions__c, OrderApi__Enable_eStore__c, OrderApi__Store__c, CPBase__Authorization_Required_Description__c, CPBase__Authorization_Required_Title__c, CPBase__Generic_Error_Description__c, CPBase__Generic_Error_Title__c, CPBase__Limit_Exceeded_Description__c, CPBase__Limit_Exceeded_Title__c, CPBase__Maintenance_Description__c, CPBase__Maintenance_Title__c, CPBase__Page_Not_Found_Description__c, CPBase__Page_Not_Found_Title__c, CPBase__Profile_Contact_Fieldset_CSV__c, CPBase__Service_Not_Available_Description__c, CPBase__Service_Not_Available_title__c, CPBase__User_Info_Contact_Field_Set__c, PagesApi__Create_Account_Override_URL__c, PagesApi__Login_Override_URL__c, CPBase__Default_Event_Listing_Style__c, CPBase__Event_Search_Filters_CSV__c, PagesApi__Cookie_Decline_Redirect_URL__c, PagesApi__Enable_Cookie_Prompt__c,LastViewedDate, LastReferencedDate FROM PagesApi__Site__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false
+            "excluded":false,
+            "deleteOldData":true
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, PagesApi__Site__c, GDO_Record_Id__c FROM PagesApi__Menu__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false
+            "excluded":false,
+            "deleteOldData":true
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, PagesApi__Auth_Required__c, PagesApi__Enable_SEF_URLs__c, PagesApi__Form__c, PagesApi__Is_Published__c, PagesApi__Is_Standard__c, PagesApi__Menu__c, PagesApi__No_Archive__c, PagesApi__No_Follow__c, PagesApi__No_Index__c, PagesApi__Page_ID__c, PagesApi__Page_URL__c, PagesApi__SEF_Slug__c, PagesApi__Site_Template_Key__c, PagesApi__Site__c, PagesApi__Theme__c, PagesApi__Title_Tag__c, PagesApi__Visualforce_Page__c, PagesApi__Visualforce_Template__c, OrderApi__Enable_Access_Permissions__c FROM PagesApi__Page__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false
+            "excluded":false,
+            "deleteOldData":true
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, PagesApi__Menu__c, PagesApi__Custom_URL__c, PagesApi__Display_Order__c, PagesApi__Display_Text__c, PagesApi__Icon__c, PagesApi__Is_Standard__c, PagesApi__Link_Target__c, PagesApi__Menu_Item__c, PagesApi__On_Click_Javascript__c, PagesApi__Page__c, PagesApi__Style_Class__c, PagesApi__Type__c, PagesApi__Value__c FROM PagesApi__Menu_Item__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false
+            "excluded":false,
+            "deleteOldData":true
         }
     ]
 }
