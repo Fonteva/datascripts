@@ -8,13 +8,15 @@
             "query":"SELECT Id, Name, OrderApi__Catalog__c, OrderApi__Description__c, OrderApi__Display_Order__c, OrderApi__Enable_Access_Permissions__c, OrderApi__Is_Published__c, OrderApi__Store__c, OrderApi__Catalog_Filters__c, OrderApi__Display_Featured_Items__c, OrderApi__Placeholder_Image__c FROM OrderApi__Catalog__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false
+            "excluded":false,
+            "deleteOldData":true
         },
         {
             "query":"SELECT Id, Name, OrderApi__Catalog__c, OrderApi__Is_Featured__c, OrderApi__Is_Published__c, OrderApi__Item__c FROM OrderApi__Catalog_Item__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false
+            "excluded":false,
+            "deleteOldData":true
         }
     ]
 } 
