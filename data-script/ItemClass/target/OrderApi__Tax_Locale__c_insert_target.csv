@@ -1,5 +1,0 @@
-Name,OrderApi__Business_Group__c,OrderApi__Locale_Values_CSV__c,OrderApi__Tax_GL_Account__c,OrderApi__Tax_Locale_Field__c,Errors,Id
-FON - France VAT,a0sR0000004M9vaIAC,France,a14R0000004sdRsIAI,OrderApi__Shipping_Country__c,,a1cR0000004V0e7IAC
-FON-Default Tax Locale,a0sR0000004M9vaIAC,USA,a14R0000004sdQwIAI,OrderApi__Shipping_Country__c,,a1cR0000004V0e8IAC
-FON - DC,a0sR0000004M9vaIAC,"DC, dc",a14R0000004sdQwIAI,OrderApi__Shipping_State__c,,a1cR0000004V0e9IAC
-FON - VA,a0sR0000004M9vaIAC,"va,VA",a14R0000004sdQwIAI,OrderApi__Shipping_State__c,,a1cR0000004V0eAIAS

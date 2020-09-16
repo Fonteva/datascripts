@@ -1,6 +1,0 @@
-Name,OrderApi__Description__c,OrderApi__Display_Name__c,OrderApi__Is_Default__c,OrderApi__Shipping_Carrier_Item_Class__c,Errors,Id
-FON - Fedex Next Day AIR,,Fedex Next Day AIR,false,a19R0000003TZtxIAG,,a1UR0000001uSgxMAE
-Default Delivery Method,,,true,a19R0000003TZuLIAW,,a1UR0000001uSgyMAE
-FON - UPS Ground,,UPS Ground,false,a19R0000003TZuLIAW,,a1UR0000001uSgzMAE
-FON - UPS Next Day AIR,,UPS Next Day AIR,false,a19R0000003TZuLIAW,,a1UR0000001uSh0MAE
-FON - Fedex Ground,,Fedex Ground,true,a19R0000003TZtxIAG,,a1UR0000001uSh1MAE

@@ -1,0 +1,40 @@
+Name,EventApi__Enable_Transition_for_Status__c,EventApi__Event__c,EventApi__Is_Current_Status_for_Event__c,EventApi__Is_Event_Active__c,EventApi__Is_Event_Published__c,EventApi__Order__c,EventApi__Status_Transition_Criteria__c,EventApi__Closed_Status_Text__c,EventApi__Filter_Transition_Criteria__c,Errors,Id
+Planned,false,a1mR0000001R1zdIAC,false,false,false,1,EventApi__Ticket_Sales_Start_Date__c > TODAY,,,,a1lR000000262oXIAQ
+Active,false,a1mR0000001R1zeIAC,true,true,true,2,EventApi__Ticket_Sales_Start_Date__c <= TODAY,,,,a1lR000000262oYIAQ
+Closed,false,a1mR0000001R1zeIAC,false,false,true,3,EventApi__End_Date__c < TODAY,,,,a1lR000000262oZIAQ
+Planned,false,a1mR0000001R1zeIAC,false,false,false,1,EventApi__Ticket_Sales_Start_Date__c > TODAY,,,,a1lR000000262oaIAA
+Active,false,a1mR0000001R1zgIAC,true,true,true,2,EventApi__Ticket_Sales_Start_Date__c <= TODAY,,,,a1lR000000262obIAA
+Closed,false,a1mR0000001R1zgIAC,false,false,true,3,EventApi__End_Date__c < TODAY,,,,a1lR000000262ocIAA
+Planned,false,a1mR0000001R1zgIAC,false,false,false,1,EventApi__Ticket_Sales_Start_Date__c > TODAY,,,,a1lR000000262odIAA
+Active,false,a1mR0000001R1zhIAC,true,true,true,2,EventApi__Ticket_Sales_Start_Date__c <= TODAY,,,,a1lR000000262oeIAA
+Closed,false,a1mR0000001R1zhIAC,false,false,true,3,EventApi__End_Date__c < TODAY,,,,a1lR000000262ofIAA
+Planned,false,a1mR0000001R1zhIAC,false,false,false,1,EventApi__Ticket_Sales_Start_Date__c > TODAY,,,,a1lR000000262ogIAA
+Active,false,a1mR0000001R1ziIAC,true,true,true,1,,,,,a1lR000000262ohIAA
+Closed,false,a1mR0000001R1ziIAC,false,false,true,2,,,,,a1lR000000262oiIAA
+Planned,false,a1mR0000001R1ziIAC,false,false,false,0,,,,,a1lR000000262ojIAA
+Active,false,a1mR0000001R1zjIAC,true,true,true,2,,,,,a1lR000000262okIAA
+Closed,false,a1mR0000001R1zjIAC,false,false,true,3,,,,,a1lR000000262olIAA
+Planned,false,a1mR0000001R1zjIAC,false,false,false,1,,,,,a1lR000000262omIAA
+Planned,false,a1mR0000001R1zfIAC,false,false,false,0,,,,,a1lR000000262onIAA
+Active,false,a1mR0000001R1zfIAC,false,true,true,1,,,,,a1lR000000262ooIAA
+Closed,false,a1mR0000001R1zfIAC,true,false,false,2,,,,,a1lR000000262opIAA
+Planned,false,a1mR0000001R1zXIAS,false,false,false,1,EventApi__Ticket_Sales_Start_Date__c > TODAY,,,,a1lR000000262oqIAA
+Active,false,a1mR0000001R1zXIAS,true,true,true,2,EventApi__Ticket_Sales_Start_Date__c <= TODAY,,,,a1lR000000262orIAA
+Closed,false,a1mR0000001R1zXIAS,false,false,true,3,EventApi__End_Date__c < TODAY,,,,a1lR000000262osIAA
+Planned,false,a1mR0000001R1zYIAS,false,false,false,1,EventApi__Ticket_Sales_Start_Date__c > TODAY,,,,a1lR000000262otIAA
+Active,false,a1mR0000001R1zYIAS,true,true,true,2,EventApi__Ticket_Sales_Start_Date__c <= TODAY,,,,a1lR000000262ouIAA
+Closed,false,a1mR0000001R1zYIAS,false,false,true,3,EventApi__End_Date__c < TODAY,,,,a1lR000000262ovIAA
+Planned,false,a1mR0000001R1zZIAS,false,false,false,1,EventApi__Ticket_Sales_Start_Date__c > TODAY,,,,a1lR000000262owIAA
+Active,false,a1mR0000001R1zZIAS,true,true,true,2,EventApi__Ticket_Sales_Start_Date__c <= TODAY,,,,a1lR000000262oxIAA
+Closed,false,a1mR0000001R1zZIAS,false,false,true,3,EventApi__End_Date__c < TODAY,,,,a1lR000000262oyIAA
+Planned,false,a1mR0000001R1zaIAC,false,false,false,1,EventApi__Ticket_Sales_Start_Date__c > TODAY,,,,a1lR000000262ozIAA
+Active,false,a1mR0000001R1zaIAC,true,true,true,2,EventApi__Ticket_Sales_Start_Date__c <= TODAY,,,,a1lR000000262p0IAA
+Closed,false,a1mR0000001R1zaIAC,false,false,true,3,EventApi__End_Date__c < TODAY,,,,a1lR000000262p1IAA
+Planned,false,a1mR0000001R1zbIAC,false,false,false,1,,,,,a1lR000000262p2IAA
+Active,false,a1mR0000001R1zbIAC,true,true,true,2,,,,,a1lR000000262p3IAA
+Closed,false,a1mR0000001R1zbIAC,false,false,true,3,,,,,a1lR000000262p4IAA
+Active,false,a1mR0000001R1zcIAC,true,true,true,2,,,,,a1lR000000262p5IAA
+Closed,false,a1mR0000001R1zcIAC,false,false,true,3,,,,,a1lR000000262p6IAA
+Planned,false,a1mR0000001R1zcIAC,false,false,false,1,,,,,a1lR000000262p7IAA
+Active,false,a1mR0000001R1zdIAC,true,true,true,2,EventApi__Ticket_Sales_Start_Date__c <= TODAY,,,,a1lR000000262p8IAA
+Closed,false,a1mR0000001R1zdIAC,false,false,true,3,EventApi__End_Date__c < TODAY,,,,a1lR000000262p9IAA
