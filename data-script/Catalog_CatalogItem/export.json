@@ -11,10 +11,10 @@
             "excluded":false
         },
         {
-            "query":"SELECT Id, Name, OrderApi__Catalog__c, OrderApi__Is_Featured__c, OrderApi__Is_Published__c, OrderApi__Item__c FROM OrderApi__Catalog_Item__c WHERE OrderApi__Item__r.OrderApi__Is_Active__c = true",
+            "query":"SELECT Id, Name, OrderApi__Catalog__c, OrderApi__Is_Featured__c, OrderApi__Is_Published__c, OrderApi__Item__c FROM OrderApi__Catalog_Item__c",
             "operation":"Upsert",
             "externalId":"Id",
             "excluded":false
         }
     ]
-}
+} 
