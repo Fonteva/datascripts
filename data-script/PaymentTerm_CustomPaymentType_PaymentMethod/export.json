@@ -1,7 +1,6 @@
 {
     "pollingIntervalMs":1000,
-    "bulkApiVersion":1.0,
-    "bulkApiV1BatchSize" : 100, 
+    "bulkThreshold":200,
     "apiVersion" :"47.0",
     "objects":[
         {
