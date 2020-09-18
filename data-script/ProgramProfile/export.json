@@ -1,7 +1,5 @@
 {
-    "pollingIntervalMs":1000,
-    "bulkThreshold":200,
-    "apiVersion" :"47.0",
+    "fileLog" :false,
     "objects":[
         {
             "query":"SELECT Id, Name, ProgramApi__Account__c, ProgramApi__Completion_Date__c, ProgramApi__Contact__c, ProgramApi__Create_Candidate_Term__c, ProgramApi__Create_Maintenance_Term__c, ProgramApi__Custom_Link_URL__c, ProgramApi__Hide_Program_Profile__c, ProgramApi__Name__c, ProgramApi__Program__c, ProgramApi__SalesOrderLineId__c, ProgramApi__Status__c FROM ProgramApi__Program_Profile__c",
