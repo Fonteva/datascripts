@@ -1,0 +1,5 @@
+Id,Name,OrderApi__Is_Default__c,OrderApi__Item__c,OrderApi__Renew_Into_Item__c,OrderApi__Rule_Type__c,OrderApi__Term__c,OrderApi__Sort_Order__c,OrderApi__Item__r.Name,OrderApi__Renew_Into_Item__r.Name
+a1G4W00000Irx8UUAR,000000006,true,a154W000008mjp9QAA,a154W000008mjpLQAQ,Term,5,,FON-Associate Membership,FON-Professional Membership
+a1G4W00000Irx8VUAR,000000002,true,a154W000008mjqwQAA,a154W000008mjpVQAQ,Account/Contact,,,FON-Small Size Company Membership,FON-Mid size Company Membership
+a1G4W00000Irx8WUAR,000000003,true,a154W000008mjpSQAQ,a154W000008mjpLQAQ,Account/Contact,,,FON-Student Membership,FON-Professional Membership
+a1G4W00000Irx8XUAR,000000004,false,a154W000008mjpSQAQ,a154W000008mjp9QAA,Account/Contact,,,FON-Student Membership,FON-Associate Membership
