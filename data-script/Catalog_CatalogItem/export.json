@@ -1,7 +1,5 @@
 {
-    "pollingIntervalMs":1000,
-    "bulkThreshold":200,
-    "apiVersion" :"47.0",
+    "fileLog":false,
     "objects":[
         {
             "query":"SELECT Id, Name, OrderApi__Catalog__c, OrderApi__Description__c, OrderApi__Display_Order__c, OrderApi__Enable_Access_Permissions__c, OrderApi__Is_Published__c, OrderApi__Store__c, OrderApi__Catalog_Filters__c, OrderApi__Display_Featured_Items__c, OrderApi__Placeholder_Image__c FROM OrderApi__Catalog__c",
