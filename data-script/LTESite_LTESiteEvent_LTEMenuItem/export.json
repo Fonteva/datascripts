@@ -1,7 +1,5 @@
 {
-    "pollingIntervalMs":1000,
-    "bulkThreshold":200,
-    "apiVersion" :"47.0",
+    "fileLog":false,
     "objects":[
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, LTE__Site__c, LTE__Event__c FROM LTE__Site_Event__c",
