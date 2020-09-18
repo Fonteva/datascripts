@@ -1,7 +1,5 @@
 {
-    "pollingIntervalMs":1000,
-    "bulkThreshold":200,
-    "apiVersion" :"47.0",
+    "fileLog":false,
     "objects":[
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Business_Group__c, OrderApi__Display_Message__c, OrderApi__Display_Name__c, OrderApi__Variable__c FROM OrderApi__Payment_Terms__c",
