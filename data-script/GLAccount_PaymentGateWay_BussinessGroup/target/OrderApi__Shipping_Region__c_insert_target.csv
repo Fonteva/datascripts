@@ -1,8 +1,0 @@
-Name,OrderApi__Address_Field_Values_CSV__c,OrderApi__Address__c,OrderApi__Description__c,OrderApi__Display_Name__c,OrderApi__Is_Default_Region__c,OrderApi__Will_Not_Ship_Message__c,OrderApi__Will_Not_Ship__c,Errors,Id
-FON - US Shipping,"United States, US,USA,United States Of America",,,US Shipping,false,,false,,a1VR0000002hwurMAA
-FON - Default Shipping Region,,,,Default Shipping Region,true,,false,,a1VR0000002hwusMAA
-FON -International Shipping,"United Kingdom,Canada,Argentina,India",,,International Shipping,false,,false,,a1VR0000002hwutMAA
-FON - Will Not Ship Regions,"Afghanistan,Albania,Algeria,Andorra, Angola
-Antigua and Barbuda",,,Will Not Ship Regions,false,"Unfortunately, We do not ship to the following the countries 
- - Afghanistan,Albania,Algeria,Andorra, Angola
-Antigua and Barbuda",true,,a1VR0000002hwuuMAA
