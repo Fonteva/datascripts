@@ -1,0 +1,26 @@
+{
+    "fileLog":false,
+    "objects":[
+        {
+            "query":"SELECT Id, Name, joinapi__Enable_Access_Permissions__c, joinapi__Is_Published__c, joinapi__Join_Process_Display_Name__c, joinapi__Landing_Url__c FROM joinapi__Join_Process__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false,
+            "deleteOldData":true
+        },
+        {
+            "query":"SELECT Id, Name, joinapi__Disable_Item_Navigation_URL__c, joinapi__Dynamic_Item_Selection__c, joinapi__Enable_Account_Lookup__c, joinapi__Form__c, joinapi__Instructions__c, joinapi__Is_Authentication_Step__c, joinapi__Is_Confirmation_Step__c, joinapi__Is_Custom_Page__c, joinapi__Is_Final_Step__c, joinapi__Is_First_Step__c, joinapi__Is_Marketing_Step__c, joinapi__Is_Payment_Step__c, joinapi__Is_Product_Step__c, joinapi__Is_Published__c, joinapi__Is_Qualifying_Question__c, joinapi__Join_Process__c, joinapi__Login_Button_Label__c, joinapi__Login_Header__c, joinapi__Login_Instructions__c, joinapi__Navigation_URL__c, joinapi__New_User_Button_Label__c, joinapi__New_User_Header__c, joinapi__New_User_Instructions__c, joinapi__Next_Step_Button_Label__c, joinapi__Next_Step__c, joinapi__Order__c, joinapi__Page_Title__c, joinapi__Product_Step_Item__c, joinapi__Specific_Item_Selection__c, joinapi__Store__c, joinapi__Visual_Force_Page_API_Name__c FROM joinapi__Step__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false,
+            "deleteOldData":true
+        },
+        {
+            "query":"SELECT Id, Name, joinapi__Button_Label__c, joinapi__Description__c, joinapi__Display_Name__c, joinapi__Is_Default_Item__c, joinapi__Is_Marketing_Item_Group__c, joinapi__Is_Marketing_Item__c, joinapi__Is_Published__c, joinapi__Item_Badge_Types_Filter__c, joinapi__Item_Criteria__c, joinapi__Item_Group_Header__c, joinapi__Item_Group__c, joinapi__Item__c, joinapi__Next_Step__c, joinapi__Order__c, joinapi__Step__c FROM joinapi__Step_Condition__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false,
+            "deleteOldData":true
+        }
+    ]
+}
