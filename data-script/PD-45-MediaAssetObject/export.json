@@ -1,0 +1,16 @@
+{
+    "objects":[
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Item__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, PagesApi__Download_Link__c, PagesApi__Extension__c, PagesApi__Filename__c, PagesApi__MIME_Type__c, PagesApi__Media_Asset_Collection__c, PagesApi__Path__c, PagesApi__Short_Description__c, PagesApi__Title__c, OrderApi__Display_Order__c, OrderApi__Is_Default__c, OrderApi__Item__c,SystemModstamp, LastViewedDate, LastReferencedDate FROM PagesApi__Media_Asset__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        }
+    ]
+}
