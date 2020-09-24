@@ -1,75 +1,88 @@
 {
-    "fileLog":false,
     "objects":[
         {
-          "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Event_Category__c, EventApi__Site__c, EventApi__Is_Active__c, EventApi__Is_Default__c FROM EventApi__Site_Event_Category__c" ,
-         "operation":"Upsert",
-         "externalId":"Id",
-         "excluded":false,
-         "deleteOldData":true
+            "query":"SELECT Id, External_Id__c FROM EventApi__Schedule_Item__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM EventApi__Event_Page__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM EventApi__Sponsor_Package__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Event_Category__c, EventApi__Site__c, EventApi__Is_Active__c, EventApi__Is_Default__c FROM EventApi__Site_Event_Category__c" ,
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Enable_Transition_for_Status__c, EventApi__Event__c, EventApi__Is_Current_Status_for_Event__c, EventApi__Is_Event_Active__c, EventApi__Is_Event_Published__c, EventApi__Order__c, EventApi__Status_Transition_Criteria__c, EventApi__Closed_Status_Text__c, EventApi__Filter_Transition_Criteria__c FROM EventApi__Event_Status__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false,
-            "deleteOldData":true
-        },
-        {
-            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Navigation_Label__c, EventApi__Page_Name__c FROM EventApi__Event_Page__c",
-            "operation":"Upsert",
-            "externalId":"Id",
-            "excluded":false,
-            "deleteOldData":true
-        },
-        {
-            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Component_Name__c, EventApi__Config__c, EventApi__Event_Page__c, EventApi__Order__c, EventApi__Title__c, EventApi__HTML__c FROM EventApi__Event_Page_Component__c",
-            "operation":"Upsert",
-            "externalId":"Id",
-            "excluded":false,
-            "deleteOldData":true
+            "excluded":false
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Event_Page__c, EventApi__Event_Status__c, EventApi__Is_Published__c, EventApi__Order__c, EventApi__Enable_Access_Permissions__c, EventApi__Required_Ticket_Types__c FROM EventApi__Event_Status_Page__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false,
-            "deleteOldData":true
+            "excluded":false
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Event__c, EventApi__Track_Color__c FROM EventApi__Track__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false,
-            "deleteOldData":true
+            "excluded":false
         },
         {
-            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Bio__c, EventApi__Company_Name__c, EventApi__Contact__c, EventApi__Email__c, EventApi__Event__c, EventApi__Large_Profile_Photo_URL__c, EventApi__Other_Phone__c, EventApi__Phone__c, EventApi__Special_Requests__c, EventApi__Status__c, EventApi__Title__c, LTE__Facebook_URL__c, LTE__Is_Featured__c, LTE__LinkedIn_URL__c, LTE__Twitter_URL__c, EventApi__Display_Order__c, EventApi__Is_Featured__c,LastViewedDate, LastReferencedDate FROM EventApi__Speaker__c",
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Schedule_Item__c, EventApi__Track__c FROM EventApi__Track_Schedule_Item__c",
             "operation":"Upsert",
-            "externalId":"Id",
-            "excluded":false,
-            "deleteOldData":true
+            "externalId":"External_Id__c",
+            "excluded":false
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Account__c, EventApi__Airports__c, EventApi__Ameneties__c, EventApi__City__c, EventApi__Concierge_Phone__c, EventApi__Contact_Email__c, EventApi__Contact_Name__c, EventApi__Contact_Phone__c, EventApi__Contact_Title__c, EventApi__Country__c, EventApi__Description__c, EventApi__Double_Room_Rate__c, EventApi__Event__c, EventApi__Executive_Suite_Rate__c, EventApi__Family_Room_Rate__c, EventApi__Front_Desk_Phone__c, EventApi__Hotel_Ameneties_Description__c, EventApi__Hotel_Cancellation_Policy__c, EventApi__Hotel_Type__c, EventApi__Is_Published__c, EventApi__Local_Attractions__c, EventApi__Logo_Image_URL__c, EventApi__Number_of_Rooms__c, EventApi__Phone__c, EventApi__Postal_Code__c, EventApi__Preferred_Vendor__c, EventApi__Room_Rates_Description__c, EventApi__Single_Room_Rate__c, EventApi__Special_Discount_Information__c, EventApi__Standard_Suite_Rate__c, EventApi__State__c, EventApi__Street__c, EventApi__Type__c, EventApi__Vendor_Number__c, EventApi__Walking_Distance_Event__c,LastViewedDate, LastReferencedDate FROM EventApi__Vendor__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false,
-            "deleteOldData":true
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Bio__c, EventApi__Company_Name__c, EventApi__Contact__c, EventApi__Email__c, EventApi__Event__c, EventApi__Large_Profile_Photo_URL__c, EventApi__Other_Phone__c, EventApi__Phone__c, EventApi__Special_Requests__c, EventApi__Status__c, EventApi__Title__c, LTE__Facebook_URL__c, LTE__Is_Featured__c, LTE__LinkedIn_URL__c, LTE__Twitter_URL__c, EventApi__Display_Order__c, EventApi__Is_Featured__c,LastViewedDate, LastReferencedDate FROM EventApi__Speaker__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Schedule_Item__c, EventApi__Is_Primary__c, EventApi__Role__c, EventApi__Speaker__c FROM EventApi__Speaker_Schedule_Item__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Account__c, EventApi__Contact__c, EventApi__Description__c, EventApi__Event__c, EventApi__Image_URL__c, EventApi__Sponsor_Package__c, LTE__Is_Featured__c, EventApi__Is_Featured__c, EventApi__Sponsor_Hyperlink__c,LastViewedDate, LastReferencedDate FROM EventApi__Sponsor__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, LastActivityDate, EventApi__City__c, EventApi__Country__c, EventApi__Description__c, EventApi__Display_Map__c, EventApi__Event_Category__c, EventApi__Event__c, EventApi__Image_URL__c, EventApi__Is_Primary_Venue__c, EventApi__Phone__c, EventApi__Postal_Code__c, EventApi__State__c, EventApi__Street__c, EventApi__Website__c, EventApi__HTML_Description__c, EventApi__Event_Location__Latitude__s, EventApi__Event_Location__Longitude__s, EventApi__Event_Location__c,LastViewedDate, LastReferencedDate FROM EventApi__Venue__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false,
-            "deleteOldData":true
+            "excluded":false
         },
         {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Capacity__c, EventApi__Description__c, EventApi__Disabled_Access__c, EventApi__Drops__c, EventApi__Event__c, EventApi__Layout__c, EventApi__Location_Description__c, EventApi__Location_Name__c, EventApi__Minimum_Rental_Fee__c, EventApi__Podium__c, EventApi__Power_Outlets__c, EventApi__Rental_Rate_Basis__c, EventApi__Rental_Rate__c, EventApi__Square_Feet__c, EventApi__Stage__c, EventApi__Target_Capacity__c, EventApi__Venue__c, EventApi__Wireless_Internet__c FROM EventApi__Room__c",
             "operation":"Upsert",
             "externalId":"Id",
-            "excluded":false,
-            "deleteOldData":true
+            "excluded":false
         }
     ]
 }
