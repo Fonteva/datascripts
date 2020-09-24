@@ -1,0 +1,7 @@
+Id,IsDeleted,Name,External_Id__c,CreatedDate,LastModifiedDate,SystemModstamp,OrderApi__Business_Group__c,OrderApi__Display_Message__c,OrderApi__Display_Name__c,OrderApi__Variable__c,OrderApi__Business_Group__r.Name
+a1A4W00000Dz3doUAB,false,Due on Receipt,1,2020-08-28T02:16:22.000+0000,2020-09-23T11:17:15.000+0000,2020-09-23T11:17:15.000+0000,a0o4W00000MOvweQAD,Please remit payment upon receipt of this invoice.,Due at the time of Receipt,0,FON-International Association
+a1A4W00000Dz3dtUAB,false,NET 15,2,2020-08-28T02:16:22.000+0000,2020-09-23T11:17:15.000+0000,2020-09-23T11:17:15.000+0000,a0o4W00000MOvweQAD,Please remit payment 15 days from receipt of this invoice.,Due 15 Days from Receipt,15,FON-International Association
+a1A4W00000Dz3dpUAB,false,NET 30,3,2020-08-28T02:16:22.000+0000,2020-09-23T11:17:15.000+0000,2020-09-23T11:17:15.000+0000,a0o4W00000MOvweQAD,Please remit payment 30 days from receipt of this invoice.,Due 30 Days from Receipt,30,FON-International Association
+a1A4W00000Dz3dqUAB,false,Due on Receipt,4,2020-08-28T02:16:22.000+0000,2020-09-23T11:17:15.000+0000,2020-09-23T11:17:15.000+0000,a0o4W00000MOvweQAD,,Due on Receipt,0,FON-International Association
+a1A4W00000Dz3drUAB,false,NET 15,5,2020-08-28T02:16:22.000+0000,2020-09-23T11:17:15.000+0000,2020-09-23T11:17:15.000+0000,a0o4W00000MOvweQAD,,NET 15,15,FON-International Association
+a1A4W00000Dz3dsUAB,false,NET 30,6,2020-08-28T02:16:22.000+0000,2020-09-23T11:17:15.000+0000,2020-09-23T11:17:15.000+0000,a0o4W00000MOvweQAD,,NET 30,30,FON-International Association
