@@ -1,6 +1,18 @@
 {
     "objects":[
         {
+            "query":"SELECT Id, External_Id__c FROM Account",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM Contact",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
             "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Business_Group__c, OrderApi__Display_Message__c, OrderApi__Display_Name__c, OrderApi__Variable__c FROM OrderApi__Payment_Terms__c",
             "operation":"Upsert",
             "externalId":"External_Id__c",
