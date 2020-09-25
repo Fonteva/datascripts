@@ -1,0 +1,5 @@
+Id,IsDeleted,Name,CreatedDate,LastModifiedDate,SystemModstamp,OrderApi__Active__c,OrderApi__Business_Group__c,OrderApi__Channel__c,LastViewedDate,LastReferencedDate,OrderApi__Business_Group__r.Name
+a1N4W000008fTonUAE,false,event2020,2020-08-28T02:16:22.000+0000,2020-08-28T02:16:22.000+0000,2020-08-28T02:16:22.000+0000,true,,Direct Mail,,,
+a1N4W000008fTokUAE,false,Promotions,2020-08-28T02:16:22.000+0000,2020-08-28T02:16:22.000+0000,2020-08-28T02:16:22.000+0000,true,a0o4W00000MOvweQAD,Direct Mail,,,FON-International Association
+a1N4W000008fTojUAE,false,NewMember,2020-08-28T02:16:22.000+0000,2020-08-28T02:16:22.000+0000,2020-08-28T02:16:22.000+0000,true,a0o4W00000MOvweQAD,Direct Mail,,,FON-International Association
+a1N4W000008fTolUAE,false,FreeItem,2020-08-28T02:16:22.000+0000,2020-08-28T02:16:22.000+0000,2020-08-28T02:16:22.000+0000,true,a0o4W00000MOvweQAD,Direct Mail,,,FON-International Association
