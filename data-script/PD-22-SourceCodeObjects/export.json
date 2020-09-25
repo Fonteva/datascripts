@@ -13,18 +13,6 @@
             "excluded":false
         },
         {
-            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, PagesApi__Auth_Required__c, PagesApi__Enable_SEF_URLs__c, PagesApi__Form__c, PagesApi__Is_Published__c, PagesApi__Is_Standard__c, PagesApi__Menu__c, PagesApi__No_Archive__c, PagesApi__No_Follow__c, PagesApi__No_Index__c, PagesApi__Page_ID__c, PagesApi__Page_URL__c, PagesApi__SEF_Slug__c, PagesApi__Site_Template_Key__c, PagesApi__Site__c, PagesApi__Theme__c, PagesApi__Title_Tag__c, PagesApi__Visualforce_Page__c, PagesApi__Visualforce_Template__c, OrderApi__Enable_Access_Permissions__c FROM PagesApi__Page__c",
-            "operation":"Upsert",
-            "externalId":"Id",
-            "excluded":false
-        },
-        {
-            "query":"SELECT Id, IsDeleted, Name, CreatedDate, CreatedById, LastModifiedDate, LastModifiedById, SystemModstamp, PagesApi__Menu__c, PagesApi__Custom_URL__c, PagesApi__Display_Order__c, PagesApi__Display_Text__c, PagesApi__Icon__c, PagesApi__Is_Standard__c, PagesApi__Link_Target__c, PagesApi__Menu_Item__c, PagesApi__On_Click_Javascript__c, PagesApi__Page__c, PagesApi__Style_Class__c, PagesApi__Type__c, PagesApi__Value__c FROM PagesApi__Menu_Item__c",
-            "operation":"Upsert",
-            "externalId":"Id",
-            "excluded":false
-        },
-        {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, PagesApi__Component__c, PagesApi__HTML__c, PagesApi__Order__c, PagesApi__Page__c, OrderApi__Campaign_Page__c FROM PagesApi__Page_Element__c",
             "operation":"Upsert",
             "externalId":"Id",
