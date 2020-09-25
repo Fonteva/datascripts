@@ -19,12 +19,6 @@
             "excluded":false
         },
         {
-            "query":"SELECT Id, External_Id__c FROM EventApi__Ticket_Type__c",
-            "operation":"Readonly",
-            "externalId":"External_Id__c",
-            "excluded":false
-        },
-        {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, PriceApi__Discount_Percentage__c, PriceApi__End_Date__c, PriceApi__Event_Items__c, PriceApi__Is_Active__c, PriceApi__Item_List__c, PriceApi__Item_Type__c, PriceApi__Max_Num_Available__c, PriceApi__Max_Quantity__c, PriceApi__Min_Quantity__c, PriceApi__Price_Rule_Name__c, PriceApi__Required_Badge_Types__c, PriceApi__Required_Source_Codes__c, PriceApi__Required_Subscription_Plans__c, PriceApi__Start_Date__c, PriceApi__Subscription_Items__c,SystemModstamp, LastViewedDate, LastReferencedDate FROM PriceApi__Bulk_Price_Rule__c",
             "operation":"Upsert",
             "externalId":"Id",
@@ -33,13 +27,13 @@
         {
             "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Current_Num_Available__c, OrderApi__End_Date__c, OrderApi__Is_Active__c, OrderApi__Is_Default__c, OrderApi__Item_Class__c, OrderApi__Item__c, OrderApi__Limit_Per_Account__c, OrderApi__Limit_Per_Contact__c, OrderApi__Max_Assignments__c, OrderApi__Max_Num_Available__c, OrderApi__Max_Quantity__c, OrderApi__Min_Assignments__c, OrderApi__Min_Quantity__c, OrderApi__Num_Times_Used__c, OrderApi__Price__c, OrderApi__Required_Badge_Types__c, OrderApi__Required_Source_Codes__c, OrderApi__Required_Subscription_Plans__c, OrderApi__Start_Date__c, EventApi__Schedule_Item__c, delec, PriceApi__Bulk_Price_Rule__c, EventApi__Is_Early_Bird_Price__c, EventApi__Is_On_Site_Price__c, OrderApi__Is_Promotional_Price__c, OrderApi__Tax_Inclusive_Price__c, OrderApi__Additional_Currencies_JSON__c FROM OrderApi__Price_Rule__c",
             "operation":"Upsert",
-            "externalId":"Id",
+            "externalId":"External_Id__c",
             "excluded":false
         },
         {
             "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Price_Rule__c, OrderApi__Field__c, OrderApi__Object__c, OrderApi__Operator__c, OrderApi__Value__c FROM OrderApi__Price_Rule_Variable__c",
             "operation":"Upsert",
-            "externalId":"Id",
+            "externalId":"External_Id__c",
             "excluded":false
         }
     ]
