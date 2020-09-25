@@ -1,0 +1,34 @@
+{
+    "objects":[
+        {
+            "query":"SELECT Id, External_Id__c FROM Account",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM Contact",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, Name,External_Id__c, ProgramApi__Account__c, ProgramApi__Completion_Date__c, ProgramApi__Contact__c, ProgramApi__Create_Candidate_Term__c, ProgramApi__Create_Maintenance_Term__c, ProgramApi__Custom_Link_URL__c, ProgramApi__Hide_Program_Profile__c, ProgramApi__Name__c, ProgramApi__Program__c, ProgramApi__SalesOrderLineId__c, ProgramApi__Status__c FROM ProgramApi__Program_Profile__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c, ProgramApi__Program_Profile__c FROM ProgramApi__Goals__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c, ProgramApi__Profile__c FROM ProgramApi__Program_Term__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        }
+    ]
+}
