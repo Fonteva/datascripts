@@ -1,8 +1,0 @@
-Id,IsDeleted,Name,CreatedDate,LastModifiedDate,SystemModstamp,LastActivityDate,OrderApi__Address_Field_Values_CSV__c,OrderApi__Address__c,OrderApi__Description__c,OrderApi__Display_Name__c,OrderApi__Is_Default_Region__c,OrderApi__Will_Not_Ship_Message__c,OrderApi__Will_Not_Ship__c,LastViewedDate,LastReferencedDate
-a1M4W00000ETAJ0UAP,false,FON - US Shipping,2020-08-28T02:16:22.000+0000,2020-08-28T02:16:22.000+0000,2020-08-28T02:16:22.000+0000,,"United States, US,USA,United States Of America",,,US Shipping,false,,false,,
-a1M4W00000ETAJ2UAP,false,FON - Default Shipping Region,2020-08-28T02:16:22.000+0000,2020-08-28T02:16:22.000+0000,2020-08-28T02:16:22.000+0000,,,,,Default Shipping Region,true,,false,,
-a1M4W00000ETAJ1UAP,false,FON -International Shipping,2020-08-28T02:16:22.000+0000,2020-08-28T02:16:22.000+0000,2020-08-28T02:16:22.000+0000,,"United Kingdom,Canada,Argentina,India",,,International Shipping,false,,false,,
-a1M4W00000ETAJ3UAP,false,FON - Will Not Ship Regions,2020-08-28T02:16:22.000+0000,2020-08-28T02:16:22.000+0000,2020-08-28T02:16:22.000+0000,,"Afghanistan,Albania,Algeria,Andorra, Angola
-Antigua and Barbuda",,,Will Not Ship Regions,false,"Unfortunately, We do not ship to the following the countries 
- - Afghanistan,Albania,Algeria,Andorra, Angola
-Antigua and Barbuda",true,,
