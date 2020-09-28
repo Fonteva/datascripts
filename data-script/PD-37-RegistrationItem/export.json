@@ -1,0 +1,58 @@
+{
+    "objects":[
+        {
+            "query":"SELECT Id, External_Id__c FROM EventApi__Attendee__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Item_Class__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Item__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Price_Rule__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Sales_Order__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Sales_Order_Line__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM EventApi__Schedule_Item__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM EventApi__Ticket_Type__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Attendee__c, EventApi__Business_Group__c, EventApi__Date__c, EventApi__Discount__c, EventApi__End_Time__c, EventApi__Is_Primary__c, EventApi__Item_Class__c, EventApi__Item__c, EventApi__Line_Description__c, EventApi__List_Price__c, EventApi__Price_Override__c, EventApi__Price_Rule__c, EventApi__Quantity__c, EventApi__Registration_Item__c, EventApi__Sale_Price__c, EventApi__Sales_Order_Line__c, EventApi__Sales_Order_Number__c, EventApi__Sales_Order__c, EventApi__Schedule_Item__c, EventApi__Start_Time__c, EventApi__Status__c, EventApi__Subtotal__c, EventApi__Ticket_Type__c, EventApi__Total__c, EventApi__Transaction_Date__c, EventApi__Transaction_Type__c, EventApi__Transfer_Contact_Email__c, EventApi__Transfer_Contact_Name__c, EventApi__Transfer_Fee__c, EventApi__Transfer__c, EventApi__Is_Checked_In__c, LTE__Primary_Group_Ticket_Registration_Item__c FROM EventApi__Registration_Item__c", 
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        }
+    ]
+}
