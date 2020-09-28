@@ -1,0 +1,112 @@
+{
+    "objects":[
+        {
+            "query":"SELECT Id, External_Id__c FROM Account",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM Contact",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Item_Class__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Item__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Credit_Memo__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Invoice__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Invoice_Line__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Sales_Order_Line__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Batch__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Sales_Order__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Receipt__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Subscription__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Receipt_Line__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Subscription_Line__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false 
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__EPayment_Line__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Credit_Memo__c, OrderApi__Amount__c, OrderApi__Credit_Account__c, OrderApi__Invoice__c, OrderApi__Is_Drafted__c, OrderApi__Is_Posted__c, OrderApi__Status__c, OrderApi__Invoice_Line__c, OrderApi__Sales_Order_Line__c FROM OrderApi__Credit_Memo_Line__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, OrderApi__Account__c, OrderApi__Batch__c, OrderApi__Business_Group__c, OrderApi__Contact__c, OrderApi__Credit_Memo_Line__c, OrderApi__Credit_Memo__c, OrderApi__Customer_Link__c, OrderApi__Date__c, OrderApi__Entity__c, OrderApi__Invoice__c, OrderApi__Is_Valid__c, OrderApi__Memo__c, OrderApi__Receipt_Type__c, OrderApi__Receipt__c, OrderApi__Sales_Order__c, OrderApi__Source_Code__c, OrderApi__Subscription__c, OrderApi__Type__c, OrderApi__Num_Lines__c, OrderApi__Total_Credits__c, OrderApi__Total_Debits__c,SystemModstamp, LastActivityDate, LastViewedDate, LastReferencedDate FROM OrderApi__Transaction__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Transaction__c, OrderApi__Activation_Date__c, OrderApi__Auto_Calculate_Activation_Date__c, OrderApi__Business_Group__c, OrderApi__Credit__c, OrderApi__Date__c, OrderApi__Debit__c, OrderApi__End_Date__c, OrderApi__GL_Account__c, OrderApi__Invoice_Line__c, OrderApi__Invoice__c, OrderApi__Item_Class__c, OrderApi__Item__c, OrderApi__Memo__c, OrderApi__Receipt_Line__c, OrderApi__Receipt__c, OrderApi__Sales_Order_Line__c, OrderApi__Subscription_Line__c, OrderApi__Subscription_Plan__c, OrderApi__Subscription__c, OrderApi__Type__c, OrderApi__EPayment_Line__c, OrderApi__Sales_Order__c FROM OrderApi__Transaction_Line__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        }
+    ]
+}
