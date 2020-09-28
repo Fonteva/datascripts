@@ -1,0 +1,95 @@
+{
+    "objects":[
+        {
+            "query":"SELECT Id, External_Id__c FROM Contact",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Invoice__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Item_Class__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Item__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Price_Rule__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Sales_Order_Line__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Credit_Note__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Credit_Memo__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Subscription__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Receipt__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Sales_Order__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__EPayment__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Invoice__c, OrderApi__Activation_Date__c, OrderApi__Adjustment_Reason__c, OrderApi__Auto_Calculate_Activation_Date__c, OrderApi__Business_Group__c, OrderApi__Calculate_Shipping_Details__c, OrderApi__Credit_Memo__c, OrderApi__Deferred_Revenue_Adjustment__c, OrderApi__End_Date__c, OrderApi__GL_Account__c, OrderApi__Is_Adjustment__c, OrderApi__Is_Posted__c, OrderApi__Is_Renewal__c, OrderApi__Is_Shipping_Rate__c, OrderApi__Is_Tax__c, OrderApi__Item_Class__c, OrderApi__Item__c, OrderApi__Line_Description__c, OrderApi__List_Price__c, OrderApi__Parent_Sales_Order_Line__c, OrderApi__Posted_Date__c, OrderApi__Price_Override__c, OrderApi__Price_Rule__c, OrderApi__Quantity__c, OrderApi__Sale_Price__c, OrderApi__Sales_Order_Line__c, OrderApi__Shipping_City__c, OrderApi__Shipping_Contact__c, OrderApi__Shipping_Country__c, OrderApi__Shipping_Postal_Code__c, OrderApi__Shipping_State__c, OrderApi__Shipping_Street__c, OrderApi__Subscription_Plan__c, OrderApi__Subscription__c, OrderApi__Subtotal__c, OrderApi__Tax_Override__c, OrderApi__Tax_Percent__c, OrderApi__Total__c, OrderApi__AR_Account__c, OrderApi__Adjustments__c, OrderApi__Amount_Paid__c, OrderApi__Amount_Refunded__c, OrderApi__Balance_Due__c, OrderApi__Contact__c, OrderApi__Credits_Applied__c, OrderApi__Invoice_Line__c, OrderApi__Is_Child_Line__c, OrderApi__Payment_Priority__c, OrderApi__Credit_Note__c, OrderApi__Tax_Amount__c, OrderApi__Total_with_Tax__c FROM OrderApi__Invoice_Line__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Subscription__c, OrderApi__Activated_Date__c, OrderApi__Active_Assignments__c, OrderApi__Assignments_Allowed__c, OrderApi__Assignments_Available__c, OrderApi__Invoice_Line__c, OrderApi__Invoiced_Date__c, OrderApi__Is_Amendment__c, OrderApi__Is_Invoiced__c, OrderApi__Item_Class__c, OrderApi__Item__c, OrderApi__Line_Description__c, OrderApi__List_Price__c, OrderApi__Price_Override__c, OrderApi__Price_Rule__c, OrderApi__Quantity__c, OrderApi__Sale_Price__c, OrderApi__Sales_Order_Line__c, OrderApi__Subscription_Line__c, OrderApi__Subtotal__c, OrderApi__Total__c, OrderApi__Is_Required_Package_Item__c FROM OrderApi__Subscription_Line__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false,
+            "excludedFields":["OrderApi__Receipt_Line__c","OrderApi__Term__c"]
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Scheduled_Payment__c, OrderApi__Activation_Date__c, OrderApi__Auto_Calculate_Activation_Date__c, OrderApi__Business_Group__c, OrderApi__End_Date__c, OrderApi__GL_Account__c, OrderApi__Invoice_Line__c, OrderApi__Is_Renewal__c, OrderApi__Is_Shipping_Rate__c, OrderApi__Is_Tax__c, OrderApi__Item_Class__c, OrderApi__Item__c, OrderApi__List_Price__c, OrderApi__Price_Override__c, OrderApi__Price_Rule__c, OrderApi__Quantity__c, OrderApi__Sale_Price__c, OrderApi__Sales_Order_Line__c, OrderApi__Scheduled_Payment_Line__c, OrderApi__Subscription_Plan__c, OrderApi__Subscription__c, OrderApi__Subtotal__c, OrderApi__Tax_Override__c, OrderApi__Tax_Percent__c, OrderApi__Total__c FROM OrderApi__Scheduled_Payment_Line__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        }
+    ]
+}
