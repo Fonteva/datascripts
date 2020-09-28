@@ -1,0 +1,47 @@
+{
+    "objects":[
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Item_Class__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Item__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM EventApi__Registration_Group__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM EventApi__Schedule_Item__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM EventApi__Sponsor_Package__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM EventApi__Ticket_Type__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Badge_Type__c, OrderApi__Catalog__c, OrderApi__Icon__c, OrderApi__Item_Class__c, OrderApi__Item__c, OrderApi__Page__c, OrderApi__Site__c, OrderApi__Store__c, EventApi__Event_Category__c, EventApi__Event__c, EventApi__Registration_Group__c, EventApi__Schedule_Item__c, EventApi__Sponsor_Package__c, EventApi__Ticket_Type__c, EventApi__Event_Status_Page__c, joinapi__Join_Process__c, DirectoryApi__Directory__c, Directories__c, LTE__Menu_Item__c, LTE__Site__c FROM OrderApi__Access_Permission__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false,
+            "deleteOldData":true
+        }
+    ]
+}
