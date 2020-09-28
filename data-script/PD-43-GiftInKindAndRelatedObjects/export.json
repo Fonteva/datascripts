@@ -1,0 +1,46 @@
+{
+    "objects":[
+        {
+            "query":"SELECT Id, External_Id__c FROM Account",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM Contact",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Item__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Receipt__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Receipt_Line__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, DonorApi__Account__c, DonorApi__Asset_Sale_Amount__c, DonorApi__Business_Group__c, DonorApi__Calculated_Value__c, DonorApi__Category__c, DonorApi__Contact__c, DonorApi__Date_Expected__c, DonorApi__Date_Received__c, DonorApi__Date_Sold__c, DonorApi__Description__c, DonorApi__Do_Not_Acknowledge__c, DonorApi__Donor_Link__c, DonorApi__Entity__c, DonorApi__Expected_Asset_Value__c, DonorApi__Fund__c, DonorApi__GIK_Value__c, DonorApi__Is_Acknowledged__c, DonorApi__Net_Asset_Value__c, DonorApi__Other_Costs_of_Sale__c, DonorApi__Received_Asset_Value__c, DonorApi__Sales_Agent_Commission__c, DonorApi__Sales_Agent_Company__c, DonorApi__Sales_Agent_Contact__c, DonorApi__Sales_Agent_Email__c, DonorApi__Sales_Agent_Fax__c, DonorApi__Sales_Agent_Phone__c, DonorApi__Status__c, DonorApi__Stock_Name__c, DonorApi__Stock_Symbol__c,LastActivityDate, LastViewedDate, LastReferencedDate FROM DonorApi__Gift_In_Kind__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, DonorApi__Account__c, DonorApi__Assignee__c, DonorApi__Contact__c, DonorApi__Credit_Amount__c, DonorApi__Credit_Sub_Type__c, DonorApi__Credit_Type__c, DonorApi__Date__c, DonorApi__Entity__c, DonorApi__Gift_Detail__c, DonorApi__Gift__c, DonorApi__Non_Cash_Gift__c FROM DonorApi__Gift_Credit__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        }
+    ]
+}
