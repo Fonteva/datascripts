@@ -32,7 +32,12 @@ $ sfdx plugins:uninstall sfdmu
 $ sfdx plugins:install sfdmu
 ```
 
-### Disable the Triggers and Validation Rules from Source and Target orgs:
+
+## Loading Data:
+
+### Prerequisites:
+
+#### Disable the Triggers and Validation Rules from Source and Target orgs:
 
 ```bash
 # Disable triggers for following objects from "Spark Admin" app in Source salesforce org(skip if the Source is CSVFile)
@@ -89,16 +94,15 @@ $ sfdx plugins:install sfdmu
 # 15. LTE__Site__c
 ```
 
-### Creating External_Id fields in Source and Target orgs
+#### Creating External_Id fields in Source and Target orgs
 
 ```bash
 # Instructions coming soon. There will be an option in the installation wizard for the same.
 
 ```
 
-## Loading Data:
 
-### Salesoforce Org to Salesforce Org:
+### Salesoforce Org to Salesforce Org data import:
 
 ```bash
 # Run following command to load the data from one Salesforce org to another Salesforce org
@@ -109,7 +113,7 @@ sfdx sfdmu:run --sourceusername production --targetusername qa  -p data-script/P
 
 ```
 
-### Salesoforce Org to CSVFile:
+### Salesoforce Org to CSVFile data import:
 
 ```bash
 # Run following command to load the data from one Salesforce org to another Salesforce org
@@ -120,7 +124,7 @@ sfdx sfdmu:run --sourceusername production --targetusername CSVFile  -p data-scr
 
 ```
 
-### CSVFile to Salesoforce Org:
+### CSVFile to Salesoforce Org data import:
 
 ```bash
 # Run following command to load the data from one Salesforce org to another Salesforce org
