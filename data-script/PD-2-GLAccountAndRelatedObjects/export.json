@@ -1,0 +1,22 @@
+{
+    "objects":[
+        {
+            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Business_Group__c, OrderApi__Detail__c, OrderApi__Report_Category__c, OrderApi__Type__c FROM OrderApi__GL_Account__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, OrderApi__AR_Account__c, OrderApi__Business_Entity_Type__c, OrderApi__Calculate_Sales_Tax__c, OrderApi__Credit_Memo_Account__c, OrderApi__Customer_Support_URL__c, OrderApi__Default_Payment_Gateway__c, OrderApi__Deposit_Account__c, OrderApi__Description__c, OrderApi__Display_Name__c, OrderApi__Email__c, OrderApi__Enable_Shipping_By_Order_Total__c, OrderApi__Fonteva_Default_Currency__c, OrderApi__Homepage_URL__c, OrderApi__Invoice_Footer_HTML__c, OrderApi__Invoice_Footer__c, OrderApi__Invoice_Header_Fieldset_CSV__c, OrderApi__Invoice_Header_HTML__c, OrderApi__Invoice_Header__c, OrderApi__Invoice_Lines_Fieldset__c, OrderApi__Invoice_OverPayment_Credit_Memo_Limit__c, OrderApi__Invoice_Page_Override__c, OrderApi__Invoice_Write_off_Account__c, OrderApi__Invoice_Write_off_Limit__c, OrderApi__Is_Master__c, OrderApi__Mailing_Address__c, OrderApi__Merchant_Location__c, OrderApi__Merchant_Name__c, OrderApi__Parent_Business_Group__c, OrderApi__Phone__c, OrderApi__Proforma_Invoice_Authentication_Required__c, OrderApi__Proforma_Invoice_Email_Body__c, OrderApi__Proforma_Invoice_Email_From_Address__c, OrderApi__Proforma_Invoice_Email_From_Name__c, OrderApi__Proforma_Invoice_Email_Subject__c, OrderApi__Proforma_Invoice_Footer__c, OrderApi__Proforma_Invoice_Header__c, OrderApi__Receipt_Footer_HTML__c, OrderApi__Receipt_Header_Fieldset_CSV__c, OrderApi__Receipt_Header_HTML__c, OrderApi__Receipt_Lines_Fieldset__c, OrderApi__Receipt_Page_Override__c, OrderApi__Required_Tax_Fields_CSV__c, OrderApi__Shipping_Rate_Basis__c, OrderApi__Theme__c, OrderApi__Transfers_Payable_Account__c, OrderApi__Transfers_Receivable_Account__c, OrderApi__Type__c FROM OrderApi__Business_Group__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__AVS_Configuration__c, OrderApi__Business_Group__c, OrderApi__Company_Name__c, OrderApi__Deposit_Account__c, OrderApi__Enable_AVS_Zip_Code_Only__c, OrderApi__Enable_AVS__c, OrderApi__Gateway_Type__c, OrderApi__Homepage__c, OrderApi__Is_Enabled__c, OrderApi__Is_Test__c, OrderApi__Pre_Authorization_Purchases__c, OrderApi__Require_CVV__c, OrderApi__Require_Email__c, OrderApi__Require_Phone__c, OrderApi__State__c, OrderApi__Supported_Countries__c, OrderApi__Supported_Regions__c, OrderApi__Supports_Authorize__c, OrderApi__Supports_Capture__c, OrderApi__Supports_Credit_Card__c, OrderApi__Supports_Credit__c, OrderApi__Supports_EFT__c, OrderApi__Supports_Verify__c, OrderApi__Supports_Void__c, OrderApi__Supports_eCheck__c, OrderApi__Token__c, OrderApi__Supported_Credit_Cards_Image__c, OrderApi__Attempt_3DS__c, OrderApi__Is_Offsite__c, OrderApi__Post_Orders_in_Procesing__c, OrderApi__Supports_3DS_Purchase__c, OrderApi__Supports_Offsite_Authorize__c, OrderApi__Use_Offsite__c, OrderApi__Gateway_Specific_Fields__c FROM OrderApi__Payment_Gateway__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        }
+    ]
+}

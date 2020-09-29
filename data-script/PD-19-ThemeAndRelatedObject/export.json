@@ -1,0 +1,40 @@
+{
+    "objects":[
+        {
+            "query" : "SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, PagesApi__Body_Background_Color__c, PagesApi__Brand_Primary__c, PagesApi__Brand_Secondary__c, PagesApi__Custom_CSS__c, PagesApi__Custom_Print_Stylesheet_URL__c, PagesApi__Custom_Stylesheet_URL__c, PagesApi__Description__c, PagesApi__Favicon_Image__c, PagesApi__Footer__c, PagesApi__HTML_Head__c, PagesApi__Header__c, PagesApi__Link_Color__c, PagesApi__Logo_Image__c, PagesApi__Logo_Text__c, PagesApi__Logo_URL__c, PagesApi__Navbar_Background_Color__c, PagesApi__Navbar_Link_Color__c, PagesApi__Supernav_Background_Color__c, PagesApi__Supernav_HTML_Position_1__c, PagesApi__Supernav_HTML_Position_2__c, PagesApi__Supernav_HTML_Position_3__c, PagesApi__Supernav_Link_Color__c, PagesApi__Supernav_Text_Color__c, PagesApi__Text_Color__c, PagesApi__Community_Styles__c, PagesApi__Lightning_Community_Styles__c FROM PagesApi__Theme__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, PagesApi__Allow_Users_to_Delete_Mapped_Records__c, PagesApi__DML_Operation__c, PagesApi__Form__c, PagesApi__Instructions__c, PagesApi__Is_Multiple__c, PagesApi__Mapped_Object__c, PagesApi__Mapped_Relationship_Field__c, PagesApi__Order__c, PagesApi__Parent_Field_Group__c, PagesApi__SOQL_Filter__c FROM PagesApi__Field_Group__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, PagesApi__Field_Group__c, PagesApi__Form__c, PagesApi__Help_Text__c, PagesApi__Hidden_Field_Value__c, PagesApi__Is_Hidden__c, PagesApi__Is_Required__c, PagesApi__Mapped_Field__c, PagesApi__Options__c, PagesApi__Order__c, PagesApi__Type__c, PagesApi__Dependent_Picklist_Field__c, PagesApi__Dependent_Picklist_Object__c, PagesApi__Field__c FROM PagesApi__Field__c" ,
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, PagesApi__Field__c, PagesApi__Answer__c, PagesApi__Destination__c FROM PagesApi__Skip_Logic_Rule__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, LastViewedDate, LastReferencedDate, PagesApi__Description__c, PagesApi__Display_Style__c, PagesApi__Submit_Style__c, PagesApi__Submit_Value__c, PagesApi__User_Instructions__c, PagesApi__Wizard_Review_Instructions__c, Form_URL__c, FON_Lightning_Form_URL__c FROM PagesApi__Form__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, EventApi__Number_Of_Available_Tickets__c, EventApi__Ticket_Block_Name__c FROM EventApi__Ticket_Block__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        }
+    ]
+}
