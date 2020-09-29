@@ -134,3 +134,45 @@ sfdx sfdmu:run --sourceusername CSVFile --targetusername  <source org username/a
 sfdx sfdmu:run --sourceusername CSVFile --targetusername production  -p data-script/PD-19-ThemeAndRelatedObjects
 
 ```
+
+### Order of data import:
+
+```bash
+# The order matters here as the objects/modules have dependencies with other objects/modules, we suggest following the below order for import for any type of import/export(org-org, org-csv or csv-org). Just replace the -p parameter with the following names and run the desired command. 
+# Example: sfdx sfdmu:run --sourceusername CSVFile --targetusername production  -p data-script/PD-17-AccountObjects
+
+# 1. data-script/PD-19-ThemeAndRelatedObjects
+# 2. data-script/PD-17-AccountObjects
+# 3. data-script/PD-2-GLAccountObjects
+# 3. data-script/ProgramBasicSetup
+# 4. data-script/PD-16-SiteObjects
+# 5. data-script/ProgramProfileAndRelatedObjects
+# 6. data-script/PD-21-CommunityGroupObjects
+# 7. data-script/PD-3-ItemClassObjects
+# 8. data-script/PD-23-TrackObjects
+# 9. data-script/PD-24-ItemObjects
+# 10. data-script/PD-25-RenewalObjects
+# 11. data-script/PD-26-PackageItem
+# 12. data-script/PD-27-CatalogObjects
+# 13. data-script/PD-11-PriceRuleObjects
+# 14. data-script/PD-28-PaymentObjects
+# 15. data-script/PD-14-SubscriptionObjects
+# 16. data-script/PD-22-SourceCodeObjects
+# 17. data-script/PD-30-SalesOrderAndRelatedObjects
+# 18. data-script/PD-31-CreditObjects
+# 19. data-script/PD-32-SectionObjects
+# 20. data-script/PD-45-MediaAssetObject
+# 21. data-script/PD-29-SalesOrderLineAndRelatedObjects
+# 22. data-script/PD-33-InvoiceLineAndRelatedObjects
+# 23. data-script/PD-34-EPaymentLineAndRelatedObjects
+# 24. data-script/PD-35-CreditMemoLineAndRelatedObjects
+# 25. data-script/PD-36-Renewal(Term)AnsRelatedObjects
+# 26. data-script/PD-37-RegistrationItem
+# 27. data-script/PD-12-FormResponseAndRelatedObjects
+# 28. data-script/PD-43-GiftInKindAndRelatedObjects
+# 29. data-script/PD-42-BadgeTypeAndRelatedObjects
+# 30. data-script/LTESiteAndRelatedObjects
+# 31. data-script/PD-40 JoinProcessObjects
+# 32. data-script/PD-41-AccessPermissionObject
+
+```
