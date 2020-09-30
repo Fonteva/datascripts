@@ -19,6 +19,12 @@
             "excluded":false
         },
         {
+            "query":"SELECT Id, External_Id__c,PagesApi__Site__c FROM Contact",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
             "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, PagesApi__Site__c, GDO_Record_Id__c FROM PagesApi__Menu__c",
             "operation":"Upsert",
             "externalId":"Id",
