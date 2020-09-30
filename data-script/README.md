@@ -75,6 +75,9 @@ $ sfdx plugins:install sfdmu
 # 15. OrderApi__Assignment__c
 # 16. OrderApi__Badge_Type__c
 # 17. LTE__Site__c
+# 18. OrderApi__Store__c
+# 19. PagesApi__Community_Group__c
+# 20. PagesApi__Community_Group_Member__c
 
 # Disable validation rules for following objects from "Spark Admin" app in Target salesforce org(skip if the Target is CSVFile)
 # 1. OrderApi__Item_Class__c
@@ -92,6 +95,10 @@ $ sfdx plugins:install sfdmu
 # 13. OrderApi__Assignment__c
 # 14. OrderApi__Badge_Type__c
 # 15. LTE__Site__c
+# 16. OrderApi__Store__c
+# 17. PagesApi__Community_Group__c
+# 18. PagesApi__Community_Group_Member__c
+
 ```
 
 #### Creating External_Id fields in Source and Target orgs
@@ -100,14 +107,14 @@ $ sfdx plugins:install sfdmu
 # Run following apex script as needed
 
 # 1. Create external Id fields in desired org (need to be done in source and target orgs)
-DXScript.createExternalIdFields();
+ExternalIdService.createExternalIdFields();
 
 # 2. Assign the permission of external id fields to desired profiles. Following script will grant permission of External_ID field to Standard User and System Administrator only, if needed please remove or add the desired once in list. (need to be done in source and target orgs)
 List<String> profilesToGrantPerission = new List<String>{'Standard User', 'System Administrator'};
-DXScript.givePermissionsToExternalIdFields( profilesToGrantPerission );
+ExternalIdService.givePermissionsToExternalIdFields( profilesToGrantPerission );
 
 # 3. Populate the External Id fields in source org
-DXScript.populateExternalIdFields();
+ExternalIdService.populateExternalIdFields();
 
 ```
 
@@ -119,7 +126,7 @@ DXScript.populateExternalIdFields();
 sfdx sfdmu:run --sourceusername <source org username/alias> --targetusername <target org username/alias>  -p <desired folder path>
 
 # Example:
-sfdx sfdmu:run --sourceusername production --targetusername qa  -p data-script/PD-19-ThemeAndRelatedObjects
+sfdx sfdmu:run --sourceusername production --targetusername qa  -p  data-script/AllObjects
 
 ```
 
@@ -145,13 +152,22 @@ sfdx sfdmu:run --sourceusername CSVFile --targetusername production  -p data-scr
 
 ```
 
+### Importing all data together:
 
-### Order of data import:
+```bash
+# To export all together, you can run following command:
+sfdx sfdmu:run --sourceusername production --targetusername qa  -p  data-script/AllObjects
+
+```
+
+
+### Importing data modulewise:
 
 ```bash
 # The order matters here as the objects/modules have dependencies with other objects/modules, we suggest following the below order for import for any type of import/export(org-org, org-csv or csv-org). Just replace the -p parameter with the following names and run the desired command. 
 # Example: sfdx sfdmu:run --sourceusername CSVFile --targetusername production  -p data-script/PD-17-AccountObjects
 
+#If you wan
 # 1. data-script/PD-19-ThemeAndRelatedObjects
 # 2. data-script/PD-17-AccountObjects
 # 3. data-script/PD-16-SiteObjects
