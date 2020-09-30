@@ -1,0 +1,250 @@
+Id,Name,PagesApi__Body_Background_Color__c,PagesApi__Brand_Primary__c,PagesApi__Brand_Secondary__c,PagesApi__Custom_CSS__c,PagesApi__Custom_Print_Stylesheet_URL__c,PagesApi__Custom_Stylesheet_URL__c,PagesApi__Description__c,PagesApi__Favicon_Image__c,PagesApi__Footer__c,PagesApi__HTML_Head__c,PagesApi__Header__c,PagesApi__Link_Color__c,PagesApi__Logo_Image__c,PagesApi__Logo_Text__c,PagesApi__Logo_URL__c,PagesApi__Navbar_Background_Color__c,PagesApi__Navbar_Link_Color__c,PagesApi__Supernav_Background_Color__c,PagesApi__Supernav_HTML_Position_1__c,PagesApi__Supernav_HTML_Position_2__c,PagesApi__Supernav_HTML_Position_3__c,PagesApi__Supernav_Link_Color__c,PagesApi__Supernav_Text_Color__c,PagesApi__Text_Color__c,PagesApi__Community_Styles__c,PagesApi__Lightning_Community_Styles__c
+a0e4W00000DcpTWQAZ,International Association Theme 2.0,#FFFFFF,#00A6E4,#00A6E4,".background {      background-color:#ffffff !important;  }  .em-navbar .navbar-brand {     min-width: 150px!important; }  @media (min-width: 768px) {     .em-cover {         height: 200px!important;     }  }  @media (min-width: 768px)     .em-cover .transparency {         height: 200px!important;     } }  .em-cover .description {     height: 200px!important; }   .em-cover .admin {     height: 200px!important; }  .group-cover {     height: 300px!important; }  /*  Removes background from section headers      found all over in the CPBase community */  /* Commented by Ulas and Sarah, it was overriding the coloring on my profile page .section-heading {     font-size: 22px;     font-weight: bold;     color: #00A6E4;     background: #fff!important; } */  /* Changes background of the please wait      plugin used for the loading screens */ .pg-loading-screen.pg-loading, .login-format {     background-color: #052E4C!important;     color: #fff!important; }  .login-format {   background: url(https://fonteva-demo.s3.amazonaws.com/assets/BG_003.png) no-repeat center center fixed;    -webkit-background-size: cover;   -moz-background-size: cover;   -o-background-size: cover;   background-size: cover; }  .well.login-form {     background-color: #052E4C!important;     margin: 80px auto!important; }  .hr > span {     visibility: hidden!important;     display: none!important;     opacity: 0!important; }  /*  Fixes Bug in Product for not pulling link      color into the icons used to toggle the event      list/tile/calendar views on event search page */      .icon-viewmode.icon-viewmode--selected {     fill: #00A6E4; }     /*change the footer text */  footer#footer {     font-size: .8em!important; }  footer#footer h3 { 	font-size: 1.3em; }",,,,https://fonteva-customer-media.s3.amazonaws.com/00D1I000000nqo4UAA/AjnHzqmz_favicon.png,"<footer id=""footer"">     <div class=""container"">         <div class=""row"">             </div>              <div class=""col-md-2"">                 <h3>Help &amp; Resources</h3>                 <ul class=""list-unstyled"">                     <li><a href=""/FUN_Knowledge_Help_Articles"">Help Articles</a></li>                     <li><a href=""/FUN_Knowledge_Release_Notes"">Release Notes</a></li>                     <li><a target=""_tab"" href=""https://confluence.fonteva.io/display/userguide/Fonteva+User+Guide"">User Guide</a></li>                     <li><a target=""_tab"" href=""http://fonteva.io"">Developer Docs</a></li>                     <li><a href=""/FUN_Extensions"">Extensions</a></li>                 </ul>                                               </div>             <div class=""col-md-2"">                 <h3>Support</h3>                 <ul class=""list-unstyled"">                     <li><a href=""/FUN_Cases"">Support Cases</a></li>                 <h3>Training</h3>                 <ul class=""list-unstyled"">                     <li><a href=""/FUN_LMS_TrainingHome"">Learning Dashboard</a></li>                     <li><a href=""/FUN_LMS_TrainingCatalogHome"">Online Training</a></li>                     <li><a href=""/FUN_LMS_MyProfile"">Achievements</a></li>                     <li><a href=""/CPBase__events?page=a1i300000004jxtAAA&amp;site=a1m30000000CBr6AAG"">Classrom Training</a></li>                 </ul>                </ul></div>               <div class=""col-md-3"">                 <h3>Collaboration</h3>                 <ul class=""list-unstyled"">                     <li><a href=""/FUN_MemberNationGroup"">MemberNation User Groups</a></li>                     <li><a href=""/FUN_AlumniNationGroup"">AlumniNation Interest Group</a></li></ul>                                  <h3>Ideas</h3>                 <ul class=""list-unstyled"">                     <li><a href=""/FUN_Ideas"">Ideas</a></li>                 </ul>              </div>                 <div class=""col-md-2"">                 <h3>More</h3>                 <ul class=""list-unstyled"">                     <li><a target=""_tab"" href=""https://fontevacommunity.force.com/support/s/lt-event?id=a2d3A0000017dOMQAY"">FUNcon 2017</a></li>                     <li><a target=""_tab"" href=""http://www.fonteva.com/AssociationsToday"">Associations Blog</a></li>                     <li><a target=""_tab"" href=""/FUN_Site_Tour"">Site Tour</a></li>                     <li><a target=""_tab"" href=""/FUN_HighFive"">Customer Rewards</a></li>                     <li><a target=""_tab"" href=""/CPBase__store?page=a1i300000004jxqAAA&amp;site=a1m30000000CBr6AAG"">Fonteva Store</a></li>                 </ul>             </div>                                 <div class=""col-md-2"" style=""float: right;"">                 <ul class=""list-unstyled"">                     <img src=""https://fonteva-customer-media.s3.amazonaws.com/00D1I000000443aUAA/vinaComu_poweredby.png"">               </ul>             </div>         </div>     </footer>",,,#00A6E4,https://fonteva-customer-media.s3.amazonaws.com/00D1I000000nqo4UAA/NsFEvUgT_fonteva-white-text-logo.png,,,#052E4C,#FFFFFF,#00A6E4,,"<a href=""/joinapi__membershiplist?id=a201I000000PRjDQAW&order=1"" id=""join-now-button"" style=""color:white!important;"">Join Now</a>","<a href=""OrderApi__campaign?id=a0q1I000000MNjlQAG&order=2"" class=""btn btn-success"" style=""color:white!important;"">Donate</a>",#ffffff,#ffffff,#000000,,
+a0e4W00000DcpTUQAZ,FON-INTERNATIONAL ASSOCIATION: MEMBERNATION THEME,#eaeaea,#10B5DA,#0E5B91,".login-page .login-brand>img {max-height:120px;max-width:200px;margin:80px auto;}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+
+#main.login-page footer {
+    display:none!important;
+}
+
+#main.login-page {
+    background-color:#ff9a40!important;
+    padding-bottom: 60px!important;
+}
+
+#main { font-family: ""Open Sans"",""Proxima Nova"",""Helvetica Neue Light"", ""Helvetica Neue"",Helvetica,Arial,sans-serif; }
+
+#member-sign-up-demo {
+    color:#ffffff!important;
+    padding:2px 4px!important;
+}
+
+footer {
+    padding:25px 0 20px;
+    width:100%;
+    border-top:10px solid #555;
+    background-color:#101010;
+    margin-top:80px; color: #656565
+}
+footer hr {
+    background-color: #656565!important;
+}
+footer a {
+    color:#656565!important;
+}""",,,MemberNation default member community theme.,https://s3.us-east-1.amazonaws.com/fonteva-customer-media/00D6A0000039vRfUAI/MwRVaFUF_2018_07_02_1416_png,"<footer>
+  <div class=""container"">
+        <div class=""row"">
+          <div class=""col-sm-2"">
+                    <h4>GitHub</h4>
+                    <ul class=""list-unstyled"">
+                        <li><a href=""#"">About us</a></li>
+                        <li><a href=""#"">Blog</a></li>
+                        <li><a href=""#"">Contact & support</a></li>
+                        <li><a href=""#"">Enterprise</a></li>
+                        <li><a href=""#"">Site status</a></li>
+                        </ul>
+          </div>
+          <div class=""col-sm-2"">
+                    <h4>Applications</h4>
+                    <ul class=""list-unstyled"">
+                        <li><a href=""#"">Product for Mac</a></li>
+                        <li><a href=""#"">Product for Windows</a></li>
+                        <li><a href=""#"">Product for Eclipse</a></li>
+                        <li><a href=""#"">Product mobile apps</a></li>
+                        </ul>
+          </div>
+          <div class=""col-sm-2"">
+                    <h4>Services</h4>
+                    <ul class=""list-unstyled"">
+                        <li><a href=""#"">Web analytics</a></li>
+                        <li><a href=""#"">Presentations</a></li>
+                        <li><a href=""#"">Code snippets</a></li>
+                        <li><a href=""#"">Job board</a></li>
+                        </ul>
+          </div>
+          <div class=""col-sm-2"">
+                    <h4>Documentation</h4>
+                    <ul class=""list-unstyled"">
+                        <li><a href=""#"">Product Help</a></li>
+                        <li><a href=""#"">Developer API</a></li>
+                        <li><a href=""#"">Product Markdown</a></li>
+                        <li><a href=""#"">Product Pages</a></li>
+                        </ul>
+          </div>
+          <div class=""col-sm-2"">
+                    <h4>Downloads</h4>
+                    <ul class=""list-unstyled"">
+                        <li><a href=""#"">Brand Guidelines</a></li>
+                        <li><a href=""#"">Session Recordings</a></li>
+                        <li><a href=""#"">Members Only Content</a></li>
+                        <li><a href=""#"">Whitepapers</a></li>
+                        <li><a href=""#"">Other...</a></li>
+                        </ul>
+          </div>
+          <div class=""col-sm-2"">
+                    <h4>More</h4>
+                    <ul class=""list-unstyled"">
+                        <li><a href=""#"">Training</a></li>
+                        <li><a href=""#"">Students & teachers</a></li>
+                        <li><a href=""#"">The Shop</a></li>
+                        <li><a href=""#"">Plans & pricing</a></li>
+                        <li><a href=""#"">Contact us</a></li>
+                        </ul>
+          </div>
+        </div>
+        <hr/>
+        <div class=""row"">
+          <div class=""col-sm-4"">
+                    <a href=""#"">Terms of Service</a>
+                    <span class=""vert-bar""></span>
+                    <a href=""#"">Privacy</a>
+                    <span class=""vert-bar""></span>
+                    <a href=""#"">Security</a>
+          </div>
+          <div class=""col-sm-4"">
+                    <ul class=""list-inline social-links"">
+                    
+  <li><a href=""#""><i class=""fab fab-facebook-alt-official""></i></a></li>
+                        <li><a href=""#""><i class=""fab fab-twitter""></i></a></li>
+                        <li><a href=""#""><i class=""fab fab-googleplus-alt""></i></a></li>
+                        <li><a href=""#""><i class=""fab fab-linkedin-alt""></i></a></li>
+                        </ul>
+          </div>
+          <div class=""col-sm-4"">
+                    <p class=""muted pull-right"">© 2013 Company Name. All rights reserved</p>
+          </div>
+        </div>
+  </div>
+</footer>","<!-- GOOGLE ANALYTICS OR OTHER TRACKING CODES CAN BE PLACED HERE -->
+
+<!-- Sample Google Analytics. Replace with client's code -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXX-Y', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Sample Google Analytics -->",,#1A1A1A,https://s3.us-east-1.amazonaws.com/fonteva-customer-media/00D6A0000039vRfUAI/WrkQrPFN_2018_07_02_1419_png,Fonteva Theme,/cpbase__profile,#FFFFFF,#1A1A1A,#0E5B91,"<em class=""text-uppercase""><strong>International Association</strong></em>",<em>(888) 555-1234</em>,"<a href=""https://us-tdm-tso-15eb63ff4c6-1626e3c741a.force.com/OrderApi__campaign?id=a0q6A000001cUNbQAM&site=a0d6A000001RhaTQAS"" id=""member-sign-up-demo"" class=""btn btn-success"" style=""color:white!important;"">Donate Today!</a>",#00a6e3,#FFFFFF,#1A1A1A,,"body{-webkit-font-family:Proxima-Nova,""Helvetica Neue"",Helvetica,Arial,sans-serif!important;-moz-font-family:Proxima-Nova,""Helvetica Neue"",Helvetica,Arial,sans-serif!important;-ms-font-family:Proxima-Nova,""Helvetica Neue"",Helvetica,Arial,sans-serif!important;-o-font-family:Proxima-Nova,""Helvetica Neue"",Helvetica,Arial,sans-serif!important;font-family:Proxima-Nova,""Helvetica Neue"",Helvetica,Arial,sans-serif!important;}.fonteva-portal input{-webkit-font-size:14px!important;-moz-font-size:14px!important;-ms-font-size:14px!important;-o-font-size:14px!important;font-size:14px!important;}.fonteva-portal button{-webkit-border:none!important;-moz-border:none!important;-ms-border:none!important;-o-border:none!important;border:none!important;}.fonteva-portal a, .fonteva-portal .slds-button.slds-button--icon-border,  .fonteva-portal .slds-button.slds-button_icon-border{-webkit-color:#141414!important;-moz-color:#141414!important;-ms-color:#141414!important;-o-color:#141414!important;color:#141414!important;}.fonteva-portal h1,.fonteva-portal h2,.fonteva-portal h3,.fonteva-portal h4,.fonteva-portal h5,.fonteva-portal h6, .fonteva-portal .slds-text-heading--large, .fonteva-portal .slds-text-heading--medium, .fonteva-portal .slds-text-heading--small, .fonteva-portal .slds-text-heading_large, .fonteva-portal .slds-text-heading_medium, .fonteva-portal .slds-text-heading_small{-webkit-color:#1A1A1A!important;-moz-color:#1A1A1A!important;-ms-color:#1A1A1A!important;-o-color:#1A1A1A!important;color:#1A1A1A!important;}.fonteva-portal .slds-text-body--regular, .fonteva-portal .slds-text-body_regular, .fonteva-portal .slds-text-body--small, .fonteva-portal .slds-text-body_small, .fonteva-portal p,.fonteva-portal .fonteva-slds-text, .fonteva-portal .uiOutputRichText, .fonteva-portal .slds-form-element__label, .fonteva-portal p.slds-tooltip--help-text, .fonteva-portal thead th, .fonteva-portal tbody td, .fonteva-portal .slds-table strong, .fonteva-portal strong, .fonteva-portal .slds-theme_default, .fonteva-portal .slds-theme--default, .fonteva-portal{-webkit-color:#1A1A1A!important;-moz-color:#1A1A1A!important;-ms-color:#1A1A1A!important;-o-color:#1A1A1A!important;color:#1A1A1A!important;}.fonteva-portal .slds-modal__header{-webkit-background-color:#FFFFFF!important;-moz-background-color:#FFFFFF!important;-ms-background-color:#FFFFFF!important;-o-background-color:#FFFFFF!important;background-color:#FFFFFF!important;-webkit-color:rgb(255, 255, 255)!important;-moz-color:rgb(255, 255, 255)!important;-ms-color:rgb(255, 255, 255)!important;-o-color:rgb(255, 255, 255)!important;color:rgb(255, 255, 255)!important;}.fonteva-portal .slds-modal__header .slds-text-heading--medium, .fonteva-portal .slds-modal__header .slds-text-heading_medium{-webkit-color:rgb(255, 255, 255)!important;-moz-color:rgb(255, 255, 255)!important;-ms-color:rgb(255, 255, 255)!important;-o-color:rgb(255, 255, 255)!important;color:rgb(255, 255, 255)!important;}.fonteva-portal .slds-button.slds-button--brand:disabled, .fonteva-portal .slds-button.slds-button_brand:disabled, .forceActionLink{-webkit-background-color:#16bbe0!important;-moz-background-color:#16bbe0!important;-ms-background-color:#16bbe0!important;-o-background-color:#16bbe0!important;background-color:#16bbe0!important;-webkit-border-color:#16bbe0!important;-moz-border-color:#16bbe0!important;-ms-border-color:#16bbe0!important;-o-border-color:#16bbe0!important;border-color:#16bbe0!important;-webkit-color:rgb(255, 255, 255)!important;-moz-color:rgb(255, 255, 255)!important;-ms-color:rgb(255, 255, 255)!important;-o-color:rgb(255, 255, 255)!important;color:rgb(255, 255, 255)!important;}.fonteva-portal .slds-button.slds-button--brand, .fonteva-portal .slds-button.slds-button_brand, .forceActionLink{-webkit-background-color:#10B5DA!important;-moz-background-color:#10B5DA!important;-ms-background-color:#10B5DA!important;-o-background-color:#10B5DA!important;background-color:#10B5DA!important;-webkit-border-color:#10B5DA!important;-moz-border-color:#10B5DA!important;-ms-border-color:#10B5DA!important;-o-border-color:#10B5DA!important;border-color:#10B5DA!important;-webkit-color:rgb(255, 255, 255)!important;-moz-color:rgb(255, 255, 255)!important;-ms-color:rgb(255, 255, 255)!important;-o-color:rgb(255, 255, 255)!important;color:rgb(255, 255, 255)!important;}.fonteva-portal .slds-button.slds-button--brand:hover, .fonteva-portal .slds-button.slds-button_brand:hover{-webkit-background-color:#0aafd4!important;-moz-background-color:#0aafd4!important;-ms-background-color:#0aafd4!important;-o-background-color:#0aafd4!important;background-color:#0aafd4!important;-webkit-border-color:#0aafd4!important;-moz-border-color:#0aafd4!important;-ms-border-color:#0aafd4!important;-o-border-color:#0aafd4!important;border-color:#0aafd4!important;-webkit-color:rgb(255, 255, 255)!important;-moz-color:rgb(255, 255, 255)!important;-ms-color:rgb(255, 255, 255)!important;-o-color:rgb(255, 255, 255)!important;color:rgb(255, 255, 255)!important;}.fonteva-portal .slds-button.slds-button--brand:active, .fonteva-portal .slds-button.slds-button_brand:active{-webkit-background-color:#0aafd4!important;-moz-background-color:#0aafd4!important;-ms-background-color:#0aafd4!important;-o-background-color:#0aafd4!important;background-color:#0aafd4!important;-webkit-border-color:#0aafd4!important;-moz-border-color:#0aafd4!important;-ms-border-color:#0aafd4!important;-o-border-color:#0aafd4!important;border-color:#0aafd4!important;-webkit-color:rgb(255, 255, 255)!important;-moz-color:rgb(255, 255, 255)!important;-ms-color:rgb(255, 255, 255)!important;-o-color:rgb(255, 255, 255)!important;color:rgb(255, 255, 255)!important;}.fonteva-portal .slds-button.slds-button--brand:focus, .fonteva-portal .slds-button.slds-button_brand:focus{-webkit-background-color:#0aafd4!important;-moz-background-color:#0aafd4!important;-ms-background-color:#0aafd4!important;-o-background-color:#0aafd4!important;background-color:#0aafd4!important;-webkit-border-color:#0aafd4!important;-moz-border-color:#0aafd4!important;-ms-border-color:#0aafd4!important;-o-border-color:#0aafd4!important;border-color:#0aafd4!important;-webkit-color:rgb(255, 255, 255)!important;-moz-color:rgb(255, 255, 255)!important;-ms-color:rgb(255, 255, 255)!important;-o-color:rgb(255, 255, 255)!important;color:rgb(255, 255, 255)!important;}.fonteva-portal .slds-button.slds-button--brand.active, .fonteva-portal .slds-button.slds-button_brand.active{-webkit-background-color:#0aafd4!important;-moz-background-color:#0aafd4!important;-ms-background-color:#0aafd4!important;-o-background-color:#0aafd4!important;background-color:#0aafd4!important;-webkit-border-color:#0aafd4!important;-moz-border-color:#0aafd4!important;-ms-border-color:#0aafd4!important;-o-border-color:#0aafd4!important;border-color:#0aafd4!important;-webkit-color:rgb(255, 255, 255)!important;-moz-color:rgb(255, 255, 255)!important;-ms-color:rgb(255, 255, 255)!important;-o-color:rgb(255, 255, 255)!important;color:rgb(255, 255, 255)!important;}.fonteva-portal .slds-button.slds-button--neutral:disabled, .fonteva-portal .slds-button.slds-button_neutral:disabled, .forceActionLink{-webkit-background-color:rgb(255, 255, 255)!important;-moz-background-color:rgb(255, 255, 255)!important;-ms-background-color:rgb(255, 255, 255)!important;-o-background-color:rgb(255, 255, 255)!important;background-color:rgb(255, 255, 255)!important;-webkit-border-color:rgb(255, 255, 255)!important;-moz-border-color:rgb(255, 255, 255)!important;-ms-border-color:rgb(255, 255, 255)!important;-o-border-color:rgb(255, 255, 255)!important;border-color:rgb(255, 255, 255)!important;-webkit-color:#1A1A1A!important;-moz-color:#1A1A1A!important;-ms-color:#1A1A1A!important;-o-color:#1A1A1A!important;color:#1A1A1A!important;}.fonteva-portal .slds-button.slds-button--neutral, .fonteva-portal .slds-button.slds-button_neutral, .forceActionLink{-webkit-background-color:rgb(255, 255, 255)!important;-moz-background-color:rgb(255, 255, 255)!important;-ms-background-color:rgb(255, 255, 255)!important;-o-background-color:rgb(255, 255, 255)!important;background-color:rgb(255, 255, 255)!important;-webkit-border-color:rgb(255, 255, 255)!important;-moz-border-color:rgb(255, 255, 255)!important;-ms-border-color:rgb(255, 255, 255)!important;-o-border-color:rgb(255, 255, 255)!important;border-color:rgb(255, 255, 255)!important;-webkit-color:rgb(4, 32, 62)!important;-moz-color:rgb(4, 32, 62)!important;-ms-color:rgb(4, 32, 62)!important;-o-color:rgb(4, 32, 62)!important;color:rgb(4, 32, 62)!important;}.fonteva-portal .slds-button.slds-button--neutral:hover, .fonteva-portal .slds-button.slds-button_neutral:hover{-webkit-background-color:rgb(255, 255, 255)!important;-moz-background-color:rgb(255, 255, 255)!important;-ms-background-color:rgb(255, 255, 255)!important;-o-background-color:rgb(255, 255, 255)!important;background-color:rgb(255, 255, 255)!important;-webkit-border:none!important;-moz-border:none!important;-ms-border:none!important;-o-border:none!important;border:none!important;-webkit-color:rgb(4, 32, 62)!important;-moz-color:rgb(4, 32, 62)!important;-ms-color:rgb(4, 32, 62)!important;-o-color:rgb(4, 32, 62)!important;color:rgb(4, 32, 62)!important;}.fonteva-portal .slds-button.slds-button--neutral:active, .fonteva-portal .slds-button.slds-button_neutral:active{-webkit-background-color:rgb(255, 255, 255)!important;-moz-background-color:rgb(255, 255, 255)!important;-ms-background-color:rgb(255, 255, 255)!important;-o-background-color:rgb(255, 255, 255)!important;background-color:rgb(255, 255, 255)!important;-webkit-border-color:rgb(255, 255, 255)!important;-moz-border-color:rgb(255, 255, 255)!important;-ms-border-color:rgb(255, 255, 255)!important;-o-border-color:rgb(255, 255, 255)!important;border-color:rgb(255, 255, 255)!important;-webkit-color:rgb(4, 32, 62)!important;-moz-color:rgb(4, 32, 62)!important;-ms-color:rgb(4, 32, 62)!important;-o-color:rgb(4, 32, 62)!important;color:rgb(4, 32, 62)!important;}.fonteva-portal .slds-button.slds-button--neutral:focus, .fonteva-portal .slds-button.slds-button_neutral:focus{-webkit-background-color:rgb(255, 255, 255)!important;-moz-background-color:rgb(255, 255, 255)!important;-ms-background-color:rgb(255, 255, 255)!important;-o-background-color:rgb(255, 255, 255)!important;background-color:rgb(255, 255, 255)!important;-webkit-border-color:rgb(255, 255, 255)!important;-moz-border-color:rgb(255, 255, 255)!important;-ms-border-color:rgb(255, 255, 255)!important;-o-border-color:rgb(255, 255, 255)!important;border-color:rgb(255, 255, 255)!important;-webkit-color:rgb(4, 32, 62)!important;-moz-color:rgb(4, 32, 62)!important;-ms-color:rgb(4, 32, 62)!important;-o-color:rgb(4, 32, 62)!important;color:rgb(4, 32, 62)!important;}.fonteva-portal .slds-button.slds-button--neutral.active, .fonteva-portal .slds-button.slds-button_neutral.active{-webkit-background-color:rgb(255, 255, 255)!important;-moz-background-color:rgb(255, 255, 255)!important;-ms-background-color:rgb(255, 255, 255)!important;-o-background-color:rgb(255, 255, 255)!important;background-color:rgb(255, 255, 255)!important;-webkit-border-color:rgb(255, 255, 255)!important;-moz-border-color:rgb(255, 255, 255)!important;-ms-border-color:rgb(255, 255, 255)!important;-o-border-color:rgb(255, 255, 255)!important;border-color:rgb(255, 255, 255)!important;-webkit-color:rgb(4, 32, 62)!important;-moz-color:rgb(4, 32, 62)!important;-ms-color:rgb(4, 32, 62)!important;-o-color:rgb(4, 32, 62)!important;color:rgb(4, 32, 62)!important;}.fonteva-portal li.fonteva-slds-payment-tab--item.slds-active a, .fonteva-portal li.fonteva-slds-payment-tab--item a:hover, .fonteva-portal li.fonteva-slds-payment-tab--item a:focus{-webkit-background-color:#10B5DA!important;-moz-background-color:#10B5DA!important;-ms-background-color:#10B5DA!important;-o-background-color:#10B5DA!important;background-color:#10B5DA!important;}"
+a0e4W00000DcpTVQAZ,FON - LIGHTNING COMMUNITY SITE: MEMBERNATION THEME,#ffffff,#00a6e4,#0E5B91,".login-page .login-brand>img {max-height:120px;max-width:200px;margin:80px auto;}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+
+#main.login-page footer {
+    display:none!important;
+}
+
+#main.login-page {
+    background-color:#ff9a40!important;
+    padding-bottom: 60px!important;
+}
+
+#main { font-family: ""Open Sans"",""Proxima Nova"",""Helvetica Neue Light"", ""Helvetica Neue"",Helvetica,Arial,sans-serif; }
+
+#member-sign-up-demo {
+    color:#00a6e3!important;
+    padding:2px 4px!important;
+    background-color : #feffff!important;
+}
+
+
+footer {
+    padding:25px 0 20px;
+    width:100%;
+    border-top:10px solid #555;
+    background-color:#101010;
+    margin-top:80px; color: #656565
+}
+footer hr {
+    background-color: #656565!important;
+}
+footer a {
+    color:#656565!important;
+}""",,,MemberNation default member community theme.,https://fonteva-customer-media.s3.amazonaws.com/00D1I000000nqo4UAA/AjnHzqmz_favicon.png,"<footer>
+  <div class=""container"">
+        <div class=""row"">
+          <div class=""col-sm-2"">
+                    <h4>GitHub</h4>
+                    <ul class=""list-unstyled"">
+                        <li><a href=""#"">About us</a></li>
+                        <li><a href=""#"">Blog</a></li>
+                        <li><a href=""#"">Contact & support</a></li>
+                        <li><a href=""#"">Enterprise</a></li>
+                        <li><a href=""#"">Site status</a></li>
+                        </ul>
+          </div>
+          <div class=""col-sm-2"">
+                    <h4>Applications</h4>
+                    <ul class=""list-unstyled"">
+                        <li><a href=""#"">Product for Mac</a></li>
+                        <li><a href=""#"">Product for Windows</a></li>
+                        <li><a href=""#"">Product for Eclipse</a></li>
+                        <li><a href=""#"">Product mobile apps</a></li>
+                        </ul>
+          </div>
+          <div class=""col-sm-2"">
+                    <h4>Services</h4>
+                    <ul class=""list-unstyled"">
+                        <li><a href=""#"">Web analytics</a></li>
+                        <li><a href=""#"">Presentations</a></li>
+                        <li><a href=""#"">Code snippets</a></li>
+                        <li><a href=""#"">Job board</a></li>
+                        </ul>
+          </div>
+          <div class=""col-sm-2"">
+                    <h4>Documentation</h4>
+                    <ul class=""list-unstyled"">
+                        <li><a href=""#"">Product Help</a></li>
+                        <li><a href=""#"">Developer API</a></li>
+                        <li><a href=""#"">Product Markdown</a></li>
+                        <li><a href=""#"">Product Pages</a></li>
+                        </ul>
+          </div>
+          <div class=""col-sm-2"">
+                    <h4>Downloads</h4>
+                    <ul class=""list-unstyled"">
+                        <li><a href=""#"">Brand Guidelines</a></li>
+                        <li><a href=""#"">Session Recordings</a></li>
+                        <li><a href=""#"">Members Only Content</a></li>
+                        <li><a href=""#"">Whitepapers</a></li>
+                        <li><a href=""#"">Other...</a></li>
+                        </ul>
+          </div>
+          <div class=""col-sm-2"">
+                    <h4>More</h4>
+                    <ul class=""list-unstyled"">
+                        <li><a href=""#"">Training</a></li>
+                        <li><a href=""#"">Students & teachers</a></li>
+                        <li><a href=""#"">The Shop</a></li>
+                        <li><a href=""#"">Plans & pricing</a></li>
+                        <li><a href=""#"">Contact us</a></li>
+                        </ul>
+          </div>
+        </div>
+        <hr/>
+        <div class=""row"">
+          <div class=""col-sm-4"">
+                    <a href=""#"">Terms of Service</a>
+                    <span class=""vert-bar""></span>
+                    <a href=""#"">Privacy</a>
+                    <span class=""vert-bar""></span>
+                    <a href=""#"">Security</a>
+          </div>
+          <div class=""col-sm-4"">
+                    <ul class=""list-inline social-links"">
+                    
+  <li><a href=""#""><i class=""fab fab-facebook-alt-official""></i></a></li>
+                        <li><a href=""#""><i class=""fab fab-twitter""></i></a></li>
+                        <li><a href=""#""><i class=""fab fab-googleplus-alt""></i></a></li>
+                        <li><a href=""#""><i class=""fab fab-linkedin-alt""></i></a></li>
+                        </ul>
+          </div>
+          <div class=""col-sm-4"">
+                    <p class=""muted pull-right"">© 2013 Company Name. All rights reserved</p>
+          </div>
+        </div>
+  </div>
+</footer>",<!-- GOOGLE ANALYTICS OR OTHER TRACKING CODES CAN BE PLACED HERE -->,,#00A6e4,https://s3.us-east-1.amazonaws.com/fonteva-customer-media/00D6A0000039vRfUAI/NGoWtCNo_FONTEVA_LOGO_png,MemberNation Theme,,#ffffff,#1A1A1A,#00a6e3,,,"<li><a href=""https://us-tdm-tso-15eb63ff4c6-1626e-174da0a81d0.force.com/LightningMemberPortal/s#/profile"" target=""_blank"" id=""Store"" style=""color: #ffffff!important;""><b>My Portal</b></a></li>",#10B5DA,#ffffff,#000000,,"body{-webkit-font-family:Proxima-Nova,""Helvetica Neue"",Helvetica,Arial,sans-serif!important;-moz-font-family:Proxima-Nova,""Helvetica Neue"",Helvetica,Arial,sans-serif!important;-ms-font-family:Proxima-Nova,""Helvetica Neue"",Helvetica,Arial,sans-serif!important;-o-font-family:Proxima-Nova,""Helvetica Neue"",Helvetica,Arial,sans-serif!important;font-family:Proxima-Nova,""Helvetica Neue"",Helvetica,Arial,sans-serif!important;}.fonteva-portal input{-webkit-font-size:14px!important;-moz-font-size:14px!important;-ms-font-size:14px!important;-o-font-size:14px!important;font-size:14px!important;}.fonteva-portal button{-webkit-border:none!important;-moz-border:none!important;-ms-border:none!important;-o-border:none!important;border:none!important;}.fonteva-portal a, .fonteva-portal .slds-button.slds-button--icon-border,  .fonteva-portal .slds-button.slds-button_icon-border{-webkit-color:#00a0de!important;-moz-color:#00a0de!important;-ms-color:#00a0de!important;-o-color:#00a0de!important;color:#00a0de!important;}.fonteva-portal h1,.fonteva-portal h2,.fonteva-portal h3,.fonteva-portal h4,.fonteva-portal h5,.fonteva-portal h6, .fonteva-portal .slds-text-heading--large, .fonteva-portal .slds-text-heading--medium, .fonteva-portal .slds-text-heading--small, .fonteva-portal .slds-text-heading_large, .fonteva-portal .slds-text-heading_medium, .fonteva-portal .slds-text-heading_small{-webkit-color:#000000!important;-moz-color:#000000!important;-ms-color:#000000!important;-o-color:#000000!important;color:#000000!important;}.fonteva-portal .slds-text-body--regular, .fonteva-portal .slds-text-body_regular, .fonteva-portal .slds-text-body--small, .fonteva-portal .slds-text-body_small, .fonteva-portal p,.fonteva-portal .fonteva-slds-text, .fonteva-portal .uiOutputRichText, .fonteva-portal .slds-form-element__label, .fonteva-portal p.slds-tooltip--help-text, .fonteva-portal thead th, .fonteva-portal tbody td, .fonteva-portal .slds-table strong, .fonteva-portal strong, .fonteva-portal .slds-theme_default, .fonteva-portal .slds-theme--default, .fonteva-portal{-webkit-color:#000000!important;-moz-color:#000000!important;-ms-color:#000000!important;-o-color:#000000!important;color:#000000!important;}.fonteva-portal .slds-modal__header{-webkit-background-color:#ffffff!important;-moz-background-color:#ffffff!important;-ms-background-color:#ffffff!important;-o-background-color:#ffffff!important;background-color:#ffffff!important;-webkit-color:rgb(255, 255, 255)!important;-moz-color:rgb(255, 255, 255)!important;-ms-color:rgb(255, 255, 255)!important;-o-color:rgb(255, 255, 255)!important;color:rgb(255, 255, 255)!important;}.fonteva-portal .slds-modal__header .slds-text-heading--medium, .fonteva-portal .slds-modal__header .slds-text-heading_medium{-webkit-color:rgb(255, 255, 255)!important;-moz-color:rgb(255, 255, 255)!important;-ms-color:rgb(255, 255, 255)!important;-o-color:rgb(255, 255, 255)!important;color:rgb(255, 255, 255)!important;}.fonteva-portal .slds-button.slds-button--brand:disabled, .fonteva-portal .slds-button.slds-button_brand:disabled, .forceActionLink{-webkit-background-color:#06acea!important;-moz-background-color:#06acea!important;-ms-background-color:#06acea!important;-o-background-color:#06acea!important;background-color:#06acea!important;-webkit-border-color:#06acea!important;-moz-border-color:#06acea!important;-ms-border-color:#06acea!important;-o-border-color:#06acea!important;border-color:#06acea!important;-webkit-color:rgb(255, 255, 255)!important;-moz-color:rgb(255, 255, 255)!important;-ms-color:rgb(255, 255, 255)!important;-o-color:rgb(255, 255, 255)!important;color:rgb(255, 255, 255)!important;}.fonteva-portal .slds-button.slds-button--brand, .fonteva-portal .slds-button.slds-button_brand, .forceActionLink{-webkit-background-color:#00a6e4!important;-moz-background-color:#00a6e4!important;-ms-background-color:#00a6e4!important;-o-background-color:#00a6e4!important;background-color:#00a6e4!important;-webkit-border-color:#00a6e4!important;-moz-border-color:#00a6e4!important;-ms-border-color:#00a6e4!important;-o-border-color:#00a6e4!important;border-color:#00a6e4!important;-webkit-color:rgb(255, 255, 255)!important;-moz-color:rgb(255, 255, 255)!important;-ms-color:rgb(255, 255, 255)!important;-o-color:rgb(255, 255, 255)!important;color:rgb(255, 255, 255)!important;}.fonteva-portal .slds-button.slds-button--brand:hover, .fonteva-portal .slds-button.slds-button_brand:hover{-webkit-background-color:#00a0de!important;-moz-background-color:#00a0de!important;-ms-background-color:#00a0de!important;-o-background-color:#00a0de!important;background-color:#00a0de!important;-webkit-border-color:#00a0de!important;-moz-border-color:#00a0de!important;-ms-border-color:#00a0de!important;-o-border-color:#00a0de!important;border-color:#00a0de!important;-webkit-color:rgb(255, 255, 255)!important;-moz-color:rgb(255, 255, 255)!important;-ms-color:rgb(255, 255, 255)!important;-o-color:rgb(255, 255, 255)!important;color:rgb(255, 255, 255)!important;}.fonteva-portal .slds-button.slds-button--brand:active, .fonteva-portal .slds-button.slds-button_brand:active{-webkit-background-color:#00a0de!important;-moz-background-color:#00a0de!important;-ms-background-color:#00a0de!important;-o-background-color:#00a0de!important;background-color:#00a0de!important;-webkit-border-color:#00a0de!important;-moz-border-color:#00a0de!important;-ms-border-color:#00a0de!important;-o-border-color:#00a0de!important;border-color:#00a0de!important;-webkit-color:rgb(255, 255, 255)!important;-moz-color:rgb(255, 255, 255)!important;-ms-color:rgb(255, 255, 255)!important;-o-color:rgb(255, 255, 255)!important;color:rgb(255, 255, 255)!important;}.fonteva-portal .slds-button.slds-button--brand:focus, .fonteva-portal .slds-button.slds-button_brand:focus{-webkit-background-color:#00a0de!important;-moz-background-color:#00a0de!important;-ms-background-color:#00a0de!important;-o-background-color:#00a0de!important;background-color:#00a0de!important;-webkit-border-color:#00a0de!important;-moz-border-color:#00a0de!important;-ms-border-color:#00a0de!important;-o-border-color:#00a0de!important;border-color:#00a0de!important;-webkit-color:rgb(255, 255, 255)!important;-moz-color:rgb(255, 255, 255)!important;-ms-color:rgb(255, 255, 255)!important;-o-color:rgb(255, 255, 255)!important;color:rgb(255, 255, 255)!important;}.fonteva-portal .slds-button.slds-button--brand.active, .fonteva-portal .slds-button.slds-button_brand.active{-webkit-background-color:#00a0de!important;-moz-background-color:#00a0de!important;-ms-background-color:#00a0de!important;-o-background-color:#00a0de!important;background-color:#00a0de!important;-webkit-border-color:#00a0de!important;-moz-border-color:#00a0de!important;-ms-border-color:#00a0de!important;-o-border-color:#00a0de!important;border-color:#00a0de!important;-webkit-color:rgb(255, 255, 255)!important;-moz-color:rgb(255, 255, 255)!important;-ms-color:rgb(255, 255, 255)!important;-o-color:rgb(255, 255, 255)!important;color:rgb(255, 255, 255)!important;}.fonteva-portal .slds-button.slds-button--neutral:disabled, .fonteva-portal .slds-button.slds-button_neutral:disabled, .forceActionLink{-webkit-background-color:rgb(255, 255, 255)!important;-moz-background-color:rgb(255, 255, 255)!important;-ms-background-color:rgb(255, 255, 255)!important;-o-background-color:rgb(255, 255, 255)!important;background-color:rgb(255, 255, 255)!important;-webkit-border-color:rgb(255, 255, 255)!important;-moz-border-color:rgb(255, 255, 255)!important;-ms-border-color:rgb(255, 255, 255)!important;-o-border-color:rgb(255, 255, 255)!important;border-color:rgb(255, 255, 255)!important;-webkit-color:#000000!important;-moz-color:#000000!important;-ms-color:#000000!important;-o-color:#000000!important;color:#000000!important;}.fonteva-portal .slds-button.slds-button--neutral, .fonteva-portal .slds-button.slds-button_neutral, .forceActionLink{-webkit-background-color:rgb(255, 255, 255)!important;-moz-background-color:rgb(255, 255, 255)!important;-ms-background-color:rgb(255, 255, 255)!important;-o-background-color:rgb(255, 255, 255)!important;background-color:rgb(255, 255, 255)!important;-webkit-border-color:rgb(255, 255, 255)!important;-moz-border-color:rgb(255, 255, 255)!important;-ms-border-color:rgb(255, 255, 255)!important;-o-border-color:rgb(255, 255, 255)!important;border-color:rgb(255, 255, 255)!important;-webkit-color:rgb(4, 32, 62)!important;-moz-color:rgb(4, 32, 62)!important;-ms-color:rgb(4, 32, 62)!important;-o-color:rgb(4, 32, 62)!important;color:rgb(4, 32, 62)!important;}.fonteva-portal .slds-button.slds-button--neutral:hover, .fonteva-portal .slds-button.slds-button_neutral:hover{-webkit-background-color:rgb(255, 255, 255)!important;-moz-background-color:rgb(255, 255, 255)!important;-ms-background-color:rgb(255, 255, 255)!important;-o-background-color:rgb(255, 255, 255)!important;background-color:rgb(255, 255, 255)!important;-webkit-border:none!important;-moz-border:none!important;-ms-border:none!important;-o-border:none!important;border:none!important;-webkit-color:rgb(4, 32, 62)!important;-moz-color:rgb(4, 32, 62)!important;-ms-color:rgb(4, 32, 62)!important;-o-color:rgb(4, 32, 62)!important;color:rgb(4, 32, 62)!important;}.fonteva-portal .slds-button.slds-button--neutral:active, .fonteva-portal .slds-button.slds-button_neutral:active{-webkit-background-color:rgb(255, 255, 255)!important;-moz-background-color:rgb(255, 255, 255)!important;-ms-background-color:rgb(255, 255, 255)!important;-o-background-color:rgb(255, 255, 255)!important;background-color:rgb(255, 255, 255)!important;-webkit-border-color:rgb(255, 255, 255)!important;-moz-border-color:rgb(255, 255, 255)!important;-ms-border-color:rgb(255, 255, 255)!important;-o-border-color:rgb(255, 255, 255)!important;border-color:rgb(255, 255, 255)!important;-webkit-color:rgb(4, 32, 62)!important;-moz-color:rgb(4, 32, 62)!important;-ms-color:rgb(4, 32, 62)!important;-o-color:rgb(4, 32, 62)!important;color:rgb(4, 32, 62)!important;}.fonteva-portal .slds-button.slds-button--neutral:focus, .fonteva-portal .slds-button.slds-button_neutral:focus{-webkit-background-color:rgb(255, 255, 255)!important;-moz-background-color:rgb(255, 255, 255)!important;-ms-background-color:rgb(255, 255, 255)!important;-o-background-color:rgb(255, 255, 255)!important;background-color:rgb(255, 255, 255)!important;-webkit-border-color:rgb(255, 255, 255)!important;-moz-border-color:rgb(255, 255, 255)!important;-ms-border-color:rgb(255, 255, 255)!important;-o-border-color:rgb(255, 255, 255)!important;border-color:rgb(255, 255, 255)!important;-webkit-color:rgb(4, 32, 62)!important;-moz-color:rgb(4, 32, 62)!important;-ms-color:rgb(4, 32, 62)!important;-o-color:rgb(4, 32, 62)!important;color:rgb(4, 32, 62)!important;}.fonteva-portal .slds-button.slds-button--neutral.active, .fonteva-portal .slds-button.slds-button_neutral.active{-webkit-background-color:rgb(255, 255, 255)!important;-moz-background-color:rgb(255, 255, 255)!important;-ms-background-color:rgb(255, 255, 255)!important;-o-background-color:rgb(255, 255, 255)!important;background-color:rgb(255, 255, 255)!important;-webkit-border-color:rgb(255, 255, 255)!important;-moz-border-color:rgb(255, 255, 255)!important;-ms-border-color:rgb(255, 255, 255)!important;-o-border-color:rgb(255, 255, 255)!important;border-color:rgb(255, 255, 255)!important;-webkit-color:rgb(4, 32, 62)!important;-moz-color:rgb(4, 32, 62)!important;-ms-color:rgb(4, 32, 62)!important;-o-color:rgb(4, 32, 62)!important;color:rgb(4, 32, 62)!important;}.fonteva-portal li.fonteva-slds-payment-tab--item.slds-active a, .fonteva-portal li.fonteva-slds-payment-tab--item a:hover, .fonteva-portal li.fonteva-slds-payment-tab--item a:focus{-webkit-background-color:#00a6e4!important;-moz-background-color:#00a6e4!important;-ms-background-color:#00a6e4!important;-o-background-color:#00a6e4!important;background-color:#00a6e4!important;}"

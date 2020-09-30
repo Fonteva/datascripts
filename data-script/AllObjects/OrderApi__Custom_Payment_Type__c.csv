@@ -1,0 +1,11 @@
+Id,Name,External_Id__c,OrderApi__Display_On_Backend_Checkout__c,OrderApi__Display_On_Frontend_Checkout__c,OrderApi__Display_Order__c,OrderApi__Is_Enabled__c,OrderApi__Payment_Gateway__c,OrderApi__Store__c,OrderApi__Custom_Payment_Type_Template__c,OrderApi__Instructions__c,OrderApi__Auto_Post_Receipt__c,OrderApi__Auto_Post_SO__c,OrderApi__Button_Label__c,OrderApi__Image_URL__c,OrderApi__Label__c,OrderApi__Lightning_Component__c,OrderApi__Link__c,OrderApi__Payment_Gateway__r.External_Id__c,OrderApi__Store__r.Id
+a2F4W000008XCenUAG,Saved Payment Methods,1,true,true,1,true,a184W00000FIxRSQA1,a1P4W0000059tCJUAY,Saved_Payment_Methods,,true,true,,,,,,2,a1P4W0000059tCJUAY
+a2F4W000008XCeoUAG,Credit Card,2,true,true,2,true,a184W00000FIxRSQA1,a1P4W0000059tCJUAY,Credit_Card,,true,true,,,,,,2,a1P4W0000059tCJUAY
+a2F4W000008XCepUAG,ECheck,3,true,true,3,true,a184W00000FIxRSQA1,a1P4W0000059tCJUAY,ECheck,,true,true,,,,,,2,a1P4W0000059tCJUAY
+a2F4W000008XCeqUAG,Invoice Me,4,false,true,4,true,,a1P4W0000059tCJUAY,Offline,,true,true,,,,,,,a1P4W0000059tCJUAY
+a2F4W000008XCerUAG,Proforma Invoice,5,false,false,5,true,,a1P4W0000059tCJUAY,Proforma_Invoice,,true,true,,,,,,,a1P4W0000059tCJUAY
+a2F4W000008XCesUAG,Saved Payment Methods,6,true,true,1,true,a184W00000FIxRPQA1,a1P4W0000059tCIUAY,Saved_Payment_Methods,,true,true,,,,,,3,a1P4W0000059tCIUAY
+a2F4W000008XCetUAG,Credit Card,7,true,true,2,true,a184W00000FIxRPQA1,a1P4W0000059tCIUAY,Credit_Card,"<p><b style=""color: rgb(218, 24, 24);"">Please do not click Process Payment more than once. It will charge your account twice.</b></p>",true,true,,,,,,3,a1P4W0000059tCIUAY
+a2F4W000008XCeuUAG,ECheck,8,true,true,3,true,a184W00000FIxRPQA1,a1P4W0000059tCIUAY,ECheck,,true,true,,,,,,3,a1P4W0000059tCIUAY
+a2F4W000008XCevUAG,Invoice Me,9,false,true,4,true,,a1P4W0000059tCIUAY,Offline,,true,true,,,,,,,a1P4W0000059tCIUAY
+a2F4W000008XCewUAG,Proforma Invoice,10,false,false,5,true,,a1P4W0000059tCIUAY,Proforma_Invoice,,true,true,,,,,,,a1P4W0000059tCIUAY

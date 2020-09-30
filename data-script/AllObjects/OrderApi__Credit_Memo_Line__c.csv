@@ -1,0 +1,3 @@
+Id,Name,External_Id__c,OrderApi__Credit_Memo__c,OrderApi__Amount__c,OrderApi__Credit_Account__c,OrderApi__Invoice__c,OrderApi__Is_Drafted__c,OrderApi__Is_Posted__c,OrderApi__Status__c,OrderApi__Invoice_Line__c,OrderApi__Sales_Order_Line__c,OrderApi__Credit_Memo__r.External_Id__c,OrderApi__Credit_Account__r.Id,OrderApi__Invoice__r.External_Id__c,OrderApi__Invoice_Line__r.External_Id__c,OrderApi__Sales_Order_Line__r.External_Id__c
+a0w4W00000F6G9XQAV,000000000,1,a0x4W00000QPZnHQAX,200,a104W00000G3d1EQAR,,false,true,Posted,,,3,a104W00000G3d1EQAR,,,
+a0w4W00000F6G9YQAV,000000001,2,a0x4W00000QPZnLQAX,25,a104W00000G3d1FQAR,a124W00000MTdjxQAD,false,true,Posted,,,7,a104W00000G3d1FQAR,463,,
