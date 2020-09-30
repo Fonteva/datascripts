@@ -1,5 +1,5 @@
 /**
- * @description       : Test class of DXScript
+ * @description       : Test class of ExternalIdService
  * @author            : vpoddar@fonteva.com
  * @group             : 
  * @last modified on  : 09-30-2020
@@ -9,7 +9,7 @@
  * 1.0   09-30-2020   vpoddar@fonteva.com   Initial Version
 **/
 @isTest
-public with sharing class DXScriptTest {
+public with sharing class ExternalIdServiceTest {
     /**
      * Dummy Metadata API web service mock class (see MetadataCreateJobTest.cls for a better example)
      **/
@@ -58,14 +58,14 @@ public with sharing class DXScriptTest {
         insert new Account(Name='Test Account 1');
     }
 	@isTest
-    public static void testAllDXScript(){
+    public static void testAllExternalIdService(){
         System.Test.setMock(WebServiceMock.class, new WebServiceMockImpl());
         
         Test.startTest();
         
-        DXScript.createExternalIdFields();
-        DXScript.givePermissionsToExternalIdFields(new List<String>{'Standard User', 'System Administrator'});
-        DXScript.populateExternalIdFields();
+        ExternalIdService.createExternalIdFields();
+        ExternalIdService.givePermissionsToExternalIdFields(new List<String>{'Standard User', 'System Administrator'});
+        ExternalIdService.populateExternalIdFields();
         
         Test.stopTest();
         

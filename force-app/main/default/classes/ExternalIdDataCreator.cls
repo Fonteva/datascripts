@@ -7,10 +7,10 @@
 * @created        2020-09-21
 * @modified       2020-09-21
 * @systemLayer    Batch Class
-* @testClass      PopulateExternalIdBtchTest.cls
+* @testClass      ExternalIdDataCreatorTest.cls
 * ─────────────────────────────────────────────────────────────────────────────────────────────────┘
 */
-public with sharing class PopulateExternalIdBtch implements Database.Batchable<sObject>, Database.Stateful{
+public with sharing class ExternalIdDataCreator implements Database.Batchable<sObject>, Database.Stateful{
     public Integer counter = 1;
     //Object name
     private String objectName;
@@ -23,7 +23,7 @@ public with sharing class PopulateExternalIdBtch implements Database.Batchable<s
 	* @param     objectName		 Object name for which we need to create external id values
 	* ───────────────────────────────────────────────────────────────────────────────────────────────┘
 	*/
-    public PopulateExternalIdBtch(String objectName){
+    public ExternalIdDataCreator(String objectName){
         this.objectName = objectName;
     }
     /**
@@ -34,7 +34,7 @@ public with sharing class PopulateExternalIdBtch implements Database.Batchable<s
 	* @param     externalIdFieldName		External id field name
 	* ───────────────────────────────────────────────────────────────────────────────────────────────┘
 	*/
-    public PopulateExternalIdBtch(String objectName, String externalIdFieldName){
+    public ExternalIdDataCreator(String objectName, String externalIdFieldName){
         this.externalIdFieldName = externalIdFieldName;
         this.objectName = objectName;
     }

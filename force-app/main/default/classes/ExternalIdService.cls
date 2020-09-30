@@ -8,7 +8,7 @@
  * Ver   Date         Author                Modification
  * 1.0   09-30-2020   vpoddar@fonteva.com   Initial Version
 **/
-public with sharing class DXScript {
+public with sharing class ExternalIdService {
 
     public static final List<String> objectNames = new List<String>{
         'Account','Contact',
@@ -81,7 +81,7 @@ public with sharing class DXScript {
     **/
     public static void populateExternalIdFields(){
         for(String objectName : objectNames){
-            Database.executeBatch(new PopulateExternalIdBtch(objectName));
+            Database.executeBatch(new ExternalIdDataCreator(objectName));
         } 
     }
 }

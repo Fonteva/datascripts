@@ -1,5 +1,5 @@
 /**
- * @description       : Test class of PopulateExternalIdBtch
+ * @description       : Test class of ExternalIdDataCreator
  * @author            : vpoddar@fonteva.com
  * @group             : 
  * @last modified on  : 09-30-2020
@@ -9,7 +9,7 @@
  * 1.0   09-30-2020   vpoddar@fonteva.com   Initial Version
 **/
 @isTest
-public class PopulateExternalIdBtchTest {
+public class ExternalIdDataCreatorTest {
 	@testSetup
     private static void testSetup(){
         List<Account> accList = new List<Account>();
@@ -24,7 +24,7 @@ public class PopulateExternalIdBtchTest {
     private static void testBatchPositive(){
         Test.startTest();
         
-        String batchId = Database.executeBatch(new PopulateExternalIdBtch('Account'));
+        String batchId = Database.executeBatch(new ExternalIdDataCreator('Account'));
         
         Test.stopTest();
         
@@ -35,7 +35,7 @@ public class PopulateExternalIdBtchTest {
     private static void testBatchNegetive(){
         Test.startTest();
         
-        String batchId = Database.executeBatch(new PopulateExternalIdBtch('Test', 'Test_External_Id__c'));
+        String batchId = Database.executeBatch(new ExternalIdDataCreator('Test', 'Test_External_Id__c'));
         
         Test.stopTest();
         
