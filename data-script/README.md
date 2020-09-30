@@ -97,7 +97,17 @@ $ sfdx plugins:install sfdmu
 #### Creating External_Id fields in Source and Target orgs
 
 ```bash
-# Instructions coming soon. There will be an option in the installation wizard for the same.
+# Run following apex script as needed
+
+# 1. Create external Id fields in desired org (need to be done in source and target orgs)
+DXScript.createExternalIdFields();
+
+# 2. Assign the permission of external id fields to desired profiles. Following script will grant permission of External_ID field to Standard User and System Administrator only, if needed please remove or add the desired once in list. (need to be done in source and target orgs)
+List<String> profilesToGrantPerission = new List<String>{'Standard User', 'System Administrator'};
+DXScript.givePermissionsToExternalIdFields( profilesToGrantPerission );
+
+# 3. Populate the External Id fields in source org
+DXScript.populateExternalIdFields();
 
 ```
 
@@ -135,6 +145,7 @@ sfdx sfdmu:run --sourceusername CSVFile --targetusername production  -p data-scr
 
 ```
 
+
 ### Order of data import:
 
 ```bash
@@ -143,36 +154,36 @@ sfdx sfdmu:run --sourceusername CSVFile --targetusername production  -p data-scr
 
 # 1. data-script/PD-19-ThemeAndRelatedObjects
 # 2. data-script/PD-17-AccountObjects
-# 3. data-script/PD-2-GLAccountObjects
-# 3. data-script/ProgramBasicSetup
-# 4. data-script/PD-16-SiteObjects
+# 3. data-script/PD-16-SiteObjects
+# 4. data-script/ProgramBasicSetup
 # 5. data-script/ProgramProfileAndRelatedObjects
-# 6. data-script/PD-21-CommunityGroupObjects
-# 7. data-script/PD-3-ItemClassObjects
-# 8. data-script/PD-23-TrackObjects
+# 6. data-script/PD-2-GLAccountObjects
+# 7. data-script/PD-21-CommunityGroupObjects
+# 8. data-script/PD-3-ItemClassObjects
 # 9. data-script/PD-24-ItemObjects
-# 10. data-script/PD-25-RenewalObjects
-# 11. data-script/PD-26-PackageItem
-# 12. data-script/PD-27-CatalogObjects
+# 10. data-script/PD-23-TrackObjects 
+# 11. data-script/LTESiteAndRelatedObjects
+# 12. data-script/PD-45-MediaAssetObject
 # 13. data-script/PD-11-PriceRuleObjects
-# 14. data-script/PD-28-PaymentObjects
-# 15. data-script/PD-14-SubscriptionObjects
-# 16. data-script/PD-22-SourceCodeObjects
-# 17. data-script/PD-30-SalesOrderAndRelatedObjects
-# 18. data-script/PD-31-CreditObjects
-# 19. data-script/PD-32-SectionObjects
-# 20. data-script/PD-45-MediaAssetObject
-# 21. data-script/PD-29-SalesOrderLineAndRelatedObjects
-# 22. data-script/PD-33-InvoiceLineAndRelatedObjects
-# 23. data-script/PD-34-EPaymentLineAndRelatedObjects
-# 24. data-script/PD-35-CreditMemoLineAndRelatedObjects
-# 25. data-script/PD-36-Renewal(Term)AnsRelatedObjects
-# 26. data-script/PD-37-RegistrationItem
-# 27. data-script/PD-12-FormResponseAndRelatedObjects
-# 28. data-script/PD-43-GiftInKindAndRelatedObjects
-# 29. data-script/PD-42-BadgeTypeAndRelatedObjects
-# 30. data-script/LTESiteAndRelatedObjects
-# 31. data-script/PD-40 JoinProcessObjects
-# 32. data-script/PD-41-AccessPermissionObject
+# 14. data-script/PD-22-SourceCodeObjects
+# 15. data-script/PD-25-RenewalObjects
+# 16. data-script/PD-26-PackageItem
+# 17. data-script/PD-27-CatalogObjects
+# 18. data-script/PD-28-PaymentObjects
+# 19. data-script/PD-14-SubscriptionObjects
+# 20. data-script/PD-30-SalesOrderAndRelatedObjects
+# 21. data-script/PD-31-CreditObjects
+# 22. data-script/PD-32-SectionObjects
+# 23. data-script/PD-29-SalesOrderLineAndRelatedObjects
+# 24. data-script/PD-33-InvoiceLineAndRelatedObjects
+# 25. data-script/PD-34-EPaymentLineAndRelatedObjects
+# 26. data-script/PD-35-CreditMemoLineAndRelatedObjects
+# 27. data-script/PD-36-Renewal(Term)AnsRelatedObjects
+# 28. data-script/PD-37-RegistrationItem
+# 29. data-script/PD-40 JoinProcessObjects
+# 30. data-script/PD-41-AccessPermissionObject
+# 31. data-script/PD-42-BadgeTypeAndRelatedObjects
+# 32. data-script/PD-43-GiftInKindAndRelatedObjects
+# 33. data-script/PD-12-FormResponseAndRelatedObjects
 
 ```
