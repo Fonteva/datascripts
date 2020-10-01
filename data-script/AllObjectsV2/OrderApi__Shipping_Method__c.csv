@@ -1,0 +1,6 @@
+Id,Name,OrderApi__Description__c,OrderApi__Display_Name__c,OrderApi__Is_Default__c,OrderApi__Shipping_Carrier_Item_Class__c,OrderApi__Shipping_Carrier_Item_Class__r.Id
+a1L4W00000DM1c8UAD,FON - Fedex Next Day AIR,,Fedex Next Day AIR,false,a134W000009DZGFQA4,a134W000009DZGFQA4
+a1L4W00000DM1cAUAT,Default Delivery Method,,,true,a134W000009DZHwQAO,a134W000009DZHwQAO
+a1L4W00000DM1cBUAT,FON - UPS Ground,,UPS Ground,false,a134W000009DZHwQAO,a134W000009DZHwQAO
+a1L4W00000DM1cCUAT,FON - UPS Next Day AIR,,UPS Next Day AIR,false,a134W000009DZHwQAO,a134W000009DZHwQAO
+a1L4W00000DM1c9UAD,FON - Fedex Ground,,Fedex Ground,true,a134W000009DZGFQA4,a134W000009DZGFQA4

@@ -1,0 +1,5 @@
+Id,Name,OrderApi__Business_Group__c,OrderApi__Locale_Values_CSV__c,OrderApi__Tax_GL_Account__c,OrderApi__Tax_Locale_Field__c,OrderApi__Business_Group__r.Name,OrderApi__Tax_GL_Account__r.Id
+a1T4W00000AdKnlUAF,FON - France VAT,a0o4W00000M5SknQAF,France,a104W00000G3d2IQAR,OrderApi__Shipping_Country__c,FON-International Association,a104W00000G3d2IQAR
+a1T4W00000AdKnmUAF,FON-Default Tax Locale,a0o4W00000M5SknQAF,USA,a104W00000G3d1dQAB,OrderApi__Shipping_Country__c,FON-International Association,a104W00000G3d1dQAB
+a1T4W00000AdKnkUAF,FON - DC,a0o4W00000M5SknQAF,"DC, dc",a104W00000G3d1dQAB,OrderApi__Shipping_State__c,FON-International Association,a104W00000G3d1dQAB
+a1T4W00000AdKnjUAF,FON - VA,a0o4W00000M5SknQAF,"va,VA",a104W00000G3d1dQAB,OrderApi__Shipping_State__c,FON-International Association,a104W00000G3d1dQAB

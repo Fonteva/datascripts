@@ -1,0 +1,71 @@
+Id,Name,OrderApi__Business_Group__c,OrderApi__Detail__c,OrderApi__Report_Category__c,OrderApi__Type__c,OrderApi__Business_Group__r.Name
+a104W00000G3d1EQAR,1000 - Cash,a0o4W00000M5SknQAF,Bank,Balance Sheet,Asset,FON-International Association
+a104W00000G3d1FQAR,1100 - Accounts Receivable,a0o4W00000M5SknQAF,Accounts Receivable (A/R),Balance Sheet,Asset,FON-International Association
+a104W00000G3d1JQAR,2000 - Accounts Payable,a0o4W00000M5SknQAF,Accounts Payable (A/P),Balance Sheet,Liability,FON-International Association
+a104W00000G3d1ZQAR,2100 - Refunds Payable,a0o4W00000M5SknQAF,Accounts Payable,Income Statement,Liability,FON-International Association
+a104W00000G3d1aQAB,2200 - Deferred Income,a0o4W00000M5SknQAF,Long-term Liabilities,Balance Sheet,Liability,FON-International Association
+a104W00000G3d1bQAB,3000 - Retained Earnings,a0o4W00000M5SknQAF,Equity,Balance Sheet,Capital,FON-International Association
+a104W00000G3d1HQAR,4000 - Income,a0o4W00000M5SknQAF,Income,Income Statement,Income,FON-International Association
+a104W00000G3d1cQAB,6000 - Expenses,a0o4W00000M5SknQAF,Expense,Income Statement,Expenses,FON-International Association
+a104W00000G3d1dQAB,2300 - Taxes Payable,a0o4W00000M5SknQAF,Current Liabilities,Balance Sheet,Liability,FON-International Association
+a104W00000G3d1eQAB,4100 - Organization Membership Income,a0o4W00000M5SknQAF,Income,Income Statement,Income,FON-International Association
+a104W00000G3d1fQAB,4200 - Individual Membership Income,a0o4W00000M5SknQAF,Income,Income Statement,Income,FON-International Association
+a104W00000G3d1gQAB,4300 - Magazine Income,a0o4W00000M5SknQAF,Income,Income Statement,Income,FON-International Association
+a104W00000G3d1hQAB,4400 - Event Income,a0o4W00000M5SknQAF,Income,Income Statement,Income,FON-International Association
+a104W00000G3d1iQAB,4500 - Merchandise Income,a0o4W00000M5SknQAF,Income,Income Statement,Income,FON-International Association
+a104W00000G3d1GQAR,5000 - Credit Memos,a0o4W00000M5SknQAF,Income,Income Statement,Income,FON-International Association
+a104W00000G3d1IQAR,7100 - Write Offs,a0o4W00000M5SknQAF,Income,Income Statement,Income,FON-International Association
+a104W00000G3d1jQAB,6055 - Shipping,a0o4W00000M5SknQAF,Other Expense,Income Statement,Expenses,FON-International Association
+a104W00000G3d1MQAR,1000-01 - Foundation Cash,a0o4W00000M5SkoQAF,Bank,Balance Sheet,Asset,FON-Foundation
+a104W00000G3d1KQAR,1100-01 - Foundation Accounts Receivable,a0o4W00000M5SkoQAF,Accounts Receivable (A/R),Balance Sheet,Asset,FON-Foundation
+a104W00000G3d1OQAR,2000-01 - Foundation Accounts Payable,a0o4W00000M5SkoQAF,Accounst Payable (A/P),Balance Sheet,Liability,FON-Foundation
+a104W00000G3d1kQAB,2100-01 - Foundation Refunds Payable,a0o4W00000M5SkoQAF,Accounts Payable,Income Statement,Liability,FON-Foundation
+a104W00000G3d1lQAB,2200-01 - Foundation Deferred Income,a0o4W00000M5SkoQAF,Long-term Liabilities,Balance Sheet,Liability,FON-Foundation
+a104W00000G3d1mQAB,2300-01 - Foundation Taxes Payable,a0o4W00000M5SkoQAF,Income,Income Statement,Income,FON-Foundation
+a104W00000G3d1nQAB,3000-01 - Foundation Retained Earnings,a0o4W00000M5SkoQAF,Equity,Balance Sheet,Capital,FON-Foundation
+a104W00000G3d1oQAB,4000-01 - Foundation Income,a0o4W00000M5SkoQAF,Income,Income Statement,Income,FON-Foundation
+a104W00000G3d1pQAB,6000-01 - Foundation Expenses,a0o4W00000M5SkoQAF,Expense,Income Statement,Expense,FON-Foundation
+a104W00000G3d1qQAB,4100-01 - Foundation Organization Membership Income,a0o4W00000M5SkoQAF,Income,Income Statement,Income,FON-Foundation
+a104W00000G3d1rQAB,4200-01 - Foundation Individual Membership Income,a0o4W00000M5SkoQAF,Income,Income Statement,Income,FON-Foundation
+a104W00000G3d1sQAB,4300-01 - Foundation Magazine Income,a0o4W00000M5SkoQAF,Income,Income Statement,Income,FON-Foundation
+a104W00000G3d1tQAB,4400-01 - Foundation Event Income,a0o4W00000M5SkoQAF,Income,Income Statement,Income,FON-Foundation
+a104W00000G3d1uQAB,4500-01 - Foundation Merchandise Income,a0o4W00000M5SkoQAF,Income,Income Statement,Income,FON-Foundation
+a104W00000G3d1LQAR,5000-01 - Foundation Credit Memos,a0o4W00000M5SkoQAF,Income,Income Statement,Income,FON-Foundation
+a104W00000G3d1NQAR,7100-01 - Foundation Write Offs,a0o4W00000M5SkoQAF,Income,Income Statement,Income,FON-Foundation
+a104W00000G3d1RQAR,1000-02 - UK Chapter Cash,a0o4W00000M5SkpQAF,Bank,Balance Sheet,Asset,FON-European Society
+a104W00000G3d1PQAR,1100-02 - UK Chapter Accounts Receivable,a0o4W00000M5SkpQAF,Accounts Receivable (A/R),Balance Sheet,Asset,FON-European Society
+a104W00000G3d1TQAR,2000-02 - UK Chapter Accounts Payable,a0o4W00000M5SkpQAF,Accounst Payable (A/P),Balance Sheet,Liability,FON-European Society
+a104W00000G3d1vQAB,2100-02 - UK Chapter Refunds Payable,a0o4W00000M5SkpQAF,Accounts Payable,Income Statement,Liability,FON-European Society
+a104W00000G3d1wQAB,2200-02 - UK Chapter Deferred Income,a0o4W00000M5SkpQAF,Long-term Liabilities,Balance Sheet,Liability,FON-European Society
+a104W00000G3d1xQAB,2300-02 - UK Chapter Taxes Payable,a0o4W00000M5SkpQAF,Income,Income Statement,Income,FON-European Society
+a104W00000G3d1yQAB,3000-02 - UK Chapter Retained Earnings,a0o4W00000M5SkpQAF,Equity,Balance Sheet,Capital,FON-European Society
+a104W00000G3d1zQAB,4000-02 - UK Chapter Income,a0o4W00000M5SkpQAF,Income,Income Statement,Income,FON-European Society
+a104W00000G3d20QAB,6000-02 - UK Chapter Expenses,a0o4W00000M5SkpQAF,Expense,Income Statement,Expense,FON-European Society
+a104W00000G3d21QAB,4100-02 - UK Chapter Organization Membership Income,a0o4W00000M5SkpQAF,Income,Income Statement,Income,FON-European Society
+a104W00000G3d22QAB,4200-02 - UK Chapter Individual Membership Income,a0o4W00000M5SkpQAF,Income,Income Statement,Income,FON-European Society
+a104W00000G3d23QAB,4300-02 - UK Chapter Magazine Income,a0o4W00000M5SkpQAF,Income,Income Statement,Income,FON-European Society
+a104W00000G3d24QAB,4400-02 - UK Chapter Event Income,a0o4W00000M5SkpQAF,Income,Income Statement,Income,FON-European Society
+a104W00000G3d25QAB,4500-02 - UK Chapter Merchandise Income,a0o4W00000M5SkpQAF,Income,Income Statement,Income,FON-European Society
+a104W00000G3d1QQAR,5000-02 - UK Chapter Credit Memos,a0o4W00000M5SkpQAF,Income,Income Statement,Income,FON-European Society
+a104W00000G3d1SQAR,7100-02 - UK Chapter Write Offs,a0o4W00000M5SkpQAF,Income,Income Statement,Income,FON-European Society
+a104W00000G3d1WQAR,1000-03 - NA Society Cash,a0o4W00000M5SkqQAF,Bank,Balance Sheet,Asset,FON-North American Society
+a104W00000G3d1UQAR,1100-03 - NA Society Accounts Receivable,a0o4W00000M5SkqQAF,Accounts Receivable (A/R),Balance Sheet,Asset,FON-North American Society
+a104W00000G3d1YQAR,2000-03 - NA Society Accounts Payable,a0o4W00000M5SkqQAF,Accounst Payable (A/P),Balance Sheet,Liability,FON-North American Society
+a104W00000G3d26QAB,2100-03 - NA Society Refunds Payable,a0o4W00000M5SkqQAF,Accounts Payable,Income Statement,Liability,FON-North American Society
+a104W00000G3d27QAB,2200-03 - NA Society Deferred Income,a0o4W00000M5SkqQAF,Long-term Liabilities,Balance Sheet,Liability,FON-North American Society
+a104W00000G3d28QAB,2300-03 - NA Society Taxes Payable,a0o4W00000M5SkqQAF,Income,Income Statement,Income,FON-North American Society
+a104W00000G3d29QAB,3000-03 - NA Society Retained Earnings,a0o4W00000M5SkqQAF,Equity,Balance Sheet,Capital,FON-North American Society
+a104W00000G3d2AQAR,4000-03 - NA Society Income,a0o4W00000M5SkqQAF,Income,Income Statement,Income,FON-North American Society
+a104W00000G3d2BQAR,6000-03 - NA Society Expenses,a0o4W00000M5SkqQAF,Expense,Income Statement,Expense,FON-North American Society
+a104W00000G3d2CQAR,4100-03 - NA Society Organization Membership Income,a0o4W00000M5SkqQAF,Income,Income Statement,Income,FON-North American Society
+a104W00000G3d2DQAR,4200-03 - NA Society Individual Membership Income,a0o4W00000M5SkqQAF,Income,Income Statement,Income,FON-North American Society
+a104W00000G3d2EQAR,4300-03 - NA Society Magazine Income,a0o4W00000M5SkqQAF,Income,Income Statement,Income,FON-North American Society
+a104W00000G3d2FQAR,4400-03 - NA Society Event Income,a0o4W00000M5SkqQAF,Income,Income Statement,Income,FON-North American Society
+a104W00000G3d2GQAR,4500-03 - NA Society Merchandise Income,a0o4W00000M5SkqQAF,Income,Income Statement,Income,FON-North American Society
+a104W00000G3d1VQAR,5000-03 - NA Society Credit Memos,a0o4W00000M5SkqQAF,Income,Income Statement,Income,FON-North American Society
+a104W00000G3d1XQAR,7100-03 - NA Society Write Offs,a0o4W00000M5SkqQAF,Income,Income Statement,Income,FON-North American Society
+a104W00000G3d2HQAR,6100 - Adjustments,a0o4W00000M5SknQAF,Expense,Income Statement,Expenses,FON-International Association
+a104W00000G3d2IQAR,2400 - International Taxes Payable,a0o4W00000M5SknQAF,Current Liabilities,Balance Sheet,Liability,FON-International Association
+a104W00000G3d2JQAR,4000-10 - FDN Dorothy Vaughan Scholarship Income,a0o4W00000M5SkoQAF,Income,Income Statement,Income,FON-Foundation
+a104W00000G3d2KQAR,6300 Publication Income,a0o4W00000M5SknQAF,Income,Income Statement,Income,FON-International Association
+a104W00000G3d2LQAR,4100 Merchandise Income,a0o4W00000M5SknQAF,Income,Income Statement,Income,FON-International Association
