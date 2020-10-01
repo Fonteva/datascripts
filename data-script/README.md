@@ -40,7 +40,7 @@ $ sfdx plugins:install sfdmu
 #### Disable the Triggers and Validation Rules from Source and Target orgs:
 
 ```bash
-# Disable triggers for following objects from "Spark Admin" app in Source salesforce org(skip if the Source is CSVFile)
+# Disable triggers for following objects from "Spark Admin" app in Source salesforce org(skip if the Source is CSVFile), only needed if import is planned with External_Id
 # 1. OrderApi__Invoice_Line__c
 # 2. OrderApi__Sales_Order_Line__c
 # 3. OrderApi__Sales_Order__c
@@ -52,32 +52,13 @@ $ sfdx plugins:install sfdmu
 # 9. OrderApi__Price_Rule__c
 # 10. OrderApi__Subscription__c
 
-# Disable validation rules for following objects from "Spark Admin" app in Source salesforce org(skip if the Source is CSVFile)
+# Disable validation rules for following objects from "Spark Admin" app in Source salesforce org(skip if the Source is CSVFile), only needed if import is planned with External_Id
 # 1. OrderApi__Sales_Order_Line__c
 # 2. OrderApi__Sales_Order__c
 
 
 # Disable triggers for following objects from "Spark Admin" app in Target salesforce org(skip if the Target is CSVFile)
-# 1. Account
-# 2. Contact
-# 3. OrderApi__Price_Rule__c
-# 4. OrderApi__Payment_Method__c 
-# 5. OrderApi__Subscription_Plan__c
-# 6. OrderApi__Invoice__c
-# 7. OrderApi__Scheduled_Payment__c
-# 8. OrderApi__Sales_Order__c
-# 9. OrderApi__Receipt__c
-# 10. OrderApi__Receipt_Line__c
-# 11. EventApi__Waitlist_Entry__c
-# 12. OrderApi__Sales_Order_Line__c
-# 13. OrderApi__Invoice_Line__c
-# 14. OrderApi__Subscription_Line__c
-# 15. OrderApi__Assignment__c
-# 16. OrderApi__Badge_Type__c
-# 17. LTE__Site__c
-# 18. OrderApi__Store__c
-# 19. PagesApi__Community_Group__c
-# 20. PagesApi__Community_Group_Member__c
+# 1. Disable all triggers, as there are few automation which creates some related objects.
 
 # Disable validation rules for following objects from "Spark Admin" app in Target salesforce org(skip if the Target is CSVFile)
 # 1. OrderApi__Item_Class__c
@@ -157,6 +138,8 @@ sfdx sfdmu:run --sourceusername CSVFile --targetusername production  -p data-scr
 
 ```bash
 # To export all together, you can run following command:
+# Usually it takes 30-45 minutes, it also depends on the data volumne and batch job's processing.
+
 sfdx sfdmu:run --sourceusername production --targetusername qa  -p  data-script/AllObjectsV2
 
 ```
@@ -165,6 +148,7 @@ sfdx sfdmu:run --sourceusername production --targetusername qa  -p  data-script/
 
 ```bash
 # To export all together, you can run following command:
+# Usually it takes 30-45 minutes, it also depends on the data volumne and batch job's processing.
 sfdx sfdmu:run --sourceusername production --targetusername qa  -p  data-script/AllObjects
 
 ```
@@ -173,7 +157,8 @@ sfdx sfdmu:run --sourceusername production --targetusername qa  -p  data-script/
 
 ```bash
 # Its necessory to have a unique identifier for most of the records, so External_Id need to be generated in target org first before proceeding with this import.
-# The order matters here as the objects/modules have dependencies with other objects/modules, we suggest following the below order for import for any type of import/export(org-org, org-csv or csv-org). Just replace the -p parameter with the following names and run the desired command. 
+# The order matters here as the objects/modules have dependencies with other objects/modules, we suggest following the below order for import for any type of import/export(org-org, org-csv or csv-org). Just replace the -p parameter with the following names and run the desired command.
+
 # Example: sfdx sfdmu:run --sourceusername CSVFile --targetusername production  -p data-script/PD-17-AccountObjects
 
 # 1. data-script/ThemeAndRelatedObjects
@@ -209,5 +194,4 @@ sfdx sfdmu:run --sourceusername production --targetusername qa  -p  data-script/
 # 31. data-script/BadgeTypeAndRelatedObjects
 # 32. data-script/GiftInKindAndRelatedObjects
 # 33. data-script/FormResponseAndRelatedObjects
-
 ```
