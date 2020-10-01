@@ -101,9 +101,10 @@ $ sfdx plugins:install sfdmu
 
 ```
 
-#### Creating External_Id fields in Source and Target orgs
+#### Creating External_Id fields in Source and Target orgs (optional)
 
 ```bash
+# To load data modulewise its important to get external ids created and generated to the objects, if doing import all together then its not necessory to create external id.
 # Run following apex script as needed
 
 # 1. Create external Id fields in desired org (need to be done in source and target orgs)
@@ -156,14 +157,22 @@ sfdx sfdmu:run --sourceusername CSVFile --targetusername production  -p data-scr
 
 ```bash
 # To export all together, you can run following command:
+sfdx sfdmu:run --sourceusername production --targetusername qa  -p  data-script/AllObjectsV2
+
+```
+
+### Importing all data together with external id:
+
+```bash
+# To export all together, you can run following command:
 sfdx sfdmu:run --sourceusername production --targetusername qa  -p  data-script/AllObjects
 
 ```
 
-
 ### Importing data modulewise:
 
 ```bash
+# Its necessory to have a unique identifier for most of the records, so External_Id need to be generated in target org first before proceeding with this import.
 # The order matters here as the objects/modules have dependencies with other objects/modules, we suggest following the below order for import for any type of import/export(org-org, org-csv or csv-org). Just replace the -p parameter with the following names and run the desired command. 
 # Example: sfdx sfdmu:run --sourceusername CSVFile --targetusername production  -p data-script/PD-17-AccountObjects
 
