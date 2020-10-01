@@ -137,7 +137,7 @@ sfdx sfdmu:run --sourceusername production --targetusername qa  -p  data-script/
 sfdx sfdmu:run --sourceusername <source org username/alias> --targetusername CSVFile  -p <desired folder path>
 
 # Example:
-sfdx sfdmu:run --sourceusername production --targetusername CSVFile  -p data-script/PD-19-ThemeAndRelatedObjects
+sfdx sfdmu:run --sourceusername production --targetusername CSVFile  -p data-script/AllObjects
 
 ```
 
@@ -148,7 +148,7 @@ sfdx sfdmu:run --sourceusername production --targetusername CSVFile  -p data-scr
 sfdx sfdmu:run --sourceusername CSVFile --targetusername  <source org username/alias> -p <desired folder path>
 
 # Example:
-sfdx sfdmu:run --sourceusername CSVFile --targetusername production  -p data-script/PD-19-ThemeAndRelatedObjects
+sfdx sfdmu:run --sourceusername CSVFile --targetusername production  -p data-script/AllObjects
 
 ```
 
@@ -167,7 +167,6 @@ sfdx sfdmu:run --sourceusername production --targetusername qa  -p  data-script/
 # The order matters here as the objects/modules have dependencies with other objects/modules, we suggest following the below order for import for any type of import/export(org-org, org-csv or csv-org). Just replace the -p parameter with the following names and run the desired command. 
 # Example: sfdx sfdmu:run --sourceusername CSVFile --targetusername production  -p data-script/PD-17-AccountObjects
 
-#If you wan
 # 1. data-script/ThemeAndRelatedObjects
 # 2. data-script/AccountAndRelatedObjects
 # 3. data-script/SiteAndRelatedObjects
