@@ -1,0 +1,28 @@
+Id,IsDeleted,Name,CreatedDate,LastModifiedDate,SystemModstamp,OrderApi__Average_Sale__c,OrderApi__Average_Visitor_Value__c,OrderApi__Business_Group__c,OrderApi__Conversion_Rate__c,OrderApi__Description__c,OrderApi__Expenses__c,OrderApi__Footer_Content__c,OrderApi__Goal__c,OrderApi__Header_Content__c,OrderApi__Is_Published__c,OrderApi__Name__c,OrderApi__Payment_Gateway__c,OrderApi__ROI__c,OrderApi__Sales__c,OrderApi__Shopping_Cart_Enabled__c,OrderApi__Site__c,OrderApi__Source_Code__c,OrderApi__Store__c,OrderApi__Theme__c,OrderApi__Title_Tag__c,OrderApi__Total_Revenue__c,OrderApi__Visits__c,EventApi__Event__c,LastViewedDate,LastReferencedDate,OrderApi__Business_Group__r.Name,OrderApi__Payment_Gateway__r.Name,OrderApi__Site__r.Name,OrderApi__Source_Code__r.Id,OrderApi__Store__r.Name,OrderApi__Theme__r.Name,EventApi__Event__r.Name
+a0q4W000007t05CQAQ,false,CP-0002,2020-08-28T02:16:22.000+0000,2020-09-15T10:49:24.000+0000,2020-09-15T10:49:24.000+0000,0,0,a0o4W00000MOvweQAD,0,,0,"<table>
+<tbody>
+<tr>
+<td width=""250""><iframe width=""500"" height=""315""
+src=""https://www.youtube.com/embed/W27PPwe8tBs?autoplay=1"">
+</iframe></td>
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+<td>
+<p>Helping St. Mary's Food Bank Alliance<br></br>
+
+St. Mary’s Food Bank, America's first food bank, has just celebrated its 50 year anniversary. Serving 250,000 meals per day, it is truly a community-based organization. Individual donors, corporate donors, and private grants help feed hungry individuals and families in our area. St. Mary's Food Bank serves two-thirds of Arizona’s 15 counties, they are committed to volunteerism, building community relationships and improving the quality of life for Arizonans in need. Find out more about St. Mary’s Food Bank Alliance by visiting their website.<br></br>
+
+Hunger is one of the greatest threats to the Phoenix community. But you can help! Please consider making your donation below today.<br></br>
+</p>
+<a href=""https://https://www.informs.org/About-INFORMS/Donate"">Funding Excellence in O.R. & Analytics</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>",9000,"<table>
+<tbody>
+<tr>
+<td width=""250""><img alt="""" src=""https://s3.us-east-1.amazonaws.com/fonteva-customer-media/00D1F000000Die4UAC/ebLgGPhJ_Pro_Bono_Analytics_png"" style=""width: 1100px; height: 213px; vertical-align: middle;""></td>
+</tr>
+</tbody>
+</table>
+</div>",true,FON -  Donation Page,,0,0,false,a0d4W00000RU3uMQAT,,,,,0,217,,,,FON-International Association,,FON-International Association,,,,

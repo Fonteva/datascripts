@@ -1,0 +1,88 @@
+{
+    "objects":[
+        {
+            "query":"SELECT Id, External_Id__c FROM Account",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM Contact",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM EventApi__Ticket_Type__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Item__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Payment_Method__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Payment_Gateway__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Payment_Terms__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, LastActivityDate, OrderApi__Actual_Amount__c, OrderApi__Actual_Count__c, OrderApi__Batch_Number__c, OrderApi__Business_Group__c, OrderApi__Closed_Date__c, OrderApi__Date__c, OrderApi__Deposit_Account__c, OrderApi__Entity__c, OrderApi__Expected_Amount__c, OrderApi__Expected_Count__c, OrderApi__Is_Closed__c, OrderApi__Is_Posted__c, OrderApi__Item__c, OrderApi__Opened_Date__c, OrderApi__Payment_Gateway__c, OrderApi__Payment_Type__c, OrderApi__Posted_Date__c, OrderApi__Source_Code__c, LastViewedDate, LastReferencedDate FROM OrderApi__Batch__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Account__c, OrderApi__Auto_Send_Proforma_Invoice_Emails__c, OrderApi__Billing_City__c, OrderApi__Billing_Contact__c, OrderApi__Billing_Country__c, OrderApi__Billing_Postal_Code__c, OrderApi__Billing_State__c, OrderApi__Billing_Street__c, OrderApi__Business_Group__c, OrderApi__Calculate_Billing_Details__c, OrderApi__Calculate_Shipping_Details__c, OrderApi__Campaign_Page__c, OrderApi__Cancelled_Date__c, OrderApi__Closed_Date__c, OrderApi__Closed_Status__c, OrderApi__Contact__c, OrderApi__Created_by_Customer__c, OrderApi__Customer_Link__c, OrderApi__Customer_Reference_Number__c, OrderApi__Date__c, OrderApi__Description__c, OrderApi__EPayment__c, OrderApi__End_Date__c, OrderApi__Entity__c, OrderApi__Has_Installments__c, OrderApi__Has_Subscription__c, OrderApi__Invoice_Date__c, OrderApi__Is_Active__c, OrderApi__Is_Cancelled__c, OrderApi__Is_Closed__c, OrderApi__Is_Evergreen__c, OrderApi__Is_Invoiced__c, OrderApi__Is_Posted__c, OrderApi__Is_Recurring__c, OrderApi__Is_Scheduled__c, OrderApi__Is_Suspended__c, OrderApi__JSON_Data__c, OrderApi__Memo__c, OrderApi__Number_of_Installments__c, OrderApi__Payment_Gateway__c, OrderApi__Payment_Method__c, OrderApi__Payment_Terms__c, OrderApi__Posted_Date__c, OrderApi__Posting_Entity__c, OrderApi__Posting_Status__c, OrderApi__Preferred_Email__c, OrderApi__Proforma_Invoice_Email_Sent_Date__c, OrderApi__Proforma_Invoice_Email_Sent__c, OrderApi__Require_Payment_Method__c, OrderApi__Schedule_Frequency__c, OrderApi__Schedule_Status__c, OrderApi__Schedule_Type__c, OrderApi__Shipping_City__c, OrderApi__Shipping_Contact__c, OrderApi__Shipping_Country__c, OrderApi__Shipping_Postal_Code__c, OrderApi__Shipping_State__c, OrderApi__Shipping_Street__c, OrderApi__Source_Code__c, OrderApi__Start_Date__c, OrderApi__Status__c, OrderApi__Suspended_Date__c, OrderApi__Suspended_Reason__c, OrderApi__System_Refresh__c, OrderApi__Total__c, OrderApi__Valid_Payment_Method__c, OrderApi__Item_Count__c, OrderApi__Subscription_Lines__c, OrderApi__Subtotal__c, DonorApi__Acknowledged_Date__c, DonorApi__Acknowledgement_Method__c, DonorApi__Do_Not_Acknowledge__c, DonorApi__Forecast_Category__c, DonorApi__Forecasted_Amount__c, DonorApi__Forecasted_Close_Date__c, DonorApi__Gift_Match_Account__c, DonorApi__Gift_Match_Amount__c, DonorApi__Gift_Match_Contact__c, DonorApi__Gift_Matching_Company__c, DonorApi__Gift_Type__c, DonorApi__Grant_LOI_Submitted__c, DonorApi__Grant_Open_Date__c, DonorApi__Grant_Proposal_Deadline__c, DonorApi__Grant_Proposal_Response_Date__c, DonorApi__Grant_Proposal_Submitted__c, DonorApi__Grant_Term__c, DonorApi__Is_Acknowledged__c, DonorApi__Is_Won__c, DonorApi__Source__c, DonorApi__Stage__c, DonorApi__Tribute_Honoree__c, DonorApi__Tribute_Message__c, DonorApi__Tribute_Notification_City__c, DonorApi__Tribute_Notification_Country__c, DonorApi__Tribute_Notification_Email__c, DonorApi__Tribute_Notification_Method__c, DonorApi__Tribute_Notification_Phone__c, DonorApi__Tribute_Notification_Postal_Code__c, DonorApi__Tribute_Notification_State__c, DonorApi__Tribute_Notification_Street__c, DonorApi__Tribute_Notified__c, DonorApi__Tribute_Person_to_Notify__c, DonorApi__Tribute_Type__c, DonorApi__Tax_Deductible_Amount__c, OrderApi__Processing_Changes__c, OrderApi__Mass_Proforma_Email_Subject__c, OrderApi__Is_Pending_Payment__c, OrderApi__Due_Date__c, OrderApi__Encrypted_Id__c, OrderApi__Is_Proforma__c, OrderApi__Adjustment_Reason__c, OrderApi__Amount_Paid__c, OrderApi__Amount_Refunded__c, OrderApi__Balance_Due__c, OrderApi__Credits_Applied__c, OrderApi__Credits_and_Adjustments__c, OrderApi__Generate_Installments__c, OrderApi__Is_Voided__c, OrderApi__Overall_Total__c, OrderApi__Paid_Date__c, OrderApi__Sales_Order_Status__c,LastViewedDate, LastReferencedDate,OrderApi__Is_Open__c FROM OrderApi__Sales_Order__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c,OrderApi__Sales_Order__c FROM OrderApi__Invoice__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c,OrderApi__Sales_Order__c FROM OrderApi__Scheduled_Payment__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Account__c, OrderApi__Action_Information__c, OrderApi__Balance__c, OrderApi__Batch__c, OrderApi__Billing_City__c, OrderApi__Billing_Contact__c, OrderApi__Billing_Country__c, OrderApi__Billing_Postal_Code__c, OrderApi__Billing_State__c, OrderApi__Billing_Street__c, OrderApi__Business_Group__c, OrderApi__Calculate_Billing_Details__c, OrderApi__Calculate_Memo__c, OrderApi__Calculate_Shipping_Details__c, OrderApi__Contact__c, OrderApi__Customer_Link__c, OrderApi__Date__c, OrderApi__Deposit_Account__c, OrderApi__EPayment__c, OrderApi__Entity__c, OrderApi__Gateway_Transaction_Id__c, OrderApi__Is_Payment__c, OrderApi__Is_Posted__c, OrderApi__Is_Refund__c, OrderApi__Memo__c, OrderApi__Payment_Gateway__c, OrderApi__Payment_Method_Description__c, OrderApi__Payment_Method__c, OrderApi__Payment_Type__c, OrderApi__Posted_Date__c, OrderApi__Process_Refund__c, OrderApi__Receipt__c, OrderApi__Reference_Number__c, OrderApi__Refund__c, OrderApi__Sales_Order__c, OrderApi__Shipping_City__c, OrderApi__Shipping_Contact__c, OrderApi__Shipping_Country__c, OrderApi__Shipping_Postal_Code__c, OrderApi__Shipping_State__c, OrderApi__Shipping_Street__c, OrderApi__Source_Code__c, OrderApi__Total__c, OrderApi__Type__c, OrderApi__Applied_Amount__c, OrderApi__Encrypted_Id__c,LastViewedDate, LastReferencedDate FROM OrderApi__Receipt__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp,OrderApi__Scheduled_Payment__c, OrderApi__API_Amount__c, OrderApi__AVS_Code__c, OrderApi__AVS_Message__c, OrderApi__Account__c, OrderApi__Bank_Account_Holder_Type__c, OrderApi__Bank_Account_Number__c, OrderApi__Bank_Account_Type__c, OrderApi__Bank_Name__c, OrderApi__Bank_Routing_Number__c, OrderApi__Batch__c, OrderApi__Billing_City__c, OrderApi__Billing_Country__c, OrderApi__Billing_Postal_Code__c, OrderApi__Billing_State__c, OrderApi__Billing_Street__c, OrderApi__Business_Group__c, OrderApi__CVV_Code__c, OrderApi__CVV_Message__c, OrderApi__Cancelled__c, OrderApi__Card_Number__c, OrderApi__Card_Type__c, OrderApi__Contact__c, OrderApi__Create_Payment_Schedule__c, OrderApi__Currency_Code__c, OrderApi__Date__c, OrderApi__Deposit_Account__c, OrderApi__Description__c, OrderApi__Eligible_for_Card_Updater__c, OrderApi__Email__c, OrderApi__Entity__c, OrderApi__Error_Code__c, OrderApi__Errors__c, OrderApi__First_Name__c, OrderApi__First_Six_Digits__c, OrderApi__Full_Name__c, OrderApi__Gateway_Token__c, OrderApi__Gateway_Transaction_ID__c, OrderApi__Has_Errors__c, OrderApi__IP_Address__c, OrderApi__Is_Scheduled__c, OrderApi__Last_4_Digits__c, OrderApi__Last_Four_Digits__c, OrderApi__Last_Name__c, OrderApi__Merchant_Location_Descriptor__c, OrderApi__Merchant_Name_Descriptor__c, OrderApi__Message__c, OrderApi__Month__c, OrderApi__Number__c, OrderApi__Number_of_Installments__c, OrderApi__On_Test_Gateway__c, OrderApi__Order_ID__c, OrderApi__Path__c, OrderApi__Payment_Gateway__c, OrderApi__Payment_Method_Token__c, OrderApi__Payment_Method_Type__c, OrderApi__Payment_Method__c, OrderApi__Pending__c, OrderApi__Phone__c, OrderApi__Receipt_Created__c, OrderApi__Reference_Token__c, OrderApi__Refund_Receipt__c, OrderApi__Retain_on_Success__c, OrderApi__Sales_Order__c, OrderApi__Schedule_Frequency__c, OrderApi__Schedule_Type__c, OrderApi__Source_Code__c, OrderApi__Start_Date__c, OrderApi__Status__c, OrderApi__Storage_State__c, OrderApi__Succeeded__c, OrderApi__Total__c, OrderApi__Transaction_Token__c, OrderApi__Transaction_Type__c, OrderApi__Verification_Value__c, OrderApi__Year__c, OrderApi__Amount__c, OrderApi__API_Response__c, OrderApi__EPayment__c, OrderApi__Is_Voided__c, OrderApi__Process_Payment__c, OrderApi__Process_Void__c, OrderApi__State__c, OrderApi__Is_ThreeDS__c LastViewedDate, LastReferencedDate FROM OrderApi__EPayment__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate,LastModifiedDate,SystemModstamp, EventApi__Contact__c, EventApi__Date_Added__c, EventApi__Email__c, EventApi__Event__c, EventApi__Full_Name__c, EventApi__Is_Registered__c, EventApi__Message__c, EventApi__Notification_Sent__c, EventApi__Notified_Date_Time__c, EventApi__Other_Phone__c, EventApi__Phone__c, EventApi__Priority__c, EventApi__Quantity_Requested__c, EventApi__Status__c, EventApi__Ticket_Type__c, LTE__Sales_Order__c, LTE__Free_Event_Order_Number__c,OrderApi__Scheduled_Payment__c FROM EventApi__Waitlist_Entry__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        }
+    ]
+}

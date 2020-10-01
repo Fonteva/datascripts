@@ -1,0 +1,79 @@
+{
+    "objects":[
+        {
+            "query":"SELECT Id, External_Id__c FROM Account",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM Contact",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Item_Class__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Item__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Payment_Method__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Payment_Gateway__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Payment_Terms__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, LastReferencedDate, OrderApi__Item__c,OrderApi__Account__c, OrderApi__Activated_Date__c, OrderApi__Active_Assignments__c, OrderApi__Assignment_Badge_Types_CSV__c, OrderApi__Assignments_Allowed__c, OrderApi__Billing_City__c, OrderApi__Billing_Contact__c, OrderApi__Billing_Country__c, OrderApi__Billing_Postal_Code__c, OrderApi__Billing_State__c, OrderApi__Billing_Street__c, OrderApi__Business_Group__c, OrderApi__Calculate_Billing_Details__c, OrderApi__Calculate_Shipping_Details__c, OrderApi__Cancelled_Date__c, OrderApi__Cancelled_Reason__c, OrderApi__Contact__c, OrderApi__Current_Term_End_Date__c, OrderApi__Current_Term_Start_Date__c, OrderApi__Customer_Link__c, OrderApi__Days_To_Lapse__c, OrderApi__Description__c, OrderApi__Enable_Auto_Renew__c, OrderApi__Entity__c, OrderApi__Expired_Date__c, OrderApi__Grace_Period_End_Date__c, OrderApi__In_Grace_Period__c, OrderApi__Is_Active__c, OrderApi__Is_Cancelled__c, OrderApi__Is_Expired__c, OrderApi__Is_Pending__c, OrderApi__Is_Suspended__c, OrderApi__Is_Upgraded__c, OrderApi__Item_Class__c, OrderApi__Last_Amendment_Date__c, OrderApi__Last_Renewed_Date__c, OrderApi__Last_System_Run__c, OrderApi__Maximum_Number_of_Assignments__c, OrderApi__Next_Scheduled_Renewal_Date__c, OrderApi__Paid_Through_Date__c, OrderApi__Shipping_City__c, OrderApi__Shipping_Contact__c, OrderApi__Shipping_Country__c, OrderApi__Shipping_Postal_Code__c, OrderApi__Shipping_State__c, OrderApi__Shipping_Street__c, OrderApi__Status__c, OrderApi__Subscription_Plan__c, OrderApi__Suspended_Date__c, OrderApi__Suspended_Reason__c, OrderApi__System_Refresh__c, OrderApi__Upgraded_Date__c, OrderApi__Upgraded_Subscription__c, OrderApi__Valid_Payment_Method__c, OrderApi__Line_Count__c, OrderApi__Renewals__c, OrderApi__Subscription_Dues_Total__c, CPBase__Subscription_Management_Page_Override__c, CPBase__Hide_In_Portal__c, OrderApi__Hide_In_Portal__c, OrderApi__Renewal_Override__c, OrderApi__Subscription_Management_Page_Override__c, OrderApi__Next_Scheduled_Payment_Date__c, OrderApi__Term_Active_Assignments__c, OrderApi__Term_Assignments_Allowed__c, OrderApi__Term_Dues_Total__c, OrderApi__Term_End_Date__c, OrderApi__Term_Start_Date__c,OrderApi__Payment_Method__c,LastActivityDate, LastViewedDate,Membership_Type__c FROM OrderApi__Subscription__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false,
+            "excludedFields":["OrderApi__Sales_Order_Line__c"]
+        },
+        {
+            "query":"SELECT Id, Name, OrderApi__Advanced_Calendar_Days__c, OrderApi__Advanced_Calendar_Free_Paid__c, OrderApi__Auto_Renew_Option__c, OrderApi__Auto_Send_Proforma_Invoice_Emails__c, OrderApi__Bill_Cycle_Day__c, OrderApi__Bill_Cycle__c, OrderApi__Business_Group__c, OrderApi__Calendar_End_Day__c, OrderApi__Calendar_End_Month__c, OrderApi__Description__c, OrderApi__Disable_Renew__c, OrderApi__Enable_Proration__c, OrderApi__Enable_Schedule__c, OrderApi__Grace_Period__c, OrderApi__Initial_Term_Months__c, OrderApi__Invoice_Days_Variable__c, OrderApi__Is_Active__c, OrderApi__Number_Of_Installments__c, OrderApi__Payment_Gateway__c, OrderApi__Payment_Terms__c, OrderApi__Proforma_Invoice_Authentication_Required__c, OrderApi__Proforma_Invoice_Email_Body__c, OrderApi__Proforma_Invoice_Email_From_Address__c, OrderApi__Proforma_Invoice_Email_From_Name__c, OrderApi__Proforma_Invoice_Email_Subject__c, OrderApi__Proforma_Invoice_Footer__c, OrderApi__Proforma_Invoice_Header__c, OrderApi__Proration_Rule__c, OrderApi__Renewal_Term_Months__c, OrderApi__Require_Payment_Method__c, OrderApi__Schedule_Frequency__c, OrderApi__Schedule_Type__c, OrderApi__Type__c, OrderApi__Enable_Automatic_Invoice_Payment__c, OrderApi__Item_Renewal_Instructions__c, OrderApi__Payment_Settings_Instructions__c, OrderApi__PostTerm_Renewal_Window__c, OrderApi__PreTerm_Renewal_Window__c,OrderApi__Enable_Payment_Schedule__c FROM OrderApi__Subscription_Plan__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name, OrderApi__Item__c,CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Subscription_Plan__c, OrderApi__Is_Default__c FROM OrderApi__Item_Subscription_Plan__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp,OrderApi__AR_Account__c,OrderApi__Scheduled_Payment__c,OrderApi__Subscription__c,OrderApi__Account__c, OrderApi__Amount_Paid__c, OrderApi__Amount_Refunded__c, OrderApi__Balance_Due__c, OrderApi__Billing_City__c, OrderApi__Billing_Contact__c, OrderApi__Billing_Country__c, OrderApi__Billing_Postal_Code__c, OrderApi__Billing_State__c, OrderApi__Billing_Street__c, OrderApi__Business_Group__c, OrderApi__Calculate_Billing_Details__c, OrderApi__Calculate_Due_Date__c, OrderApi__Calculate_Shipping_Details__c, OrderApi__Contact__c, OrderApi__Credits_Applied__c, OrderApi__Customer_Link__c, OrderApi__Customer_Reference_Number__c, OrderApi__Days_Overdue__c, OrderApi__Description__c, OrderApi__Due_Date__c, OrderApi__Entity__c, OrderApi__Has_Payments__c, OrderApi__Has_Refunds__c, OrderApi__Invoice_Date__c, OrderApi__Is_Cancelled__c, OrderApi__Is_Overdue__c, OrderApi__Is_Paid__c, OrderApi__Is_Posted__c, OrderApi__Is_Voided__c, OrderApi__Memo__c, OrderApi__Paid_Date__c, OrderApi__Payment_Count__c, OrderApi__Payment_Terms__c, OrderApi__Posted_Date__c, OrderApi__Refund_Count__c, OrderApi__Shipping_City__c, OrderApi__Shipping_Contact__c, OrderApi__Shipping_Country__c, OrderApi__Shipping_Postal_Code__c, OrderApi__Shipping_State__c, OrderApi__Shipping_Street__c, OrderApi__Status__c, OrderApi__Total__c, OrderApi__Voided_Date__c, OrderApi__Adjustments__c, OrderApi__Item_Count__c, OrderApi__Subtotal__c, OrderApi__Credits_and_Adjustments__c, OrderApi__Encrypted_Id__c,LastViewedDate, LastReferencedDate,FontevaReports__Posted_Age__c FROM OrderApi__Invoice__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false,
+            "excludedFields":["OrderApi__Sales_Order__c","OrderApi__Term__c"]
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp,OrderApi__API_Response__c, OrderApi__Amount__c, OrderApi__EPayment_Created__c, OrderApi__Has_Errors__c, OrderApi__Invoice__c, OrderApi__Is_Cancelled__c, OrderApi__Is_Payment_Processed__c, OrderApi__Is_Processed__c, OrderApi__Payment_Description__c, OrderApi__Payment_Gateway__c, OrderApi__Processed_Date__c, OrderApi__Scheduled_Date__c, OrderApi__Subscription__c, OrderApi__Succeeded__c, OrderApi__System_Message__c, OrderApi__Token__c, OrderApi__Custom_Scheduled_Payment__c, OrderApi__Balance_Due__c, OrderApi__No_Auto_Payment__c, OrderApi__Saved_Payment_Method__c,OrderApi__Payment_Method__c FROM OrderApi__Scheduled_Payment__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false,
+            "excludedFields":["OrderApi__Sales_Order__c","OrderApi__Term__c"]
+        }
+    ]
+}
