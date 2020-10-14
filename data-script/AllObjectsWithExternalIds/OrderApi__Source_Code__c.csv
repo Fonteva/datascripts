@@ -1,0 +1,5 @@
+Id,Name,OrderApi__Active__c,OrderApi__Business_Group__c,OrderApi__Channel__c,OrderApi__Business_Group__r.Name
+a1N4W000009DkTSUA0,event2020,true,,Direct Mail,
+a1N4W000009DkTPUA0,Promotions,true,a0o4W00000M5SknQAF,Direct Mail,FON-International Association
+a1N4W000009DkTOUA0,NewMember,true,a0o4W00000M5SknQAF,Direct Mail,FON-International Association
+a1N4W000009DkTQUA0,FreeItem,true,a0o4W00000M5SknQAF,Direct Mail,FON-International Association

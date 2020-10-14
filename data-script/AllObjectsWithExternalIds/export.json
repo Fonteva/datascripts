@@ -1,0 +1,664 @@
+{
+    "objects":[
+        {
+			"query": "SELECT Id, Name, PagesApi__Body_Background_Color__c, PagesApi__Brand_Primary__c, PagesApi__Brand_Secondary__c, PagesApi__Custom_CSS__c, PagesApi__Custom_Print_Stylesheet_URL__c, PagesApi__Custom_Stylesheet_URL__c, PagesApi__Description__c, PagesApi__Favicon_Image__c, PagesApi__Footer__c, PagesApi__HTML_Head__c, PagesApi__Header__c, PagesApi__Link_Color__c, PagesApi__Logo_Image__c, PagesApi__Logo_Text__c, PagesApi__Logo_URL__c, PagesApi__Navbar_Background_Color__c, PagesApi__Navbar_Link_Color__c, PagesApi__Supernav_Background_Color__c, PagesApi__Supernav_HTML_Position_1__c, PagesApi__Supernav_HTML_Position_2__c, PagesApi__Supernav_HTML_Position_3__c, PagesApi__Supernav_Link_Color__c, PagesApi__Supernav_Text_Color__c, PagesApi__Text_Color__c, PagesApi__Community_Styles__c, PagesApi__Lightning_Community_Styles__c FROM PagesApi__Theme__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c, PagesApi__Allow_Users_to_Delete_Mapped_Records__c, PagesApi__DML_Operation__c, PagesApi__Form__c, PagesApi__Instructions__c, PagesApi__Is_Multiple__c, PagesApi__Mapped_Object__c, PagesApi__Mapped_Relationship_Field__c, PagesApi__Order__c, PagesApi__Parent_Field_Group__c, PagesApi__SOQL_Filter__c FROM PagesApi__Field_Group__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name, External_Id__c, PagesApi__Field_Group__c, PagesApi__Form__c, PagesApi__Help_Text__c, PagesApi__Hidden_Field_Value__c, PagesApi__Is_Hidden__c, PagesApi__Is_Required__c, PagesApi__Mapped_Field__c, PagesApi__Options__c, PagesApi__Order__c, PagesApi__Type__c, PagesApi__Dependent_Picklist_Field__c, PagesApi__Dependent_Picklist_Object__c, PagesApi__Field__c FROM PagesApi__Field__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  PagesApi__Field__c, PagesApi__Answer__c, PagesApi__Destination__c FROM PagesApi__Skip_Logic_Rule__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  PagesApi__Description__c, PagesApi__Display_Style__c, PagesApi__Submit_Style__c, PagesApi__Submit_Value__c, PagesApi__User_Instructions__c, PagesApi__Wizard_Review_Instructions__c, Form_URL__c, FON_Lightning_Form_URL__c FROM PagesApi__Form__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  EventApi__Number_Of_Available_Tickets__c, EventApi__Ticket_Block_Name__c FROM EventApi__Ticket_Block__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+        {
+			"query": "SELECT Id, Name,  OrderApi__Business_Group__c, OrderApi__Detail__c, OrderApi__Report_Category__c, OrderApi__Type__c FROM OrderApi__GL_Account__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name, OrderApi__AR_Account__c, OrderApi__Business_Entity_Type__c, OrderApi__Calculate_Sales_Tax__c, OrderApi__Credit_Memo_Account__c, OrderApi__Customer_Support_URL__c, OrderApi__Default_Payment_Gateway__c, OrderApi__Deposit_Account__c, OrderApi__Description__c, OrderApi__Display_Name__c, OrderApi__Email__c, OrderApi__Enable_Shipping_By_Order_Total__c, OrderApi__Fonteva_Default_Currency__c, OrderApi__Homepage_URL__c, OrderApi__Invoice_Footer_HTML__c, OrderApi__Invoice_Footer__c, OrderApi__Invoice_Header_Fieldset_CSV__c, OrderApi__Invoice_Header_HTML__c, OrderApi__Invoice_Header__c, OrderApi__Invoice_Lines_Fieldset__c, OrderApi__Invoice_OverPayment_Credit_Memo_Limit__c, OrderApi__Invoice_Page_Override__c, OrderApi__Invoice_Write_off_Account__c, OrderApi__Invoice_Write_off_Limit__c, OrderApi__Is_Master__c, OrderApi__Mailing_Address__c, OrderApi__Merchant_Location__c, OrderApi__Merchant_Name__c, OrderApi__Parent_Business_Group__c, OrderApi__Phone__c, OrderApi__Proforma_Invoice_Authentication_Required__c, OrderApi__Proforma_Invoice_Email_Body__c, OrderApi__Proforma_Invoice_Email_From_Address__c, OrderApi__Proforma_Invoice_Email_From_Name__c, OrderApi__Proforma_Invoice_Email_Subject__c, OrderApi__Proforma_Invoice_Footer__c, OrderApi__Proforma_Invoice_Header__c, OrderApi__Receipt_Footer_HTML__c, OrderApi__Receipt_Header_Fieldset_CSV__c, OrderApi__Receipt_Header_HTML__c, OrderApi__Receipt_Lines_Fieldset__c, OrderApi__Receipt_Page_Override__c, OrderApi__Required_Tax_Fields_CSV__c, OrderApi__Shipping_Rate_Basis__c, OrderApi__Theme__c, OrderApi__Transfers_Payable_Account__c, OrderApi__Transfers_Receivable_Account__c, OrderApi__Type__c FROM OrderApi__Business_Group__c",
+			"operation": "Upsert",
+			"externalId": "Name",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__AVS_Configuration__c, OrderApi__Business_Group__c, OrderApi__Company_Name__c, OrderApi__Deposit_Account__c, OrderApi__Enable_AVS_Zip_Code_Only__c, OrderApi__Enable_AVS__c, OrderApi__Gateway_Type__c, OrderApi__Homepage__c, OrderApi__Is_Enabled__c, OrderApi__Is_Test__c, OrderApi__Pre_Authorization_Purchases__c, OrderApi__Require_CVV__c, OrderApi__Require_Email__c, OrderApi__Require_Phone__c, OrderApi__State__c, OrderApi__Supported_Countries__c, OrderApi__Supported_Regions__c, OrderApi__Supports_Authorize__c, OrderApi__Supports_Capture__c, OrderApi__Supports_Credit_Card__c, OrderApi__Supports_Credit__c, OrderApi__Supports_EFT__c, OrderApi__Supports_Verify__c, OrderApi__Supports_Void__c, OrderApi__Supports_eCheck__c, OrderApi__Token__c, OrderApi__Supported_Credit_Cards_Image__c, OrderApi__Attempt_3DS__c, OrderApi__Is_Offsite__c, OrderApi__Post_Orders_in_Procesing__c, OrderApi__Supports_3DS_Purchase__c, OrderApi__Supports_Offsite_Authorize__c, OrderApi__Use_Offsite__c, OrderApi__Gateway_Specific_Fields__c FROM OrderApi__Payment_Gateway__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  OrderApi__Address_Field_Values_CSV__c, OrderApi__Address__c, OrderApi__Description__c, OrderApi__Display_Name__c, OrderApi__Is_Default_Region__c, OrderApi__Will_Not_Ship_Message__c, OrderApi__Will_Not_Ship__c  FROM OrderApi__Shipping_Region__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  OrderApi__Business_Group__c, OrderApi__Locale_Values_CSV__c, OrderApi__Tax_GL_Account__c, OrderApi__Tax_Locale_Field__c FROM OrderApi__Tax_Locale__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  LTE__Site__c, LTE__Event__c FROM LTE__Site_Event__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,   LTE__Default_List_View__c, LTE__Display_Order__c, LTE__Enable_Access_Permissions__c, LTE__Is_Profile_Menu_Item__c, LTE__Object_Type__c, LTE__Open_Link_in_New_Tab__c, LTE__Open_Link_in_Same_Tab__c, LTE__Parent_Menu_Item__c, LTE__Profile_Menu_Item_Component__c, LTE__Publicly_Available__c, LTE__Site__c, LTE__Type__c, LTE__URL__c FROM LTE__Menu_Item__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,   LTE__Address_Book_Instructions__c, LTE__Assign_Members_Contact_Field_Set__c, LTE__Badges_Instructions__c, LTE__Captcha_Lightning_Component__c, LTE__Community_ID__c, LTE__Community_Name__c, LTE__Cookie_Decline_Redirect_URL__c, LTE__Create_Account_Override_URL__c, LTE__Default_Event_Listing__c, LTE__Display_Enhanced_List_View__c, LTE__Display_Geo_Location__c, LTE__Display_Large_Tile_View__c, LTE__Display_Small_Tile_View__c, LTE__Enable_Access_Permissions__c, LTE__Enable_Captcha__c, LTE__Enable_Cookie_Prompt__c, LTE__Enable_Event_Listing_Filter__c, LTE__Event_Listing_Filters__c, LTE__Event_Sort_Fields__c, LTE__Featured_Event_Carousel_Timer__c, LTE__Geo_Location_Radius_Filter_Values_CSV__c, LTE__Geo_Location_Radius_Filter_Values__c, LTE__Invoices_Instructions__c, LTE__Is_Default__c, LTE__Is_Published__c, LTE__Logo_Image__c, LTE__Logo_Target_URL__c, LTE__Manage_Subscription_Instructions__c, LTE__My_Info_Instructions__c, LTE__Payment_Method_Instructions__c, LTE__Payments_Page_Instructions__c, LTE__Profile_Contact_Fieldset_CSV__c, LTE__Site_URL__c, LTE__Store__c, LTE__Credit_Note_Header__c, LTE__Credit_Note_Invoice_Line_Table__c, LTE__Disable_Next_Upcoming_Order_Quick_Pay__c, LTE__Disable_Open_Orders_Quick_Pay__c, LTE__Disable_Past_Due_Quick_Pay__c, LTE__Invoice_Customer_Info__c, LTE__Invoice_Header__c, LTE__Invoice_Line_Table__c, LTE__My_Company_Info_Instructions__c, LTE__Order_Customer_Info__c, LTE__Order_Header__c, LTE__Order_Summary_Customer_Info__c, LTE__Order_Summary_Header__c, LTE__PDF_Print_Format__c, LTE__Profile_Account_Fieldset_CSV__c, LTE__Receipt_Customer_Info__c, LTE__Receipt_Summary__c, LTE__Refund_Customer_Info__c, LTE__Refund_Summary__c, LTE__Sales_Order_Line_Table__c, LTE__Login_Override_URL__c, LTE__Sales_Order_Customer_Info_Invoice__c, LTE__Sales_Order_Header_Invoice__c, LTE__Sales_Order_Line_Table_Credit_Note__c, LTE__Sales_Order_Line_Table_Invoice__c FROM LTE__Site__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, EventApi__Event__c, Name,External_Id__c, OrderApi__Active_Assignments__c, OrderApi__Assignment_Inventory__c, OrderApi__Assignment_SObject__c, OrderApi__Assignments_Display_Label__c, OrderApi__Available_Inventory__c, OrderApi__Business_Group__c, OrderApi__Defer_Revenue__c, OrderApi__Deferred_Revenue_Account__c, OrderApi__Deferred_Revenue_Term__c, OrderApi__Description__c, OrderApi__Disable_Scheduling__c, OrderApi__Enable_Assignment_Inventory__c, OrderApi__Enable_Assignments__c, OrderApi__Enable_Item_Class_Inventory__c, OrderApi__Flex_Day_of_the_Month__c, OrderApi__Interview_Form_Display_Label__c, OrderApi__Is_Active__c, OrderApi__Is_Contribution__c, OrderApi__Is_Downloadable__c, OrderApi__Is_Event__c, OrderApi__Is_Inventoried__c, OrderApi__Is_Publication__c, OrderApi__Is_Service__c, OrderApi__Is_Shipping_Carrier__c, OrderApi__Is_Subscription__c, OrderApi__Is_Tax_Deductible__c, OrderApi__Is_Tax__c, OrderApi__Is_Taxable__c, OrderApi__Refresh__c, OrderApi__Require_Assignments__c, OrderApi__Require_Shipping__c, OrderApi__Revenue_Recognition_Date__c, OrderApi__Revenue_Recognition_Rule__c, OrderApi__Revenue_Recognition_Term_Rule__c, OrderApi__Shipping_GL_Account__c, OrderApi__Sold_Inventory__c, OrderApi__Subscription_Plan_Display_Label__c, OrderApi__Tax_Class__c, OrderApi__Use_Default_Tax_Rate__c, EventApi__Is_Event_Session__c, EventApi__Is_Schedule_Item_Class__c, EventApi__Is_Sponsor_Class__c, EventApi__Is_Ticket_Type_Class__c,OrderApi__Assign_to_Assignment_r FROM OrderApi__Item_Class__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name, OrderApi__Item_Class__c  FROM PagesApi__Media_Asset_Collection__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__Description__c, OrderApi__Is_Active__c, OrderApi__Is_Default__c, OrderApi__Is_Primary__c, OrderApi__Item_Class__c, OrderApi__Receives_Email_Notifications__c FROM OrderApi__Assignment_Role__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  OrderApi__Description__c, OrderApi__Display_Name__c, OrderApi__Is_Default__c, OrderApi__Shipping_Carrier_Item_Class__c FROM OrderApi__Shipping_Method__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  PriceApi__Discount_Percentage__c, PriceApi__End_Date__c, PriceApi__Event_Items__c, PriceApi__Is_Active__c, PriceApi__Item_List__c, PriceApi__Item_Type__c, PriceApi__Max_Num_Available__c, PriceApi__Max_Quantity__c, PriceApi__Min_Quantity__c, PriceApi__Price_Rule_Name__c, PriceApi__Required_Badge_Types__c, PriceApi__Required_Source_Codes__c, PriceApi__Required_Subscription_Plans__c, PriceApi__Start_Date__c, PriceApi__Subscription_Items__c  FROM PriceApi__Bulk_Price_Rule__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__Current_Num_Available__c, OrderApi__End_Date__c, OrderApi__Is_Active__c, OrderApi__Is_Default__c, OrderApi__Item_Class__c, OrderApi__Item__c, OrderApi__Limit_Per_Account__c, OrderApi__Limit_Per_Contact__c, OrderApi__Max_Assignments__c, OrderApi__Max_Num_Available__c, OrderApi__Max_Quantity__c, OrderApi__Min_Assignments__c, OrderApi__Min_Quantity__c, OrderApi__Num_Times_Used__c, OrderApi__Price__c, OrderApi__Required_Badge_Types__c, OrderApi__Required_Source_Codes__c, OrderApi__Required_Subscription_Plans__c, OrderApi__Start_Date__c, EventApi__Schedule_Item__c, PriceApi__Bulk_Price_Rule__c, EventApi__Is_Early_Bird_Price__c, EventApi__Is_On_Site_Price__c, OrderApi__Is_Promotional_Price__c, OrderApi__Tax_Inclusive_Price__c, OrderApi__Additional_Currencies_JSON__c FROM OrderApi__Price_Rule__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__Price_Rule__c, OrderApi__Field__c, OrderApi__Object__c, OrderApi__Operator__c, OrderApi__Value__c FROM OrderApi__Price_Rule_Variable__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,   PagesApi__Account__c, PagesApi__Contact__c, PagesApi__Date__c, PagesApi__Entity__c, PagesApi__Form__c, PagesApi__Responder_Link__c, OrderApi__Assignment__c, OrderApi__Item__c, OrderApi__Sales_Order_Line__c, OrderApi__Sales_Order__c, EventApi__Attendee__c, EventApi__Registration_Item__c, EventApi__Speaker__c, EventApi__Sponsor__c, EventApi__Registration_Group__c,OrderApi__Account__c,OrderApi__Contact__c FROM PagesApi__Form_Response__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  PagesApi__Field_Group__c, PagesApi__Field_Help_Text__c, PagesApi__Field_Label__c, PagesApi__Field_Order__c, PagesApi__Field_Type__c, PagesApi__Field__c, PagesApi__Form_Response__c, PagesApi__Mapped_Field__c, PagesApi__Report_Response__c, PagesApi__Response_Group__c, PagesApi__Response__c, PagesApi__System_Reference__c, OrderApi__Field_Group__c, OrderApi__Field__c, OrderApi__Form_Response__c, OrderApi__Form__c, EventApi__Attendee__c, EventApi__Speaker__c, EventApi__Sponsor__c, PagesApi__Field_Response__c FROM PagesApi__Field_Response__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, OrderApi__Sales_Order__c, OrderApi__Term__c, Name,External_Id__c, OrderApi__AR_Account__c,OrderApi__Scheduled_Payment__c,OrderApi__Subscription__c,OrderApi__Account__c, OrderApi__Amount_Paid__c, OrderApi__Amount_Refunded__c, OrderApi__Balance_Due__c, OrderApi__Billing_City__c, OrderApi__Billing_Contact__c, OrderApi__Billing_Country__c, OrderApi__Billing_Postal_Code__c, OrderApi__Billing_State__c, OrderApi__Billing_Street__c, OrderApi__Business_Group__c, OrderApi__Calculate_Billing_Details__c, OrderApi__Calculate_Due_Date__c, OrderApi__Calculate_Shipping_Details__c, OrderApi__Contact__c, OrderApi__Credits_Applied__c, OrderApi__Customer_Link__c, OrderApi__Customer_Reference_Number__c, OrderApi__Days_Overdue__c, OrderApi__Description__c, OrderApi__Due_Date__c, OrderApi__Entity__c, OrderApi__Has_Payments__c, OrderApi__Has_Refunds__c, OrderApi__Invoice_Date__c, OrderApi__Is_Cancelled__c, OrderApi__Is_Overdue__c, OrderApi__Is_Paid__c, OrderApi__Is_Posted__c, OrderApi__Is_Voided__c, OrderApi__Memo__c, OrderApi__Paid_Date__c, OrderApi__Payment_Count__c, OrderApi__Payment_Terms__c, OrderApi__Posted_Date__c, OrderApi__Refund_Count__c, OrderApi__Shipping_City__c, OrderApi__Shipping_Contact__c, OrderApi__Shipping_Country__c, OrderApi__Shipping_Postal_Code__c, OrderApi__Shipping_State__c, OrderApi__Shipping_Street__c, OrderApi__Status__c, OrderApi__Total__c, OrderApi__Voided_Date__c, OrderApi__Adjustments__c, OrderApi__Item_Count__c, OrderApi__Subtotal__c, OrderApi__Credits_and_Adjustments__c, OrderApi__Encrypted_Id__c,FontevaReports__Posted_Age__c FROM OrderApi__Invoice__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, OrderApi__Sales_Order__c, OrderApi__Term__c, Name,External_Id__c, OrderApi__API_Response__c, OrderApi__Amount__c, OrderApi__EPayment_Created__c, OrderApi__Has_Errors__c, OrderApi__Invoice__c, OrderApi__Is_Cancelled__c, OrderApi__Is_Payment_Processed__c, OrderApi__Is_Processed__c, OrderApi__Payment_Description__c, OrderApi__Payment_Gateway__c, OrderApi__Processed_Date__c, OrderApi__Scheduled_Date__c, OrderApi__Subscription__c, OrderApi__Succeeded__c, OrderApi__System_Message__c, OrderApi__Token__c, OrderApi__Custom_Scheduled_Payment__c, OrderApi__Balance_Due__c, OrderApi__No_Auto_Payment__c, OrderApi__Saved_Payment_Method__c,OrderApi__Payment_Method__c FROM OrderApi__Scheduled_Payment__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  OrderApi__Additional_Payment_Types__c, OrderApi__Business_Group__c, OrderApi__Contact_Match_Custom_Field__c, OrderApi__Contact_Match_Rule__c, OrderApi__Default_Checkout__c, OrderApi__Description__c, OrderApi__Enable_Access_Permissions__c, OrderApi__Enable_Guest_Checkout__c, OrderApi__Enable_Guest_Save_Payment__c, OrderApi__Enable_Invoice_Payment_Option__c, OrderApi__Gateway__c, OrderApi__Guest_Checkout_Account__c, OrderApi__Is_Published__c, OrderApi__New_Contact_Fieldset_CSV__c, OrderApi__New_Contact_Parent_Account_Rule__c, OrderApi__New_User_Profile_ID__c, OrderApi__Payment_Confirmation_Message_HTML__c, OrderApi__Require_Contact_Match_Custom_Field__c, OrderApi__Theme__c, OrderApi__Account_Match_Criteria__c, OrderApi__Account_Search_Result_Fields_CSV__c, OrderApi__Enable_Account_Search__c, OrderApi__Enable_Proforma_Invoice_Payment_Option__c, OrderApi__Default_Store_Listing__c, OrderApi__Enable_Enhanced_List_View__c, OrderApi__Enable_Item_Facebook_Sharing__c, OrderApi__Enable_Item_Instagram_Sharing__c, OrderApi__Enable_Item_Link_Sharing__c, OrderApi__Enable_Item_Twitter_Sharing__c, OrderApi__Enable_Large_Tile_View__c, OrderApi__Enable_Small_Tile_View__c, OrderApi__Enable_Tax_Inclusive_Pricing__c, OrderApi__eStore_Sort_Fields__c, LTE__Enable_Partial_Payments_for_Invoices__c, OrderApi__Additional_Contact_Match_Emails__c, OrderApi__Proforma_Payment_Option_Fieldset__c, OrderApi__Enable_LIR_Payments__c, OrderApi__Fonteva_Supported_Currencies_CSV__c FROM OrderApi__Store__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  PagesApi__Auth_Provider_Default_Account__c, PagesApi__Base_Title_Tag__c, PagesApi__Community_Network_ID__c, PagesApi__Community_Network_Name__c, PagesApi__Default_Community_New_User_Profile__c, PagesApi__Description__c, PagesApi__Enable_SEF_URLs__c, PagesApi__Google_Login_URL__c, PagesApi__Group_Search_Default_Sort_Field__c, PagesApi__Group_Search_Filters_CSV__c, PagesApi__Group_Search_Page_Results__c, PagesApi__Group_Search_Result_Display_Fields_CSV__c, PagesApi__Group_Search_Results_Sort_Order__c, PagesApi__Is_Default__c, PagesApi__Is_Published__c, PagesApi__LinkedIn_Login_URL__c, PagesApi__Login_Redirect_URL__c, PagesApi__Menu__c, PagesApi__No_Archive__c, PagesApi__No_Follow__c, PagesApi__No_Index__c, PagesApi__Profile_Page_URL__c, PagesApi__SEF_Slug__c, PagesApi__Show_Group_Search_Filters__c, PagesApi__Site_Template_Key__c, PagesApi__Site_URL__c, PagesApi__Theme__c, PagesApi__Title_Tag_Separator__c, PagesApi__Twitter_Login_URL__c, PagesApi__User_Login_URL__c, PagesApi__User_Reset_Password_URL__c, PagesApi__User_Self_Registration_URL__c, OrderApi__Business_Group__c, OrderApi__Enable_Access_Permissions__c, OrderApi__Enable_eStore__c, OrderApi__Store__c, CPBase__Authorization_Required_Description__c, CPBase__Authorization_Required_Title__c, CPBase__Generic_Error_Description__c, CPBase__Generic_Error_Title__c, CPBase__Limit_Exceeded_Description__c, CPBase__Limit_Exceeded_Title__c, CPBase__Maintenance_Description__c, CPBase__Maintenance_Title__c, CPBase__Page_Not_Found_Description__c, CPBase__Page_Not_Found_Title__c, CPBase__Profile_Contact_Fieldset_CSV__c, CPBase__Service_Not_Available_Description__c, CPBase__Service_Not_Available_title__c, CPBase__User_Info_Contact_Field_Set__c, PagesApi__Create_Account_Override_URL__c, PagesApi__Login_Override_URL__c, CPBase__Default_Event_Listing_Style__c, CPBase__Event_Search_Filters_CSV__c, PagesApi__Cookie_Decline_Redirect_URL__c, PagesApi__Enable_Cookie_Prompt__c FROM PagesApi__Site__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,PagesApi__Site__c,CurrencyIsoCode, GDO_Record_Id__c FROM PagesApi__Menu__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  PagesApi__Auth_Required__c, PagesApi__Enable_SEF_URLs__c, PagesApi__Form__c, PagesApi__Is_Published__c, PagesApi__Is_Standard__c, PagesApi__Menu__c, PagesApi__No_Archive__c, PagesApi__No_Follow__c, PagesApi__No_Index__c, PagesApi__Page_ID__c, PagesApi__Page_URL__c, PagesApi__SEF_Slug__c, PagesApi__Site_Template_Key__c, PagesApi__Site__c, PagesApi__Theme__c, PagesApi__Title_Tag__c, PagesApi__Visualforce_Page__c, PagesApi__Visualforce_Template__c, OrderApi__Enable_Access_Permissions__c FROM PagesApi__Page__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  PagesApi__Menu__c, PagesApi__Custom_URL__c, PagesApi__Display_Order__c, PagesApi__Display_Text__c, PagesApi__Icon__c, PagesApi__Is_Standard__c, PagesApi__Link_Target__c, PagesApi__Menu_Item__c, PagesApi__On_Click_Javascript__c, PagesApi__Page__c, PagesApi__Style_Class__c, PagesApi__Type__c, PagesApi__Value__c FROM PagesApi__Menu_Item__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, MasterRecordId, Name,External_Id__c, Type, ParentId, BillingStreet, BillingCity, BillingState, BillingPostalCode, BillingCountry, BillingLatitude, BillingLongitude, BillingGeocodeAccuracy, BillingAddress, ShippingStreet, ShippingCity, ShippingState, ShippingPostalCode, ShippingCountry, ShippingLatitude, ShippingLongitude, ShippingGeocodeAccuracy, ShippingAddress, Phone, Fax, AccountNumber, Website, PhotoUrl, Sic, Industry, AnnualRevenue, NumberOfEmployees, Ownership, TickerSymbol, Description, Rating, Site,    IsPartner, IsCustomerPortal, ChannelProgramName, ChannelProgramLevelName, Jigsaw, JigsawCompanyId, AccountSource, SicDesc, OrderApi__Account_Email__c, OrderApi__Annual_Engagement_Score__c, OrderApi__Disable_Badge_Flow_down__c, OrderApi__Lifetime_Engagement_Score__c, OrderApi__Outstanding_Credits__c, OrderApi__Price_Rules_Usages__c, OrderApi__Primary_Contact__c, CPBase__Restrict_Assignment_Visibility__c, DonorApi__Accepts_Unsolicited_Proposals__c, DonorApi__Active_Recurring_Gift__c, DonorApi__Annual_Giving_Total__c, DonorApi__Auto_Calculate_Household_Greetings__c, DonorApi__Classification__c, DonorApi__Do_Not_Solicit__c, DonorApi__First_Gift_Date__c, DonorApi__Funding_Cycle__c, DonorApi__Gift_Opportunities__c, DonorApi__Gifts_Outstanding__c, DonorApi__Gifts_Received__c, DonorApi__Gifts_Value__c, DonorApi__Gives_Anonymously__c, DonorApi__Has_Open_Gift_Opportunity__c, DonorApi__Household_Default_Greeting_Type__c, DonorApi__Household_Default_Greeting__c, DonorApi__Household_Email__c, DonorApi__Household_Formal_Greeting__c, DonorApi__Household_Informal_Greeting__c, DonorApi__Largest_Gift__c, DonorApi__Last_Gift_Amount__c, DonorApi__Last_Gift_Date__c, DonorApi__Matches_Employee_Giving__c, DonorApi__Next_Funding_Cycle_Month__c, DonorApi__Num_Open_Gift_Opportunities__c, DonorApi__Organizational_Recognition_Name__c, DonorApi__Primary_Relationship_Manager__c, OrderApi__Restrict_Assignment_Visibility__c, OrderApi__Privacy_Settings__c,BillingStateCode, BillingCountryCode,ShippingStateCode, ShippingCountryCode,GDO_Data_Type__c,DirectoryApi__Directory_Opt_Out__c,Facebook_Account_Name__c,Membership_Types__c,GDO_Directory_Image__c,GDO_Data_Region__c,Member_Since__c,Membership_Type__c,Budget_Cycle__c FROM Account",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  OrderApi__Company__c, OrderApi__Value__c FROM OrderApi__AccountDomain__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, MasterRecordId, AccountId, LastName, FirstName, Salutation, Name, External_Id__c,OtherStreet, OtherCity, OtherState, OtherPostalCode, OtherCountry, OtherLatitude, OtherLongitude, OtherGeocodeAccuracy, OtherAddress, MailingStreet, MailingCity, MailingState, MailingPostalCode, MailingCountry, MailingLatitude, MailingLongitude, MailingGeocodeAccuracy, MailingAddress, Phone, Fax, MobilePhone, HomePhone, OtherPhone, AssistantPhone, ReportsToId, Email, Title, Department, AssistantName, LeadSource, Birthdate, Description, HasOptedOutOfEmail, HasOptedOutOfFax, DoNotCall,   LastCURequestDate, LastCUUpdateDate,  EmailBouncedReason, EmailBouncedDate, IsEmailBounced, PhotoUrl, Jigsaw, JigsawContactId, IndividualId, PagesApi__Site__c, OrderApi__Annual_Engagement_Score__c, OrderApi__Assistant_Do_Not_Call__c, OrderApi__Assistant_Email_Opt_Out__c, OrderApi__Assistant_Email__c, OrderApi__Badges__c, OrderApi__Home_Do_Not_Call__c, OrderApi__Is_Primary_Contact__c, OrderApi__Lifetime_Engagement_Score__c, OrderApi__Mobile_Do_Not_Call__c, OrderApi__Other_Do_Not_Call__c, OrderApi__Other_Email_Opt_Out__c, OrderApi__Other_Email__c, OrderApi__Outstanding_Credits__c, OrderApi__Personal_Email_Opt_Out__c, OrderApi__Personal_Email__c, OrderApi__Potential_Duplicate_Contacts__c, OrderApi__Preferred_Email_Type__c, OrderApi__Preferred_Email__c, OrderApi__Preferred_Phone_Type__c, OrderApi__Preferred_Phone__c, OrderApi__Price_Rules_Usages__c, OrderApi__Sync_Address_Billing__c, OrderApi__Sync_Address_Shipping__c, OrderApi__Sync_Email__c, OrderApi__Sync_Phone__c, OrderApi__Work_Do_Not_Call__c, OrderApi__Work_Email_Opt_Out__c, OrderApi__Work_Email__c, OrderApi__Work_Phone__c, DonorApi__Active_Recurring_Gift__c, DonorApi__Auto_Calculate_Contact_Greetings__c, DonorApi__Auto_Calculate_Current_Ask_Amount__c, DonorApi__Current_Ask_Amount__c, DonorApi__Deceased__c, DonorApi__Default_Greeting_Type__c, DonorApi__Default_Greeting__c, DonorApi__Direct_Mail_Opt_Out__c, DonorApi__Do_Not_Solicit__c, DonorApi__First_Gift_Date__c, DonorApi__Formal_Greeting__c, DonorApi__Gift_Opportunities__c, DonorApi__Gifts_Outstanding__c, DonorApi__Gifts_Received__c, DonorApi__Gifts_Value__c, DonorApi__Include_in_Household_Greetings__c, DonorApi__Languages__c, DonorApi__Largest_Gift__c, DonorApi__Last_Gift_Amount__c, DonorApi__Last_Gift_Date__c, DonorApi__Personal_Greeting__c, DonorApi__Personal_Recognition_Name__c, DonorApi__Primary_Relationship_Manager__c, DonorApi__Primary__c, DonorApi__Spouse__c, DonorApi__Suffix__c, OrderApi__Privacy_Settings__c, PagesApi__Cookie_Usage_Accepted__c, OrderApi__Edit_Community_Company_Info__c, OrderApi__Preferred_Language__c,MiddleName,Suffix,OtherStateCode,OtherCountryCode,MailingStateCode,MailingCountryCode,GDO_Data_Region__c,SF_CONTACT__c,Member_Since__c,Annual_Donations__c,Lifetime_Donations__c,Annual_Total_Spent__c,Lifetime_Total_Spent__c,Active_Membership_Types__c,DirectoryApi__Directory_Opt_Out__c,Role__c,Save_the_Whales_Donation_Levels__c,AsklandMemorialScholarshipDonationLevels__c,Donation_Programs__c,I_agree_to_terms_and_Conditions_above__c,Resident__c,Attendee_Name__c,Do_you_require_any_accessibility_Accomod__c,FON_Are_you_a_Member__c,State_Chapter__c,Local_Chapter__c,FontevaReports__Languages__c,FontevaReports__Level__c,DRCTS__Directory_Preferences__c,Site_Network_ID__c FROM Contact",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  EventApi__Navigation_Label__c, EventApi__Page_Name__c FROM EventApi__Event_Page__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  EventApi__Component_Name__c, EventApi__Config__c, EventApi__Event_Page__c, EventApi__Order__c, EventApi__Title__c, EventApi__HTML__c FROM EventApi__Event_Page_Component__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name, PagesApi__Banner__c, PagesApi__Chatter_Group_Id__c, PagesApi__Community_Network_ID__c, PagesApi__Description__c, PagesApi__Disable_Join__c, PagesApi__Email__c, PagesApi__Enable_Access_Permissions__c, PagesApi__Enable_Community_Feed__c, PagesApi__Enable_Events__c, PagesApi__Enable_Members__c, PagesApi__Facebook_Profile_URL__c, PagesApi__Google_Profile_URL__c, PagesApi__Group_Image_URL__c, PagesApi__Group_Member_Edit_Field_Sets_CSV__c, PagesApi__Group_Member_View_Field_Sets_CSV__c, PagesApi__Group_Roster_Label__c, PagesApi__Group_Roster_Link__c, PagesApi__Is_Account_Member_Entity__c, PagesApi__Is_Contact_Member_Entity__c, PagesApi__Is_Group_Member_Entity__c, PagesApi__Is_Private__c, PagesApi__Is_Public__c, PagesApi__Is_Published__c, PagesApi__Is_Unlisted__c, PagesApi__LinkedIn_Profile_URL__c, PagesApi__Member_Entity_Type__c, PagesApi__Member_Search_Display_Field_s_CSV__c, PagesApi__Member_Search_Display_Fields_CSV__c, PagesApi__Member_Search_Filter_Field_s_CSV__c, PagesApi__Member_Search_Filter_Fields_CSV__c, PagesApi__Privacy_Setting__c, PagesApi__Private_Community_Feed__c, PagesApi__Private_Events__c, PagesApi__Private_Members__c, PagesApi__Search_Results_Sort_Field__c, PagesApi__Search_Results_Sort_Order__c, PagesApi__Search_Results__c, PagesApi__Show_Group_Roster__c, PagesApi__Show_Search_Filters__c, PagesApi__Site__c, PagesApi__Twitter_Profile_URL__c, PagesApi__Type__c, PagesApi__Members__c FROM PagesApi__Community_Group__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  PagesApi__Community_Group__c, PagesApi__Account__c, PagesApi__Activated_Date__c, PagesApi__Bio__c, PagesApi__Chatter_Group_Member_Id__c, PagesApi__Contact__c, PagesApi__Deactivated_Date__c, PagesApi__Display_In_Directory__c, PagesApi__Display_Name__c, PagesApi__Email__c, PagesApi__Facebook_Profile_URL__c, PagesApi__Google_Profile_URL__c, PagesApi__Image_URL__c, PagesApi__Is_Active_User__c, PagesApi__Is_Active__c, PagesApi__Is_Manager__c, PagesApi__Join_Request_Date__c, PagesApi__LinkedIn_Profile_URL__c, PagesApi__Linked_Community_Group__c, PagesApi__Role__c, PagesApi__Status__c, PagesApi__Twitter_Profile_URL__c FROM PagesApi__Community_Group_Member__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  OrderApi__Active__c, OrderApi__Business_Group__c, OrderApi__Channel__c  FROM OrderApi__Source_Code__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  OrderApi__Average_Sale__c, OrderApi__Average_Visitor_Value__c, OrderApi__Business_Group__c, OrderApi__Conversion_Rate__c, OrderApi__Description__c, OrderApi__Expenses__c, OrderApi__Footer_Content__c, OrderApi__Goal__c, OrderApi__Header_Content__c, OrderApi__Is_Published__c, OrderApi__Name__c, OrderApi__Payment_Gateway__c, OrderApi__ROI__c, OrderApi__Sales__c, OrderApi__Shopping_Cart_Enabled__c, OrderApi__Site__c, OrderApi__Source_Code__c, OrderApi__Store__c, OrderApi__Theme__c, OrderApi__Title_Tag__c, OrderApi__Total_Revenue__c, OrderApi__Visits__c, EventApi__Event__c  FROM OrderApi__Campaign_Page__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  PagesApi__Component__c, PagesApi__HTML__c, PagesApi__Order__c, PagesApi__Page__c, OrderApi__Campaign_Page__c FROM PagesApi__Page_Element__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  PagesApi__Page_Element__c, PagesApi__Key__c, PagesApi__Type__c, PagesApi__Value__c FROM PagesApi__Page_Element_Attribute__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  EventApi__Business_Group__c, EventApi__Calendar_Reminder_Text__c, EventApi__Capacity__c, EventApi__Description__c, EventApi__Email_Notification_Text__c, EventApi__Enable_Access_Permissions__c, EventApi__Enable_Registration_Groups__c, EventApi__Enable_Schedule_Items__c, EventApi__Enable_Sponsors__c, EventApi__Enable_Waitlist__c, EventApi__Media_Asset_Collection__c, EventApi__Registration_Instructions__c, EventApi__Registration_Style__c FROM EventApi__Event_Category__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,   EventApi__Agenda_HTML__c, EventApi__Attendees__c, EventApi__Auto_Sellout_Event__c, EventApi__Business_Group__c, EventApi__Calendar_Reminder_Text__c, EventApi__Capacity__c, EventApi__Community_Group__c, EventApi__Description__c, EventApi__Display_Name__c, EventApi__ETicket_Label_Color__c, EventApi__ETicket_Value_Color__c, EventApi__Email_Notification_Text__c, EventApi__Enable_Access_Permissions__c, EventApi__Enable_Registration_Groups__c, EventApi__Enable_Registration_Updates__c, EventApi__Enable_Schedule_Items__c, EventApi__Enable_Sponsors__c, EventApi__Enable_Waitlist__c, EventApi__End_Date_Time__c, EventApi__End_Date__c, EventApi__End_Time__c, EventApi__Event_Category__c, EventApi__Event_Key__c, EventApi__Form__c, EventApi__Group_Manager_HTML__c, EventApi__Guest_Registrant_FieldSet_CSV__c, EventApi__Image_URL__c, EventApi__Is_Active__c, EventApi__Is_Closed__c, EventApi__Is_Published__c, EventApi__Overview_HTML__c, EventApi__Quantity_Remaining__c, EventApi__Quantity_Sold__c, EventApi__Registration_Instructions__c, EventApi__Registration_Style__c, EventApi__Registration_URL__c, EventApi__Schedule_Item_Display_Name__c, EventApi__Schedule_Item_Item_Class__c, EventApi__Session_Shopping_Cart_Instructions__c, EventApi__Session_Shopping_Cart_Label__c, EventApi__Sold_Out__c, EventApi__Speakers_HTML__c, EventApi__Sponsor_Item_Class__c, EventApi__Sponsors_HTML__c, EventApi__Start_Date_Time__c, EventApi__Start_Date__c, EventApi__Start_Time__c, EventApi__Status__c, EventApi__Thumbnail_Image_URL__c, EventApi__Ticket_Sales_Start_Date__c, EventApi__Ticket_Type_Item_Class__c, EventApi__Ticket_Type_Sort_Field__c, EventApi__Ticket_Type_Sort_Order__c, EventApi__Time_Zone__c, EventApi__Venue_HTML__c, EventApi__Waitlist_Entries__c, ROEApi__Active_Ticket_Type_Count__c, ROEApi__Event_Duration_Text__c, EventApi__Body_Background_Color__c, EventApi__Contact_Search_Result_Fields_CSV__c, EventApi__Create_Contacts_for_Attendees__c, EventApi__Custom_CSS__c, EventApi__Enable_Assigned_Seating__c, EventApi__Enable_Contact_Search__c, EventApi__Heading_Color__c, EventApi__Hero_Button_Background_Color__c, EventApi__Hero_Button_Text_Color__c, EventApi__Hero_Text_Color__c, EventApi__Invitation_Only__c, EventApi__Lightning_Event_Style__c, EventApi__Link_Color__c, EventApi__Navbar_Background_Color__c, EventApi__Navbar_Text_Color__c, EventApi__Primary_Button_Background_Color__c, EventApi__Primary_Button_Text_Color__c, EventApi__Process_Bar_Color__c, EventApi__Process_Bar_Foreground_Color__c, EventApi__Registration_Timer__c, EventApi__Search_All_Contacts__c, EventApi__Text_Color__c, EventApi__Individual_Pages__c, EventApi__Enable_Contact_Restriction__c, EventApi__Agenda_Instructions_HTML__c, EventApi__Attendee_Selection_Instructions_HTML__c, EventApi__Disable_Attendee_Assignment__c, EventApi__Enable_Event_Display_Name_Date_Time__c, EventApi__Enable_QR_Event_Pass__c, EventApi__Event_Pass_Image_URL__c, EventApi__Guest_Email_Optional__c, EventApi__Location_And_Date_Text__c, EventApi__Logo_Image__c, EventApi__Attendee_Modal_Instructions__c, EventApi__Chatter_Group_Ids__c, EventApi__Featured_Event__c, EventApi__Event_Capacity_Remaining__c, EventApi__Free_Event__c, EventApi__Register_Now_Accept_Override_URL__c, EventApi__Total_Event_Capacity__c, EventApi__When_and_Where_Summary__c, EventApi__Disable_Guest_Checkout__c, EventApi__Disable_Login__c, EventApi__One_Form_Per_Order__c,EventApi__Topic__c,Event_URL__c FROM EventApi__Event__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  EventApi__Event_Category__c, EventApi__Site__c, EventApi__Is_Active__c, EventApi__Is_Default__c FROM EventApi__Site_Event_Category__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  EventApi__Enable_Transition_for_Status__c, EventApi__Event__c, EventApi__Is_Current_Status_for_Event__c, EventApi__Is_Event_Active__c, EventApi__Is_Event_Published__c, EventApi__Order__c, EventApi__Status_Transition_Criteria__c, EventApi__Closed_Status_Text__c, EventApi__Filter_Transition_Criteria__c FROM EventApi__Event_Status__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  EventApi__Event_Page__c, EventApi__Event_Status__c, EventApi__Is_Published__c, EventApi__Order__c, EventApi__Enable_Access_Permissions__c, EventApi__Required_Ticket_Types__c FROM EventApi__Event_Status_Page__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  EventApi__Event__c, EventApi__Track_Color__c FROM EventApi__Track__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  EventApi__Schedule_Item__c, EventApi__Track__c FROM EventApi__Track_Schedule_Item__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  EventApi__Account__c, EventApi__Airports__c, EventApi__Ameneties__c, EventApi__City__c, EventApi__Concierge_Phone__c, EventApi__Contact_Email__c, EventApi__Contact_Name__c, EventApi__Contact_Phone__c, EventApi__Contact_Title__c, EventApi__Country__c, EventApi__Description__c, EventApi__Double_Room_Rate__c, EventApi__Event__c, EventApi__Executive_Suite_Rate__c, EventApi__Family_Room_Rate__c, EventApi__Front_Desk_Phone__c, EventApi__Hotel_Ameneties_Description__c, EventApi__Hotel_Cancellation_Policy__c, EventApi__Hotel_Type__c, EventApi__Is_Published__c, EventApi__Local_Attractions__c, EventApi__Logo_Image_URL__c, EventApi__Number_of_Rooms__c, EventApi__Phone__c, EventApi__Postal_Code__c, EventApi__Preferred_Vendor__c, EventApi__Room_Rates_Description__c, EventApi__Single_Room_Rate__c, EventApi__Special_Discount_Information__c, EventApi__Standard_Suite_Rate__c, EventApi__State__c, EventApi__Street__c, EventApi__Type__c, EventApi__Vendor_Number__c, EventApi__Walking_Distance_Event__c FROM EventApi__Vendor__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  EventApi__Bio__c, EventApi__Company_Name__c, EventApi__Contact__c, EventApi__Email__c, EventApi__Event__c, EventApi__Large_Profile_Photo_URL__c, EventApi__Other_Phone__c, EventApi__Phone__c, EventApi__Special_Requests__c, EventApi__Status__c, EventApi__Title__c, LTE__Facebook_URL__c, LTE__Is_Featured__c, LTE__LinkedIn_URL__c, LTE__Twitter_URL__c, EventApi__Display_Order__c, EventApi__Is_Featured__c FROM EventApi__Speaker__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  EventApi__Schedule_Item__c, EventApi__Is_Primary__c, EventApi__Role__c, EventApi__Speaker__c FROM EventApi__Speaker_Schedule_Item__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  EventApi__Account__c, EventApi__Contact__c, EventApi__Description__c, EventApi__Event__c, EventApi__Image_URL__c, EventApi__Sponsor_Package__c, LTE__Is_Featured__c, EventApi__Is_Featured__c, EventApi__Sponsor_Hyperlink__c FROM EventApi__Sponsor__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,   EventApi__City__c, EventApi__Country__c, EventApi__Description__c, EventApi__Display_Map__c, EventApi__Event_Category__c, EventApi__Event__c, EventApi__Image_URL__c, EventApi__Is_Primary_Venue__c, EventApi__Phone__c, EventApi__Postal_Code__c, EventApi__State__c, EventApi__Street__c, EventApi__Website__c, EventApi__HTML_Description__c, EventApi__Event_Location__Latitude__s, EventApi__Event_Location__Longitude__s, EventApi__Event_Location__c FROM EventApi__Venue__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  EventApi__Capacity__c, EventApi__Description__c, EventApi__Disabled_Access__c, EventApi__Drops__c, EventApi__Event__c, EventApi__Layout__c, EventApi__Location_Description__c, EventApi__Location_Name__c, EventApi__Minimum_Rental_Fee__c, EventApi__Podium__c, EventApi__Power_Outlets__c, EventApi__Rental_Rate_Basis__c, EventApi__Rental_Rate__c, EventApi__Square_Feet__c, EventApi__Stage__c, EventApi__Target_Capacity__c, EventApi__Venue__c, EventApi__Wireless_Internet__c FROM EventApi__Room__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, EventApi__Event__c, EventApi__Event_Category__c, Name,  External_Id__c,EventApi__Adjustment_Account__c, EventApi__Cost__c, EventApi__Defer_Revenue__c, EventApi__Deferred_Revenue_Account__c, EventApi__Deferred_Revenue_Term__c, EventApi__Description__c, EventApi__Discount_Account__c, EventApi__Display_Available_Inventory__c, EventApi__Early_Bird_End_Date__c, EventApi__Early_Bird_Price__c, EventApi__Enable_Access_Permissions__c, EventApi__Enable_Assignments__c, EventApi__Enable_Early_Bird_Price__c, EventApi__Enable_Onsite_Price__c, EventApi__Enable_Waitlist__c, EventApi__Flex_Day_of_the_Month__c, EventApi__Form__c, EventApi__Image_Path__c, EventApi__Income_Account__c, EventApi__Interview_Form_Display_Label__c, EventApi__Inventory_Status__c, EventApi__Is_Active__c, EventApi__Is_Contribution__c, EventApi__Is_Published__c, EventApi__Is_Tax_Deductible__c, EventApi__Is_Taxable__c, EventApi__Item_Class__c, EventApi__Item_Cost__c, EventApi__Item__c, EventApi__Line_Description__c, EventApi__Maximum_Number_of_Assignments__c, EventApi__Maximum_Sales_Quantity__c, EventApi__Min_Sales_Quantity__c, EventApi__Minimum_Sales_Quantity__c, EventApi__Onsite_Price__c, EventApi__Price__c, EventApi__Quantity_Available__c, EventApi__Quantity_Remaining__c, EventApi__Quantity_Sold__c, EventApi__Refund_Account__c, EventApi__Require_Assignments__c, EventApi__Require_Minimum_Quantity__c, EventApi__Restrict_Maximum_Sales_Quantity__c, EventApi__Restrict_Number_of_Assignments__c, EventApi__Revenue_Recognition_Date__c, EventApi__Revenue_Recognition_Rule__c, EventApi__Revenue_Recognition_Term_Rule__c, EventApi__SKU__c, EventApi__Tax_Class__c, EventApi__UOM__c, ROEApi__Event_Display_Name__c, ROEApi__Event_Duration_Text__c, ROEApi__Event_Name__c, EventApi__Enable_Refund_Request__c, EventApi__Group_Type__c, EventApi__Is_Group_Ticket_Type__c, EventApi__Refund_Request_Policy__c, EventApi__Ticket_Block__c, EventApi__Ticket_Information__c, EventApi__AR_Account__c, EventApi__Invoice_Payment_Priority__c, EventApi__Manage_Agenda_by_Ticket_Type__c FROM EventApi__Ticket_Type__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, EventApi__Event__c, EventApi__Event_Category__c, Name,External_Id__c,  EventApi__Adjustment_Account__c, EventApi__Assignments_Display_Label__c, EventApi__Business_Group__c, EventApi__Cost__c, EventApi__Defer_Revenue__c, EventApi__Deferred_Revenue_Account__c, EventApi__Deferred_Revenue_Term__c, EventApi__Description__c, EventApi__Discount_Account__c, EventApi__Display_Name__c, EventApi__Display_Order__c, EventApi__Enable_Access_Permissions__c, EventApi__Enable_Assignments__c, EventApi__Flex_Day_of_the_Month__c, EventApi__Form__c, EventApi__Image_Path__c, EventApi__Image_URL__c, EventApi__Income_Account__c, EventApi__Interview_Form_Display_Label__c, EventApi__Is_Active__c, EventApi__Is_Contribution__c, EventApi__Is_Tax_Deductible__c, EventApi__Is_Taxable__c, EventApi__Item_Class__c, EventApi__Item__c, EventApi__Line_Description__c, EventApi__Maximum_Number_of_Assignments__c, EventApi__Price__c, EventApi__Quantity_Available__c, EventApi__Quantity_Remaining__c, EventApi__Quantity_Sold__c, EventApi__Refund_Account__c, EventApi__Require_Assignments__c, EventApi__Restrict_Number_of_Assignments__c, EventApi__Revenue_Recognition_Date__c, EventApi__Revenue_Recognition_Rule__c, EventApi__Revenue_Recognition_Term_Rule__c, EventApi__SKU__c, EventApi__Tax_Class__c, ROEApi__Event_Display_Name__c, ROEApi__Event_Duration_Text__c, ROEApi__Event_Name__c, EventApi__AR_Account__c, EventApi__Invoice_Payment_Priority__c FROM EventApi__Sponsor_Package__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, EventApi__Event__c, Name,External_Id__c,  OrderApi__Adjustment_Account__c, OrderApi__Assign_to_Item__c, OrderApi__Assignment_Badge_Types_CSV__c, OrderApi__Assignment_SObject__c, OrderApi__Assignments_Display_Label__c, OrderApi__Business_Group__c, OrderApi__Cost__c, OrderApi__Defer_Revenue__c, OrderApi__Deferred_Revenue_Account__c, OrderApi__Deferred_Revenue_Term__c, OrderApi__Description__c, OrderApi__Disable_Price_Rules__c, OrderApi__Disable_Scheduling__c, OrderApi__Discount_Account__c, OrderApi__Display_Name__c, OrderApi__Download_File_Location__c, OrderApi__Download_File_Name__c, OrderApi__Download_File_Type__c, OrderApi__EAN__c, OrderApi__Enable_Access_Permissions__c, OrderApi__Enable_Assignments__c, OrderApi__Enable_Shipping__c, OrderApi__Features_List__c, OrderApi__Flex_Day_of_the_Month__c, OrderApi__Form__c, OrderApi__ISBN__c, OrderApi__Image_Path__c, OrderApi__Income_Account__c, OrderApi__Interview_Form_Display_Label__c, OrderApi__Is_Active__c, OrderApi__Is_Contribution__c, OrderApi__Is_Default_Shipping_Rate__c, OrderApi__Is_Default_Tax_Rate__c, OrderApi__Is_Downloadable__c, OrderApi__Is_Event__c, OrderApi__Is_Inventoried__c, OrderApi__Is_Publication__c, OrderApi__Is_Service__c, OrderApi__Is_Shipping_Rate__c, OrderApi__Is_Subscription__c, OrderApi__Is_Tax_Deductible__c, OrderApi__Is_Tax__c, OrderApi__Is_Taxable__c, OrderApi__Item_Class__c, OrderApi__Item_Weight_UOM__c, OrderApi__Item_Weight__c, OrderApi__Line_Description__c, OrderApi__Maximum_Number_of_Assignments__c, OrderApi__Maximum_Number_of_Downloads__c, OrderApi__Maximum_Value__c, OrderApi__Maximum_Weight__c, OrderApi__Minimum_Value__c, OrderApi__Minimum_Weight__c, OrderApi__Not_For_Individual_Sale__c, OrderApi__Price__c, OrderApi__Refund_Account__c, OrderApi__Require_Assignments__c, OrderApi__Require_Shipping__c, OrderApi__Restrict_Number_of_Assignments__c, OrderApi__Restrict_Number_of_Downloads__c, OrderApi__Revenue_Recognition_Date__c, OrderApi__Revenue_Recognition_Rule__c, OrderApi__Revenue_Recognition_Term_Rule__c, OrderApi__SKU__c, OrderApi__Shipping_Method__c, OrderApi__Shipping_Region__c, OrderApi__Subscription_Plan_Display_Label__c, OrderApi__Tax_Class__c, OrderApi__Tax_Locale__c, OrderApi__Tax_Percent__c, OrderApi__UPC__c, OrderApi__Package_Items__c, OrderApi__Required_Package_Items__c,  EventApi__Schedule_Item__c, EventApi__Sponsor_Package__c, EventApi__Ticket_Type__c, ROEApi__Item_Class_Name__c, ProgramApi__Is_Program_Fee__c, ProgramApi__Is_Program_Maintenance_Fee__c, ProgramApi__Program__c, OrderApi__Require_PreAuthorized_Payment__c, OrderApi__AR_Account__c, OrderApi__Invoice_Payment_Priority__c, OrderApi__Add_to_Cart_Button_Label_Override__c, OrderApi__Add_to_Cart_Button_Override__c, OrderApi__Assignment_Instructions__c, OrderApi__Enable_Cancellation_Request__c, OrderApi__Enable_MidTerm_Changes__c, OrderApi__Inventory_Message__c, OrderApi__Inventory__c, OrderApi__Parent_Item__c, OrderApi__Renewal_Form__c, OrderApi__eStore_Description__c, OrderApi__eStore_Short_Description__c, OrderApi__Item__c FROM OrderApi__Item__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, EventApi__Event__c, EventApi__Event_Category__c, Name,External_Id__c,  EventApi__Item__c,EventApi__Adjustment_Account__c, EventApi__Allow_Conflicts__c, EventApi__Assignments_Display_Label__c, EventApi__Business_Group__c, EventApi__Capacity__c, EventApi__Cost__c, EventApi__Defer_Revenue__c, EventApi__Deferred_Revenue_Account__c, EventApi__Deferred_Revenue_Term__c, EventApi__Description__c, EventApi__Disable_Registration__c, EventApi__Discount_Account__c, EventApi__Display_Name__c, EventApi__Duration__c, EventApi__Enable_Access_Permissions__c, EventApi__Enable_Assignments__c, EventApi__Enable_Waitlist__c, EventApi__End_Date_Time__c, EventApi__End_Date__c, EventApi__End_Time__c,  EventApi__Flex_Day_of_the_Month__c, EventApi__Form__c, EventApi__Image_Path__c, EventApi__Image_URL__c, EventApi__Income_Account__c, EventApi__Interview_Form_Display_Label__c, EventApi__Is_Active__c, EventApi__Is_Automatically_Added__c, EventApi__Is_Contribution__c, EventApi__Is_Tax_Deductible__c, EventApi__Is_Taxable__c, EventApi__Item_Class__c, EventApi__Line_Description__c, EventApi__Maximum_Number_of_Assignments__c, EventApi__Price__c, EventApi__Quantity_Available__c, EventApi__Quantity_Remaining__c, EventApi__Quantity_Sold__c, EventApi__Refund_Account__c, EventApi__Require_Assignments__c, EventApi__Restrict_Number_of_Assignments__c, EventApi__Revenue_Recognition_Date__c, EventApi__Revenue_Recognition_Rule__c, EventApi__Revenue_Recognition_Term_Rule__c, EventApi__Room__c, EventApi__SKU__c, EventApi__Session_End_Time__c, EventApi__Session_Start_Time__c, EventApi__Start_Date_Time__c, EventApi__Start_Date__c, EventApi__Start_Time__c, EventApi__Tax_Class__c, ROEApi__Event_Display_Name__c, ROEApi__Event_Name__c, EventApi__AR_Account__c, EventApi__Hide_During_Registration__c, EventApi__Invoice_Payment_Priority__c, EventApi__Required_for_Registration__c FROM EventApi__Schedule_Item__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  OrderApi__Is_Default__c, OrderApi__Item__c, OrderApi__Renew_Into_Item__c, OrderApi__Rule_Type__c, OrderApi__Term__c, OrderApi__Sort_Order__c FROM OrderApi__Renewal_Path__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  OrderApi__Renewal_Path__c, OrderApi__Field__c, OrderApi__Object__c, OrderApi__Operator__c, OrderApi__Value__c FROM OrderApi__Renewal_Path_Variable__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__Package__c, OrderApi__Calculate_Pricing__c, OrderApi__Display_Button_Label__c, OrderApi__Display_Instructions__c, OrderApi__Display_Label__c, OrderApi__Display_Order__c, OrderApi__Is_Required__c, OrderApi__Item_Class__c, OrderApi__Item__c, OrderApi__Maximum_Quantity_Per_Item__c, OrderApi__Maximum_Quantity__c, OrderApi__Minimum_Quantity__c, EventApi__Event__c, EventApi__Schedule_Item__c, EventApi__Sponsor_Package__c, EventApi__Ticket_Type__c, OrderApi__Display_Item__c, OrderApi__Foreign_Key_Id__c, OrderApi__Group_Header__c, OrderApi__Group_Instructions_Text__c, OrderApi__Is_Group__c, OrderApi__Is_Recommended__c, OrderApi__Number_of_Free_Items__c, OrderApi__Package_Item__c FROM OrderApi__Package_Item__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,   OrderApi__Catalog__c, OrderApi__Description__c, OrderApi__Display_Order__c, OrderApi__Enable_Access_Permissions__c, OrderApi__Is_Published__c, OrderApi__Store__c, OrderApi__Catalog_Filters__c, OrderApi__Display_Featured_Items__c, OrderApi__Placeholder_Image__c FROM OrderApi__Catalog__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  OrderApi__Catalog__c, OrderApi__Is_Featured__c, OrderApi__Is_Published__c, OrderApi__Item__c FROM OrderApi__Catalog_Item__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__Business_Group__c, OrderApi__Display_Message__c, OrderApi__Display_Name__c, OrderApi__Variable__c FROM OrderApi__Payment_Terms__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__Account__c, OrderApi__Bank_Account_Holder_Type__c, OrderApi__Bank_Account_Type__c, OrderApi__Bank_Name__c, OrderApi__Bank_Routing_Number__c, OrderApi__Billing_City__c, OrderApi__Billing_Country__c, OrderApi__Billing_Postal_Code__c, OrderApi__Billing_State__c, OrderApi__Billing_Street__c, OrderApi__Card_Type__c, OrderApi__Contact__c, OrderApi__Customer_ID__c, OrderApi__Customer__c, OrderApi__Description__c, OrderApi__Eligible_for_Card_Updater__c, OrderApi__Email__c, OrderApi__Entity__c, OrderApi__Exp_Date__c, OrderApi__First_Six_Digits__c, OrderApi__Full_Name__c, OrderApi__Is_Active__c, OrderApi__Is_Declined__c, OrderApi__Is_Expired__c, OrderApi__Is_Restricted__c, OrderApi__Is_Valid__c, OrderApi__Last_Four_Digits__c, OrderApi__Month__c, OrderApi__Number__c, OrderApi__Payment_Method_Token__c, OrderApi__Payment_Method_Type__c, OrderApi__Phone__c, OrderApi__Year__c, OrderApi__API_Response__c, OrderApi__Custom_Payment_Method__c, OrderApi__Custom_Payment_Type__c, OrderApi__Is_Third_Party__c, OrderApi__Override_Edit__c FROM OrderApi__Payment_Method__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__Display_On_Backend_Checkout__c, OrderApi__Display_On_Frontend_Checkout__c, OrderApi__Display_Order__c, OrderApi__Is_Enabled__c, OrderApi__Payment_Gateway__c, OrderApi__Store__c, OrderApi__Custom_Payment_Type_Template__c, OrderApi__Instructions__c,OrderApi__Auto_Post_Receipt__c,OrderApi__Auto_Post_SO__c,OrderApi__Button_Label__c,OrderApi__Image_URL__c,OrderApi__Label__c,OrderApi__Lightning_Component__c,OrderApi__Link__c FROM OrderApi__Custom_Payment_Type__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c, EventApi__Account__c, EventApi__Create_Contacts__c, EventApi__Create_Standing_Sales_Order__c, EventApi__Description__c, EventApi__Display_Registered_Members__c, EventApi__Enable_Access_Permissions__c, EventApi__Event__c, EventApi__Group_Logo_URL__c, EventApi__Invitation_Email_Body__c, EventApi__Invoice_Date__c, EventApi__Limit_Registrations__c, EventApi__Payment_Method__c, EventApi__Payment_Status__c, EventApi__Payment_Terms__c, EventApi__Payment_Type__c, EventApi__Posting_Entity__c, EventApi__Primary_Contact__c, EventApi__Register_Site_Url__c, EventApi__Registered_Attendees__c, EventApi__Registration_Code__c, EventApi__Registration_Instructions__c, EventApi__Registration_Limit__c, EventApi__Registration_Page_Header__c, LTE__Invited_Attendee__c  FROM EventApi__Registration_Group__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, EventApi__Assignment__c, Name,External_Id__c, EventApi__Event__c, EventApi__Account__c, EventApi__Contact__c, EventApi__Email__c, EventApi__Full_Name__c, EventApi__Is_Checked_In__c, EventApi__Is_Registered__c, EventApi__Preferred_Email__c, EventApi__Registration_Date__c, EventApi__Registration_Group__c, EventApi__Registration_Site_Url__c, EventApi__Sales_Order_Line__c, EventApi__Sales_Order__c, EventApi__Send_Notification__c, EventApi__Status__c, EventApi__Ticket_Type__c, EventApi__Registration_Total__c, EventApi__Contact_Created_by_System__c, EventApi__Invitation_Status__c, EventApi__Is_Invitation_Accepted__c, EventApi__Is_Invitation_Declined__c, EventApi__Is_Invitation_Not_Sent__c, EventApi__Is_Invitation_Sent__c, EventApi__Last_Invitation_Email_Sent__c, EventApi__Max_Guests_Allowed__c, EventApi__Refund_Requested__c, EventApi__Seat__c, EventApi__Send_Invitation_Email__c, EventApi__First_Name__c, EventApi__Last_Name__c, EventApi__Assigned_Guest_Ticket_Type__c, EventApi__Invitation_Source__c, Test_Engagement_Score__c, Event_Name__c, Event_NameDis__c, Ticket__c FROM EventApi__Attendee__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, OrderApi__Term__c, Name,External_Id__c,  OrderApi__Sales_Order__c, OrderApi__Account__c, OrderApi__Activation_Date__c, OrderApi__Active_Assignments__c,OrderApi__Assignments_Allowed__c, OrderApi__Assignments_Available__c, OrderApi__Auto_Assign_Account_Contacts__c, OrderApi__Auto_Assign_Contact__c, OrderApi__Auto_Assign_Rule__c, OrderApi__Auto_Assign__c, OrderApi__Auto_Calculate_Activation_Date__c, OrderApi__Business_Group__c, OrderApi__Calculate_Shipping_Details__c, OrderApi__Contact__c, OrderApi__Disable_Scheduling__c, OrderApi__Enable_Auto_Renew__c, OrderApi__End_Date__c, OrderApi__Entity__c, OrderApi__GL_Account__c, OrderApi__Is_Amendment__c, OrderApi__Is_Installment_Calculated__c, OrderApi__Is_Posted__c, OrderApi__Is_Renewal__c, OrderApi__Is_Required_Package_Item__c, OrderApi__Is_Shipping_Rate__c, OrderApi__Is_Subscription__c, OrderApi__Is_Tax__c, OrderApi__Is_Valid__c, OrderApi__Item_Class__c, OrderApi__Item__c, OrderApi__Line_Description__c, OrderApi__List_Price__c, OrderApi__Package_Item__c, OrderApi__Payment_Method__c, OrderApi__Price_Override__c, OrderApi__Price_Rule__c, OrderApi__Quantity__c, OrderApi__Required_Package_Items__c, OrderApi__Sale_Price__c, OrderApi__Sales_Order_Line__c, OrderApi__Shipping_City__c, OrderApi__Shipping_Contact__c, OrderApi__Shipping_Country__c, OrderApi__Shipping_Method__c, OrderApi__Shipping_Postal_Code__c, OrderApi__Shipping_State__c, OrderApi__Shipping_Street__c, OrderApi__Shipping_Tracking_Number__c, OrderApi__Subscription_Plan__c, OrderApi__Subscription__c, OrderApi__Subtotal__c, OrderApi__System_Override__c, OrderApi__Tax_Override__c, OrderApi__Tax_Percent__c, OrderApi__Total_Installment_Price__c, OrderApi__Total__c, EventApi__Attendee__c, EventApi__Event__c, EventApi__Schedule_Item__c, EventApi__Sponsor_Package__c, EventApi__Ticket_Type__c, ROEApi__Group_Registration_Key__c, DonorApi__Tax_Deductible_Amount__c, DonorApi__Write_In__c, ProgramApi__Program_Profile__c, ProgramApi__Program_Term__c, OrderApi__Do_Not_Collect_Payment__c, EventApi__Is_Required_Schedule_Item__c, OrderApi__Display_Item__c, OrderApi__Foreign_Key__c, OrderApi__Incomplete__c, OrderApi__Parent_Foreign_Key__c, OrderApi__Subscription_Start_Date__c, OrderApi__Item_Tax_Percent__c, OrderApi__Parent_Is_Installment_Calculated__c, OrderApi__Parent_Total_Installment_Price__c, OrderApi__Parent_Total__c, OrderApi__Tax_Amount__c, OrderApi__Total_with_Tax__c, OrderApi__AR_Account__c, OrderApi__Adjustment_Reason__c, OrderApi__Adjustments__c, OrderApi__Amount_Paid__c, OrderApi__Amount_Refunded__c, OrderApi__Balance_Due__c, OrderApi__Credit_Note__c, OrderApi__Credits_Applied__c, OrderApi__Deferred_Revenue_Adjustment__c, OrderApi__Is_Adjustment__c, OrderApi__Is_Line_Posted__c, OrderApi__Payment_Priority__c, OrderApi__Posted_Date__c, OrderApi__Credit_Memo__c, OrderApi__Item_Name__c, OrderApi__Overall_Total__c,Revenue_Category__c, Revenue_Subcategory__c, Program_Term_Is_Maintenance__c FROM OrderApi__Sales_Order_Line__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,   OrderApi__Actual_Amount__c, OrderApi__Actual_Count__c, OrderApi__Batch_Number__c, OrderApi__Business_Group__c, OrderApi__Closed_Date__c, OrderApi__Date__c, OrderApi__Deposit_Account__c, OrderApi__Entity__c, OrderApi__Expected_Amount__c, OrderApi__Expected_Count__c, OrderApi__Is_Closed__c, OrderApi__Is_Posted__c, OrderApi__Item__c, OrderApi__Opened_Date__c, OrderApi__Payment_Gateway__c, OrderApi__Payment_Type__c, OrderApi__Posted_Date__c, OrderApi__Source_Code__c FROM OrderApi__Batch__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__Account__c, OrderApi__Auto_Send_Proforma_Invoice_Emails__c, OrderApi__Billing_City__c, OrderApi__Billing_Contact__c, OrderApi__Billing_Country__c, OrderApi__Billing_Postal_Code__c, OrderApi__Billing_State__c, OrderApi__Billing_Street__c, OrderApi__Business_Group__c, OrderApi__Calculate_Billing_Details__c, OrderApi__Calculate_Shipping_Details__c, OrderApi__Campaign_Page__c, OrderApi__Cancelled_Date__c, OrderApi__Closed_Date__c, OrderApi__Closed_Status__c, OrderApi__Contact__c, OrderApi__Created_by_Customer__c, OrderApi__Customer_Link__c, OrderApi__Customer_Reference_Number__c, OrderApi__Date__c, OrderApi__Description__c, OrderApi__EPayment__c, OrderApi__End_Date__c, OrderApi__Entity__c, OrderApi__Has_Installments__c, OrderApi__Has_Subscription__c, OrderApi__Invoice_Date__c, OrderApi__Is_Active__c, OrderApi__Is_Cancelled__c, OrderApi__Is_Closed__c, OrderApi__Is_Evergreen__c, OrderApi__Is_Invoiced__c, OrderApi__Is_Posted__c, OrderApi__Is_Recurring__c, OrderApi__Is_Scheduled__c, OrderApi__Is_Suspended__c, OrderApi__JSON_Data__c, OrderApi__Memo__c, OrderApi__Number_of_Installments__c, OrderApi__Payment_Gateway__c, OrderApi__Payment_Method__c, OrderApi__Payment_Terms__c, OrderApi__Posted_Date__c, OrderApi__Posting_Entity__c, OrderApi__Posting_Status__c, OrderApi__Preferred_Email__c, OrderApi__Proforma_Invoice_Email_Sent_Date__c, OrderApi__Proforma_Invoice_Email_Sent__c, OrderApi__Require_Payment_Method__c, OrderApi__Schedule_Frequency__c, OrderApi__Schedule_Status__c, OrderApi__Schedule_Type__c, OrderApi__Shipping_City__c, OrderApi__Shipping_Contact__c, OrderApi__Shipping_Country__c, OrderApi__Shipping_Postal_Code__c, OrderApi__Shipping_State__c, OrderApi__Shipping_Street__c, OrderApi__Source_Code__c, OrderApi__Start_Date__c, OrderApi__Status__c, OrderApi__Suspended_Date__c, OrderApi__Suspended_Reason__c, OrderApi__System_Refresh__c, OrderApi__Total__c, OrderApi__Valid_Payment_Method__c, OrderApi__Item_Count__c, OrderApi__Subscription_Lines__c, OrderApi__Subtotal__c, DonorApi__Acknowledged_Date__c, DonorApi__Acknowledgement_Method__c, DonorApi__Do_Not_Acknowledge__c, DonorApi__Forecast_Category__c, DonorApi__Forecasted_Amount__c, DonorApi__Forecasted_Close_Date__c, DonorApi__Gift_Match_Account__c, DonorApi__Gift_Match_Amount__c, DonorApi__Gift_Match_Contact__c, DonorApi__Gift_Matching_Company__c, DonorApi__Gift_Type__c, DonorApi__Grant_LOI_Submitted__c, DonorApi__Grant_Open_Date__c, DonorApi__Grant_Proposal_Deadline__c, DonorApi__Grant_Proposal_Response_Date__c, DonorApi__Grant_Proposal_Submitted__c, DonorApi__Grant_Term__c, DonorApi__Is_Acknowledged__c, DonorApi__Is_Won__c, DonorApi__Source__c, DonorApi__Stage__c, DonorApi__Tribute_Honoree__c, DonorApi__Tribute_Message__c, DonorApi__Tribute_Notification_City__c, DonorApi__Tribute_Notification_Country__c, DonorApi__Tribute_Notification_Email__c, DonorApi__Tribute_Notification_Method__c, DonorApi__Tribute_Notification_Phone__c, DonorApi__Tribute_Notification_Postal_Code__c, DonorApi__Tribute_Notification_State__c, DonorApi__Tribute_Notification_Street__c, DonorApi__Tribute_Notified__c, DonorApi__Tribute_Person_to_Notify__c, DonorApi__Tribute_Type__c, DonorApi__Tax_Deductible_Amount__c, OrderApi__Processing_Changes__c, OrderApi__Mass_Proforma_Email_Subject__c, OrderApi__Is_Pending_Payment__c, OrderApi__Due_Date__c, OrderApi__Encrypted_Id__c, OrderApi__Is_Proforma__c, OrderApi__Adjustment_Reason__c, OrderApi__Amount_Paid__c, OrderApi__Amount_Refunded__c, OrderApi__Balance_Due__c, OrderApi__Credits_Applied__c, OrderApi__Credits_and_Adjustments__c, OrderApi__Generate_Installments__c, OrderApi__Is_Voided__c, OrderApi__Overall_Total__c, OrderApi__Paid_Date__c, OrderApi__Sales_Order_Status__c,OrderApi__Is_Open__c FROM OrderApi__Sales_Order__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__Account__c, OrderApi__Action_Information__c, OrderApi__Balance__c, OrderApi__Batch__c, OrderApi__Billing_City__c, OrderApi__Billing_Contact__c, OrderApi__Billing_Country__c, OrderApi__Billing_Postal_Code__c, OrderApi__Billing_State__c, OrderApi__Billing_Street__c, OrderApi__Business_Group__c, OrderApi__Calculate_Billing_Details__c, OrderApi__Calculate_Memo__c, OrderApi__Calculate_Shipping_Details__c, OrderApi__Contact__c, OrderApi__Customer_Link__c, OrderApi__Date__c, OrderApi__Deposit_Account__c, OrderApi__EPayment__c, OrderApi__Entity__c, OrderApi__Gateway_Transaction_Id__c, OrderApi__Is_Payment__c, OrderApi__Is_Posted__c, OrderApi__Is_Refund__c, OrderApi__Memo__c, OrderApi__Payment_Gateway__c, OrderApi__Payment_Method_Description__c, OrderApi__Payment_Method__c, OrderApi__Payment_Type__c, OrderApi__Posted_Date__c, OrderApi__Process_Refund__c, OrderApi__Receipt__c, OrderApi__Reference_Number__c, OrderApi__Refund__c, OrderApi__Sales_Order__c, OrderApi__Shipping_City__c, OrderApi__Shipping_Contact__c, OrderApi__Shipping_Country__c, OrderApi__Shipping_Postal_Code__c, OrderApi__Shipping_State__c, OrderApi__Shipping_Street__c, OrderApi__Source_Code__c, OrderApi__Total__c, OrderApi__Type__c, OrderApi__Applied_Amount__c, OrderApi__Encrypted_Id__c FROM OrderApi__Receipt__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c, OrderApi__Scheduled_Payment__c, OrderApi__API_Amount__c, OrderApi__AVS_Code__c, OrderApi__AVS_Message__c, OrderApi__Account__c, OrderApi__Bank_Account_Holder_Type__c, OrderApi__Bank_Account_Number__c, OrderApi__Bank_Account_Type__c, OrderApi__Bank_Name__c, OrderApi__Bank_Routing_Number__c, OrderApi__Batch__c, OrderApi__Billing_City__c, OrderApi__Billing_Country__c, OrderApi__Billing_Postal_Code__c, OrderApi__Billing_State__c, OrderApi__Billing_Street__c, OrderApi__Business_Group__c, OrderApi__CVV_Code__c, OrderApi__CVV_Message__c, OrderApi__Cancelled__c, OrderApi__Card_Number__c, OrderApi__Card_Type__c, OrderApi__Contact__c, OrderApi__Create_Payment_Schedule__c, OrderApi__Currency_Code__c, OrderApi__Date__c, OrderApi__Deposit_Account__c, OrderApi__Description__c, OrderApi__Eligible_for_Card_Updater__c, OrderApi__Email__c, OrderApi__Entity__c, OrderApi__Error_Code__c, OrderApi__Errors__c, OrderApi__First_Name__c, OrderApi__First_Six_Digits__c, OrderApi__Full_Name__c, OrderApi__Gateway_Token__c, OrderApi__Gateway_Transaction_ID__c, OrderApi__Has_Errors__c, OrderApi__IP_Address__c, OrderApi__Is_Scheduled__c, OrderApi__Last_4_Digits__c, OrderApi__Last_Four_Digits__c, OrderApi__Last_Name__c, OrderApi__Merchant_Location_Descriptor__c, OrderApi__Merchant_Name_Descriptor__c, OrderApi__Message__c, OrderApi__Month__c, OrderApi__Number__c, OrderApi__Number_of_Installments__c, OrderApi__On_Test_Gateway__c, OrderApi__Order_ID__c, OrderApi__Path__c, OrderApi__Payment_Gateway__c, OrderApi__Payment_Method_Token__c, OrderApi__Payment_Method_Type__c, OrderApi__Payment_Method__c, OrderApi__Pending__c, OrderApi__Phone__c, OrderApi__Receipt_Created__c, OrderApi__Reference_Token__c, OrderApi__Refund_Receipt__c, OrderApi__Retain_on_Success__c, OrderApi__Sales_Order__c, OrderApi__Schedule_Frequency__c, OrderApi__Schedule_Type__c, OrderApi__Source_Code__c, OrderApi__Start_Date__c, OrderApi__Status__c, OrderApi__Storage_State__c, OrderApi__Succeeded__c, OrderApi__Total__c, OrderApi__Transaction_Token__c, OrderApi__Transaction_Type__c, OrderApi__Verification_Value__c, OrderApi__Year__c, OrderApi__Amount__c, OrderApi__API_Response__c, OrderApi__EPayment__c, OrderApi__Is_Voided__c, OrderApi__Process_Payment__c, OrderApi__Process_Void__c, OrderApi__State__c, OrderApi__Is_ThreeDS__c  FROM OrderApi__EPayment__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c, EventApi__Contact__c, EventApi__Date_Added__c, EventApi__Email__c, EventApi__Event__c, EventApi__Full_Name__c, EventApi__Is_Registered__c, EventApi__Message__c, EventApi__Notification_Sent__c, EventApi__Notified_Date_Time__c, EventApi__Other_Phone__c, EventApi__Phone__c, EventApi__Priority__c, EventApi__Quantity_Requested__c, EventApi__Status__c, EventApi__Ticket_Type__c, LTE__Sales_Order__c, LTE__Free_Event_Order_Number__c,OrderApi__Scheduled_Payment__c FROM EventApi__Waitlist_Entry__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c, OrderApi__Account__c, OrderApi__Amount__c, OrderApi__Business_Group__c, OrderApi__Contact__c, OrderApi__Credit_Account__c, OrderApi__Customer_Link__c, OrderApi__Debit_Account__c, OrderApi__Entity__c, OrderApi__Invoice__c, OrderApi__Is_Drafted__c, OrderApi__Is_Posted__c, OrderApi__Posted_Date__c, OrderApi__Remaining_Amount__c, OrderApi__Status__c, OrderApi__Applied_Amount__c, OrderApi__Sales_Order__c FROM OrderApi__Credit_Memo__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c, OrderApi__Account__c, OrderApi__Billing_City__c, OrderApi__Billing_Country__c, OrderApi__Billing_Postal_Code__c, OrderApi__Billing_State__c, OrderApi__Billing_Street__c, OrderApi__Contact__c, OrderApi__Customer__c, OrderApi__Date__c, OrderApi__Encrypted_Id__c, OrderApi__Entity__c, OrderApi__Invoice_Number__c, OrderApi__Invoice__c, OrderApi__Is_Posted__c, OrderApi__Memo__c, OrderApi__Posted_Date__c, OrderApi__Total__c, OrderApi__Sales_Order_Number__c, OrderApi__Sales_Order__c FROM OrderApi__Credit_Note__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  EventApi__Description__c, EventApi__Display_Order__c, EventApi__Event__c, EventApi__Image__c FROM EventApi__Section__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name, External_Id__c, EventApi__Section__c, EventApi__Is_Assigned__c, EventApi__Seat_Number__c FROM EventApi__Seat__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  EventApi__Section__c, EventApi__Ticket_Type__c FROM EventApi__Section_Ticket__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__Invoice__c, OrderApi__Activation_Date__c, OrderApi__Adjustment_Reason__c, OrderApi__Auto_Calculate_Activation_Date__c, OrderApi__Business_Group__c, OrderApi__Calculate_Shipping_Details__c, OrderApi__Credit_Memo__c, OrderApi__Deferred_Revenue_Adjustment__c, OrderApi__End_Date__c, OrderApi__GL_Account__c, OrderApi__Is_Adjustment__c, OrderApi__Is_Posted__c, OrderApi__Is_Renewal__c, OrderApi__Is_Shipping_Rate__c, OrderApi__Is_Tax__c, OrderApi__Item_Class__c, OrderApi__Item__c, OrderApi__Line_Description__c, OrderApi__List_Price__c, OrderApi__Parent_Sales_Order_Line__c, OrderApi__Posted_Date__c, OrderApi__Price_Override__c, OrderApi__Price_Rule__c, OrderApi__Quantity__c, OrderApi__Sale_Price__c, OrderApi__Sales_Order_Line__c, OrderApi__Shipping_City__c, OrderApi__Shipping_Contact__c, OrderApi__Shipping_Country__c, OrderApi__Shipping_Postal_Code__c, OrderApi__Shipping_State__c, OrderApi__Shipping_Street__c, OrderApi__Subscription_Plan__c, OrderApi__Subscription__c, OrderApi__Subtotal__c, OrderApi__Tax_Override__c, OrderApi__Tax_Percent__c, OrderApi__Total__c, OrderApi__AR_Account__c, OrderApi__Adjustments__c, OrderApi__Amount_Paid__c, OrderApi__Amount_Refunded__c, OrderApi__Balance_Due__c, OrderApi__Contact__c, OrderApi__Credits_Applied__c, OrderApi__Invoice_Line__c, OrderApi__Is_Child_Line__c, OrderApi__Payment_Priority__c, OrderApi__Credit_Note__c, OrderApi__Tax_Amount__c, OrderApi__Total_with_Tax__c FROM OrderApi__Invoice_Line__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, OrderApi__Receipt_Line__c, OrderApi__Term__c, Name,External_Id__c,  OrderApi__Subscription__c, OrderApi__Activated_Date__c, OrderApi__Active_Assignments__c, OrderApi__Assignments_Allowed__c, OrderApi__Assignments_Available__c, OrderApi__Invoice_Line__c, OrderApi__Invoiced_Date__c, OrderApi__Is_Amendment__c, OrderApi__Is_Invoiced__c, OrderApi__Item_Class__c, OrderApi__Item__c, OrderApi__Line_Description__c, OrderApi__List_Price__c, OrderApi__Price_Override__c, OrderApi__Price_Rule__c, OrderApi__Quantity__c, OrderApi__Sale_Price__c, OrderApi__Sales_Order_Line__c, OrderApi__Subscription_Line__c, OrderApi__Subtotal__c, OrderApi__Total__c, OrderApi__Is_Required_Package_Item__c FROM OrderApi__Subscription_Line__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__Scheduled_Payment__c, OrderApi__Activation_Date__c, OrderApi__Auto_Calculate_Activation_Date__c, OrderApi__Business_Group__c, OrderApi__End_Date__c, OrderApi__GL_Account__c, OrderApi__Invoice_Line__c, OrderApi__Is_Renewal__c, OrderApi__Is_Shipping_Rate__c, OrderApi__Is_Tax__c, OrderApi__Item_Class__c, OrderApi__Item__c, OrderApi__List_Price__c, OrderApi__Price_Override__c, OrderApi__Price_Rule__c, OrderApi__Quantity__c, OrderApi__Sale_Price__c, OrderApi__Sales_Order_Line__c, OrderApi__Scheduled_Payment_Line__c, OrderApi__Subscription_Plan__c, OrderApi__Subscription__c, OrderApi__Subtotal__c, OrderApi__Tax_Override__c, OrderApi__Tax_Percent__c, OrderApi__Total__c FROM OrderApi__Scheduled_Payment_Line__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__EPayment__c, OrderApi__Activation_Date__c, OrderApi__Activity_Type__c, OrderApi__Auto_Calculate_Activation_Date__c, OrderApi__Business_Group__c, OrderApi__End_Date__c, OrderApi__GL_Account__c, OrderApi__Invoice__c, OrderApi__Is_Renewal__c, OrderApi__Is_Tax__c, OrderApi__Item_Class__c, OrderApi__Item__c, OrderApi__List_Price__c, OrderApi__Payment_Method__c, OrderApi__Price_Override__c, OrderApi__Price_Rule__c, OrderApi__Quantity__c, OrderApi__Sale_Price__c, OrderApi__Status__c, OrderApi__Subscription_Plan__c, OrderApi__Subscription__c, OrderApi__Subtotal__c, OrderApi__Tax_Override__c, OrderApi__Tax_Percent__c, OrderApi__Total__c, OrderApi__EPayment_Line__c, OrderApi__Contact__c, OrderApi__Invoice_Line__c, OrderApi__Foreign_Key__c, OrderApi__Parent_Foreign_Key__c, OrderApi__Sales_Order_Line__c, OrderApi__Sales_Order__c FROM OrderApi__EPayment_Line__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__Receipt__c, OrderApi__Activation_Date__c, OrderApi__Auto_Calculate_Activation_Date__c, OrderApi__Business_Group__c, OrderApi__Calculate_Shipping_Details__c, OrderApi__End_Date__c, OrderApi__GL_Account__c, OrderApi__Invoice_Balance_Due__c, OrderApi__Invoice_Customer_Link__c, OrderApi__Invoice_Due_Date__c, OrderApi__Invoice__c, OrderApi__Is_Refund__c, OrderApi__Is_Renewal__c, OrderApi__Is_Tax__c, OrderApi__Item_Class__c, OrderApi__Item__c, OrderApi__Line_Description__c, OrderApi__List_Price__c, OrderApi__Price_Override__c, OrderApi__Price_Rule__c, OrderApi__Quantity__c, OrderApi__Sale_Price__c, OrderApi__Shipping_City__c, OrderApi__Shipping_Contact__c, OrderApi__Shipping_Country__c, OrderApi__Shipping_Postal_Code__c, OrderApi__Shipping_State__c, OrderApi__Shipping_Street__c, OrderApi__Subscription_Plan__c, OrderApi__Subscription__c, OrderApi__Subtotal__c, OrderApi__Tax_Override__c, OrderApi__Tax_Percent__c, OrderApi__Total__c, OrderApi__Is_Shipping_Rate__c, OrderApi__Receipt_Line__c, OrderApi__Contact__c, OrderApi__Invoice_Line__c, OrderApi__EPayment_Line__c, OrderApi__Foreign_Key__c, OrderApi__Parent_Foreign_Key__c, OrderApi__Sales_Order_Line__c, OrderApi__Item_Name__c, OrderApi__Sales_Order__c,Source_Code__c FROM OrderApi__Receipt_Line__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, OrderApi__Assignment__c, Name,External_Id__c,  OrderApi__Account__c, OrderApi__Contact__c, OrderApi__Date__c, OrderApi__Description__c, OrderApi__Invoice__c, OrderApi__Is_Customer_Generated__c, OrderApi__Item__c, OrderApi__Payment_Method__c, OrderApi__Receipt_Line__c, OrderApi__Receipt__c, OrderApi__Sales_Order_Line__c, OrderApi__Sales_Order__c, OrderApi__Scheduled_Payment__c, OrderApi__Subscription_Line__c, OrderApi__Subscription_Plan__c, OrderApi__Subscription_Upgrade_Item__c, OrderApi__Subscription__c, OrderApi__System_Message__c, OrderApi__Type__c FROM OrderApi__Log__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__Credit_Memo__c, OrderApi__Amount__c, OrderApi__Credit_Account__c, OrderApi__Invoice__c, OrderApi__Is_Drafted__c, OrderApi__Is_Posted__c, OrderApi__Status__c, OrderApi__Invoice_Line__c, OrderApi__Sales_Order_Line__c FROM OrderApi__Credit_Memo_Line__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__Account__c, OrderApi__Batch__c, OrderApi__Business_Group__c, OrderApi__Contact__c, OrderApi__Credit_Memo_Line__c, OrderApi__Credit_Memo__c, OrderApi__Customer_Link__c, OrderApi__Date__c, OrderApi__Entity__c, OrderApi__Invoice__c, OrderApi__Is_Valid__c, OrderApi__Memo__c, OrderApi__Receipt_Type__c, OrderApi__Receipt__c, OrderApi__Sales_Order__c, OrderApi__Source_Code__c, OrderApi__Subscription__c, OrderApi__Type__c, OrderApi__Num_Lines__c, OrderApi__Total_Credits__c, OrderApi__Total_Debits__c FROM OrderApi__Transaction__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__Transaction__c, OrderApi__Activation_Date__c, OrderApi__Auto_Calculate_Activation_Date__c, OrderApi__Business_Group__c, OrderApi__Credit__c, OrderApi__Date__c, OrderApi__Debit__c, OrderApi__End_Date__c, OrderApi__GL_Account__c, OrderApi__Invoice_Line__c, OrderApi__Invoice__c, OrderApi__Item_Class__c, OrderApi__Item__c, OrderApi__Memo__c, OrderApi__Receipt_Line__c, OrderApi__Receipt__c, OrderApi__Sales_Order_Line__c, OrderApi__Subscription_Line__c, OrderApi__Subscription_Plan__c, OrderApi__Subscription__c, OrderApi__Type__c, OrderApi__EPayment_Line__c, OrderApi__Sales_Order__c FROM OrderApi__Transaction_Line__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, OrderApi__Sales_Order_Line__c, Name,External_Id__c, OrderApi__Item__c,OrderApi__Account__c, OrderApi__Activated_Date__c, OrderApi__Active_Assignments__c, OrderApi__Assignment_Badge_Types_CSV__c, OrderApi__Assignments_Allowed__c, OrderApi__Billing_City__c, OrderApi__Billing_Contact__c, OrderApi__Billing_Country__c, OrderApi__Billing_Postal_Code__c, OrderApi__Billing_State__c, OrderApi__Billing_Street__c, OrderApi__Business_Group__c, OrderApi__Calculate_Billing_Details__c, OrderApi__Calculate_Shipping_Details__c, OrderApi__Cancelled_Date__c, OrderApi__Cancelled_Reason__c, OrderApi__Contact__c, OrderApi__Current_Term_End_Date__c, OrderApi__Current_Term_Start_Date__c, OrderApi__Customer_Link__c, OrderApi__Days_To_Lapse__c, OrderApi__Description__c, OrderApi__Enable_Auto_Renew__c, OrderApi__Entity__c, OrderApi__Expired_Date__c, OrderApi__Grace_Period_End_Date__c, OrderApi__In_Grace_Period__c, OrderApi__Is_Active__c, OrderApi__Is_Cancelled__c, OrderApi__Is_Expired__c, OrderApi__Is_Pending__c, OrderApi__Is_Suspended__c, OrderApi__Is_Upgraded__c, OrderApi__Item_Class__c, OrderApi__Last_Amendment_Date__c, OrderApi__Last_Renewed_Date__c, OrderApi__Last_System_Run__c, OrderApi__Maximum_Number_of_Assignments__c, OrderApi__Next_Scheduled_Renewal_Date__c, OrderApi__Paid_Through_Date__c, OrderApi__Shipping_City__c, OrderApi__Shipping_Contact__c, OrderApi__Shipping_Country__c, OrderApi__Shipping_Postal_Code__c, OrderApi__Shipping_State__c, OrderApi__Shipping_Street__c, OrderApi__Status__c, OrderApi__Subscription_Plan__c, OrderApi__Suspended_Date__c, OrderApi__Suspended_Reason__c, OrderApi__System_Refresh__c, OrderApi__Upgraded_Date__c, OrderApi__Upgraded_Subscription__c, OrderApi__Valid_Payment_Method__c, OrderApi__Line_Count__c, OrderApi__Renewals__c, OrderApi__Subscription_Dues_Total__c, CPBase__Subscription_Management_Page_Override__c, CPBase__Hide_In_Portal__c, OrderApi__Hide_In_Portal__c, OrderApi__Renewal_Override__c, OrderApi__Subscription_Management_Page_Override__c, OrderApi__Next_Scheduled_Payment_Date__c, OrderApi__Term_Active_Assignments__c, OrderApi__Term_Assignments_Allowed__c, OrderApi__Term_Dues_Total__c, OrderApi__Term_End_Date__c, OrderApi__Term_Start_Date__c,OrderApi__Payment_Method__c, Membership_Type__c FROM OrderApi__Subscription__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name, OrderApi__Advanced_Calendar_Days__c, OrderApi__Advanced_Calendar_Free_Paid__c, OrderApi__Auto_Renew_Option__c, OrderApi__Auto_Send_Proforma_Invoice_Emails__c, OrderApi__Bill_Cycle_Day__c, OrderApi__Bill_Cycle__c, OrderApi__Business_Group__c, OrderApi__Calendar_End_Day__c, OrderApi__Calendar_End_Month__c, OrderApi__Description__c, OrderApi__Disable_Renew__c, OrderApi__Enable_Proration__c, OrderApi__Enable_Schedule__c, OrderApi__Grace_Period__c, OrderApi__Initial_Term_Months__c, OrderApi__Invoice_Days_Variable__c, OrderApi__Is_Active__c, OrderApi__Number_Of_Installments__c, OrderApi__Payment_Gateway__c, OrderApi__Payment_Terms__c, OrderApi__Proforma_Invoice_Authentication_Required__c, OrderApi__Proforma_Invoice_Email_Body__c, OrderApi__Proforma_Invoice_Email_From_Address__c, OrderApi__Proforma_Invoice_Email_From_Name__c, OrderApi__Proforma_Invoice_Email_Subject__c, OrderApi__Proforma_Invoice_Footer__c, OrderApi__Proforma_Invoice_Header__c, OrderApi__Proration_Rule__c, OrderApi__Renewal_Term_Months__c, OrderApi__Require_Payment_Method__c, OrderApi__Schedule_Frequency__c, OrderApi__Schedule_Type__c, OrderApi__Type__c, OrderApi__Enable_Automatic_Invoice_Payment__c, OrderApi__Item_Renewal_Instructions__c, OrderApi__Payment_Settings_Instructions__c, OrderApi__PostTerm_Renewal_Window__c, OrderApi__PreTerm_Renewal_Window__c,OrderApi__Enable_Payment_Schedule__c FROM OrderApi__Subscription_Plan__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name, OrderApi__Item__c, OrderApi__Subscription_Plan__c, OrderApi__Is_Default__c FROM OrderApi__Item_Subscription_Plan__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__Subscription__c, OrderApi__Grace_Period_End_Date__c, OrderApi__Is_Active__c, OrderApi__Renewed_Date__c, OrderApi__Sales_Order_Line__c, OrderApi__Sales_Order__c, OrderApi__Subscription_Plan__c, OrderApi__Term_End_Date__c, OrderApi__Term_Start_Date__c, OrderApi__Account__c, OrderApi__Active_Assignments__c, OrderApi__Assignments_Allowed__c, OrderApi__Cancellation_Requested__c, OrderApi__Contact__c, OrderApi__Days_To_Lapse__c, OrderApi__Dues_Total__c, OrderApi__Entity__c, OrderApi__Is_Changed__c, OrderApi__Item__c, OrderApi__Last_Amendment_Date__c, OrderApi__Next_Invoice_Due_Date__c, OrderApi__Next_Scheduled_Payment_Date__c, OrderApi__Next_Term_Renewed_Date__c, OrderApi__Previous_Term__c, OrderApi__Renewal_Sales_Order__c,Contact_Email__c FROM OrderApi__Renewal__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  OrderApi__Assigned_Date__c, OrderApi__Assignment_Role__c, OrderApi__Company_Name__c, OrderApi__Contact__c, OrderApi__Description__c, OrderApi__Email__c, OrderApi__First_Name__c, OrderApi__Full_Name__c, OrderApi__Is_Active__c, OrderApi__Is_Primary__c, OrderApi__Is_Unassigned__c, OrderApi__Item_Class__c, OrderApi__Item__c, OrderApi__Last_Name__c, OrderApi__Mailing_City__c, OrderApi__Mailing_Country__c, OrderApi__Mailing_Postal_Code__c, OrderApi__Mailing_State__c, OrderApi__Mailing_Street__c, OrderApi__Phone__c, OrderApi__Receives_Email_Notifications__c, OrderApi__Sales_Order_Line__c, OrderApi__Subscription_Line__c, OrderApi__Subscription__c, OrderApi__Term__c, OrderApi__Title__c, OrderApi__Unassigned_Date__c, EventApi__Other_Information__c, EventApi__Register_Site_Url__c, EventApi__Registration_Group__c, EventApi__Contact_Created_By_System__c, EventApi__Seat__c, External_Id__c FROM OrderApi__Assignment__c",
+			"operation": "Upsert",
+            "externalId": "External_Id__c",
+            "excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  EventApi__Attendee__c, EventApi__Business_Group__c, EventApi__Date__c, EventApi__Discount__c, EventApi__End_Time__c, EventApi__Is_Primary__c, EventApi__Item_Class__c, EventApi__Item__c, EventApi__Line_Description__c, EventApi__List_Price__c, EventApi__Price_Override__c, EventApi__Price_Rule__c, EventApi__Quantity__c, EventApi__Registration_Item__c, EventApi__Sale_Price__c, EventApi__Sales_Order_Line__c, EventApi__Sales_Order_Number__c, EventApi__Sales_Order__c, EventApi__Schedule_Item__c, EventApi__Start_Time__c, EventApi__Status__c, EventApi__Subtotal__c, EventApi__Ticket_Type__c, EventApi__Total__c, EventApi__Transaction_Date__c, EventApi__Transaction_Type__c, EventApi__Transfer_Contact_Email__c, EventApi__Transfer_Contact_Name__c, EventApi__Transfer_Fee__c, EventApi__Transfer__c, EventApi__Is_Checked_In__c, LTE__Primary_Group_Ticket_Registration_Item__c FROM EventApi__Registration_Item__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c, joinapi__Enable_Access_Permissions__c, joinapi__Is_Published__c, joinapi__Join_Process_Display_Name__c, joinapi__Landing_Url__c FROM joinapi__Join_Process__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  joinapi__Disable_Item_Navigation_URL__c, joinapi__Dynamic_Item_Selection__c, joinapi__Enable_Account_Lookup__c, joinapi__Form__c, joinapi__Instructions__c, joinapi__Is_Authentication_Step__c, joinapi__Is_Confirmation_Step__c, joinapi__Is_Custom_Page__c, joinapi__Is_Final_Step__c, joinapi__Is_First_Step__c, joinapi__Is_Marketing_Step__c, joinapi__Is_Payment_Step__c, joinapi__Is_Product_Step__c, joinapi__Is_Published__c, joinapi__Is_Qualifying_Question__c, joinapi__Join_Process__c, joinapi__Login_Button_Label__c, joinapi__Login_Header__c, joinapi__Login_Instructions__c, joinapi__Navigation_URL__c, joinapi__New_User_Button_Label__c, joinapi__New_User_Header__c, joinapi__New_User_Instructions__c, joinapi__Next_Step_Button_Label__c, joinapi__Next_Step__c, joinapi__Order__c, joinapi__Page_Title__c, joinapi__Product_Step_Item__c, joinapi__Specific_Item_Selection__c, joinapi__Store__c, joinapi__Visual_Force_Page_API_Name__c FROM joinapi__Step__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  joinapi__Button_Label__c, joinapi__Description__c, joinapi__Display_Name__c, joinapi__Is_Default_Item__c, joinapi__Is_Marketing_Item_Group__c, joinapi__Is_Marketing_Item__c, joinapi__Is_Published__c, joinapi__Item_Badge_Types_Filter__c, joinapi__Item_Criteria__c, joinapi__Item_Group_Header__c, joinapi__Item_Group__c, joinapi__Item__c, joinapi__Next_Step__c, joinapi__Order__c, joinapi__Step__c FROM joinapi__Step_Condition__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+        },
+		{
+			"query": "SELECT Id, Name,  OrderApi__Badge_Type__c, OrderApi__Catalog__c, OrderApi__Icon__c, OrderApi__Item_Class__c, OrderApi__Item__c, OrderApi__Page__c, OrderApi__Site__c, OrderApi__Store__c, EventApi__Event_Category__c, EventApi__Event__c, EventApi__Registration_Group__c, EventApi__Schedule_Item__c, EventApi__Sponsor_Package__c, EventApi__Ticket_Type__c, EventApi__Event_Status_Page__c, joinapi__Join_Process__c, LTE__Menu_Item__c, LTE__Site__c,DirectoryApi__Directory__c, Directories__c FROM OrderApi__Access_Permission__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  OrderApi__Description__c, OrderApi__Enable_Badge_Flow_down__c, OrderApi__Engagement_Score__c, OrderApi__Icon_Location__c, OrderApi__Icon__c, OrderApi__Image_Location__c, OrderApi__Image__c, OrderApi__Is_Active__c, OrderApi__Is_Published__c, OrderApi__Public_Description__c, OrderApi__Short_Description__c FROM OrderApi__Badge_Type__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__Assigned_Contacts__c, OrderApi__Auto_Expire__c, OrderApi__Badge_Type__c, OrderApi__Item__c, OrderApi__Line_Account__c, OrderApi__Line_Contact__c, OrderApi__Type__c FROM OrderApi__Badge_Workflow__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  OrderApi__Account__c, OrderApi__Assignment__c, OrderApi__Awarded_Date__c, OrderApi__Badge_Description__c, OrderApi__Badge_Type_Icon__c, OrderApi__Badge_Type__c, OrderApi__Badge_Workflow__c, OrderApi__Contact__c, OrderApi__Engagement_Score__c, OrderApi__Expired_Date__c, OrderApi__Is_Active__c, OrderApi__Item__c, OrderApi__Sales_Order_Line__c, OrderApi__Term__c FROM OrderApi__Badge__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  DonorApi__Account__c, DonorApi__Asset_Sale_Amount__c, DonorApi__Business_Group__c, DonorApi__Calculated_Value__c, DonorApi__Category__c, DonorApi__Contact__c, DonorApi__Date_Expected__c, DonorApi__Date_Received__c, DonorApi__Date_Sold__c, DonorApi__Description__c, DonorApi__Do_Not_Acknowledge__c, DonorApi__Donor_Link__c, DonorApi__Entity__c, DonorApi__Expected_Asset_Value__c, DonorApi__Fund__c, DonorApi__GIK_Value__c, DonorApi__Is_Acknowledged__c, DonorApi__Net_Asset_Value__c, DonorApi__Other_Costs_of_Sale__c, DonorApi__Received_Asset_Value__c, DonorApi__Sales_Agent_Commission__c, DonorApi__Sales_Agent_Company__c, DonorApi__Sales_Agent_Contact__c, DonorApi__Sales_Agent_Email__c, DonorApi__Sales_Agent_Fax__c, DonorApi__Sales_Agent_Phone__c, DonorApi__Status__c, DonorApi__Stock_Name__c, DonorApi__Stock_Symbol__c FROM DonorApi__Gift_In_Kind__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  DonorApi__Account__c, DonorApi__Assignee__c, DonorApi__Contact__c, DonorApi__Credit_Amount__c, DonorApi__Credit_Sub_Type__c, DonorApi__Credit_Type__c, DonorApi__Date__c, DonorApi__Entity__c, DonorApi__Gift_Detail__c, DonorApi__Gift__c, DonorApi__Non_Cash_Gift__c FROM DonorApi__Gift_Credit__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c,  PagesApi__Download_Link__c, PagesApi__Extension__c, PagesApi__Filename__c, PagesApi__MIME_Type__c, PagesApi__Media_Asset_Collection__c, PagesApi__Path__c, PagesApi__Short_Description__c, PagesApi__Title__c, OrderApi__Display_Order__c, OrderApi__Is_Default__c, OrderApi__Item__c  FROM PagesApi__Media_Asset__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,External_Id__c, ProgramApi__Account__c, ProgramApi__Completion_Date__c, ProgramApi__Contact__c, ProgramApi__Create_Candidate_Term__c, ProgramApi__Create_Maintenance_Term__c, ProgramApi__Custom_Link_URL__c, ProgramApi__Hide_Program_Profile__c, ProgramApi__Name__c, ProgramApi__Program__c, ProgramApi__SalesOrderLineId__c, ProgramApi__Status__c FROM ProgramApi__Program_Profile__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  ProgramApi__Display_Order__c, ProgramApi__Parent_Program_Type__c, ProgramApi__Program_Profile_Instructions__c, ProgramApi__Program_Profile_Page_Title__c, ProgramApi__Program_Type_Name__c  FROM ProgramApi__Program_Type__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  ProgramApi__Active__c, ProgramApi__Candidate_Term__c, ProgramApi__Custom_Link_Label__c, ProgramApi__Designation__c, ProgramApi__Entity__c, ProgramApi__Goal_Display_Field_Set__c, ProgramApi__Maintenance_Term__c, ProgramApi__Progam_Name__c, ProgramApi__Program_Type__c, ProgramApi__Programs_Description__c, ProgramApi__Progress_Bar__c  FROM ProgramApi__Program__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, ProgramApi__Profile__c, Name,External_Id__c,  ProgramApi__Active__c, ProgramApi__End_Date__c, ProgramApi__Is_Maintenance__c, ProgramApi__Start_Date__c FROM ProgramApi__Program_Term__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, Name,  ProgramApi__Dependency__c, ProgramApi__Display_Order__c, ProgramApi__End_Date__c, ProgramApi__Goal_Button_Label__c, ProgramApi__Maintenance__c, ProgramApi__Navigation_URL__c, ProgramApi__Program__c, ProgramApi__Published__c, ProgramApi__Requirement_Description__c, ProgramApi__Requirement_Name__c, ProgramApi__Requirement_Type__c, ProgramApi__Start_Date__c FROM ProgramApi__Requirement__c",
+			"operation": "Upsert",
+			"externalId": "Id",
+			"excluded": false
+		},
+		{
+			"query": "SELECT Id, ProgramApi__Program_Profile__c, Name,External_Id__c,  ProgramApi__Goal_Description__c, ProgramApi__Navigation_URL__c, ProgramApi__Profile_Account__c, ProgramApi__Profile_Contact__c, ProgramApi__Publish__c, ProgramApi__Requirement_Title__c, ProgramApi__Requirement__c, ProgramApi__Result__c, ProgramApi__Status__c, ProgramApi__Term__c FROM ProgramApi__Goals__c",
+			"operation": "Upsert",
+			"externalId": "External_Id__c",
+			"excluded": false
+		}
+    ]
+}
