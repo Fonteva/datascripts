@@ -1,0 +1,40 @@
+{
+    "objects":[
+        {
+            "query":"SELECT Id, External_Id__c FROM Account",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM Contact",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Invoice__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Sales_Order__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, Name,External_Id__c, OrderApi__Account__c, OrderApi__Amount__c, OrderApi__Business_Group__c, OrderApi__Contact__c, OrderApi__Credit_Account__c, OrderApi__Customer_Link__c, OrderApi__Debit_Account__c, OrderApi__Entity__c, OrderApi__Invoice__c, OrderApi__Is_Drafted__c, OrderApi__Is_Posted__c, OrderApi__Posted_Date__c, OrderApi__Remaining_Amount__c, OrderApi__Status__c, OrderApi__Applied_Amount__c, OrderApi__Sales_Order__c FROM OrderApi__Credit_Memo__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, Name,External_Id__c, OrderApi__Account__c, OrderApi__Billing_City__c, OrderApi__Billing_Country__c, OrderApi__Billing_Postal_Code__c, OrderApi__Billing_State__c, OrderApi__Billing_Street__c, OrderApi__Contact__c, OrderApi__Customer__c, OrderApi__Date__c, OrderApi__Encrypted_Id__c, OrderApi__Entity__c, OrderApi__Invoice_Number__c, OrderApi__Invoice__c, OrderApi__Is_Posted__c, OrderApi__Memo__c, OrderApi__Posted_Date__c, OrderApi__Total__c, OrderApi__Sales_Order_Number__c, OrderApi__Sales_Order__c FROM OrderApi__Credit_Note__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        }
+    ]
+}

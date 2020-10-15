@@ -1,0 +1,58 @@
+{
+    "objects":[
+        {
+            "query":"SELECT Id, External_Id__c FROM Account",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM Contact",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Item__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Assignment__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Sales_Order_Line__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Renewal__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, OrderApi__Description__c, OrderApi__Enable_Badge_Flow_down__c, OrderApi__Engagement_Score__c, OrderApi__Icon_Location__c, OrderApi__Icon__c, OrderApi__Image_Location__c, OrderApi__Image__c, OrderApi__Is_Active__c, OrderApi__Is_Published__c, OrderApi__Public_Description__c, OrderApi__Short_Description__c,SystemModstamp, LastViewedDate, LastReferencedDate FROM OrderApi__Badge_Type__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Assigned_Contacts__c, OrderApi__Auto_Expire__c, OrderApi__Badge_Type__c, OrderApi__Item__c, OrderApi__Line_Account__c, OrderApi__Line_Contact__c, OrderApi__Type__c FROM OrderApi__Badge_Workflow__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Account__c, OrderApi__Assignment__c, OrderApi__Awarded_Date__c, OrderApi__Badge_Description__c, OrderApi__Badge_Type_Icon__c, OrderApi__Badge_Type__c, OrderApi__Badge_Workflow__c, OrderApi__Contact__c, OrderApi__Engagement_Score__c, OrderApi__Expired_Date__c, OrderApi__Is_Active__c, OrderApi__Item__c, OrderApi__Sales_Order_Line__c, OrderApi__Term__c FROM OrderApi__Badge__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        }
+    ]
+}

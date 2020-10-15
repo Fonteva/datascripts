@@ -1,0 +1,108 @@
+{
+    "objects":[
+        {
+            "query":"SELECT Id, External_Id__c FROM Account",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM Contact",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Payment_Method__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Payment_Terms__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM EventApi__Seat__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Sales_Order__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM EventApi__Ticket_Type__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Price_Rule__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Item__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Package_Item__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Credit_Note__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM EventApi__Schedule_Item__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, Name FROM OrderApi__Subscription_Plan__c",
+            "operation":"Readonly",
+            "externalId":"Name",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp,EventApi__Account__c, EventApi__Create_Contacts__c, EventApi__Create_Standing_Sales_Order__c, EventApi__Description__c, EventApi__Display_Registered_Members__c, EventApi__Enable_Access_Permissions__c, EventApi__Event__c, EventApi__Group_Logo_URL__c, EventApi__Invitation_Email_Body__c, EventApi__Invoice_Date__c, EventApi__Limit_Registrations__c, EventApi__Payment_Method__c, EventApi__Payment_Status__c, EventApi__Payment_Terms__c, EventApi__Payment_Type__c, EventApi__Posting_Entity__c, EventApi__Primary_Contact__c, EventApi__Register_Site_Url__c, EventApi__Registered_Attendees__c, EventApi__Registration_Code__c, EventApi__Registration_Instructions__c, EventApi__Registration_Limit__c, EventApi__Registration_Page_Header__c, LTE__Invited_Attendee__c, LastViewedDate, LastReferencedDate FROM EventApi__Registration_Group__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp,EventApi__Event__c, EventApi__Account__c, EventApi__Contact__c, EventApi__Email__c, EventApi__Full_Name__c, EventApi__Is_Checked_In__c, EventApi__Is_Registered__c, EventApi__Preferred_Email__c, EventApi__Registration_Date__c, EventApi__Registration_Group__c, EventApi__Registration_Site_Url__c, EventApi__Sales_Order_Line__c, EventApi__Sales_Order__c, EventApi__Send_Notification__c, EventApi__Status__c, EventApi__Ticket_Type__c, EventApi__Registration_Total__c, EventApi__Contact_Created_by_System__c, EventApi__Invitation_Status__c, EventApi__Is_Invitation_Accepted__c, EventApi__Is_Invitation_Declined__c, EventApi__Is_Invitation_Not_Sent__c, EventApi__Is_Invitation_Sent__c, EventApi__Last_Invitation_Email_Sent__c, EventApi__Max_Guests_Allowed__c, EventApi__Refund_Requested__c, EventApi__Seat__c, EventApi__Send_Invitation_Email__c, EventApi__First_Name__c, EventApi__Last_Name__c, EventApi__Assigned_Guest_Ticket_Type__c, EventApi__Invitation_Source__c, Test_Engagement_Score__c, Event_Name__c, Event_NameDis__c, Ticket__c,LastViewedDate, LastReferencedDate FROM EventApi__Attendee__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false,
+            "excludedFields":["EventApi__Assignment__c"]
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Sales_Order__c, OrderApi__Account__c, OrderApi__Activation_Date__c, OrderApi__Active_Assignments__c,OrderApi__Assignments_Allowed__c, OrderApi__Assignments_Available__c, OrderApi__Auto_Assign_Account_Contacts__c, OrderApi__Auto_Assign_Contact__c, OrderApi__Auto_Assign_Rule__c, OrderApi__Auto_Assign__c, OrderApi__Auto_Calculate_Activation_Date__c, OrderApi__Business_Group__c, OrderApi__Calculate_Shipping_Details__c, OrderApi__Contact__c, OrderApi__Disable_Scheduling__c, OrderApi__Enable_Auto_Renew__c, OrderApi__End_Date__c, OrderApi__Entity__c, OrderApi__GL_Account__c, OrderApi__Is_Amendment__c, OrderApi__Is_Installment_Calculated__c, OrderApi__Is_Posted__c, OrderApi__Is_Renewal__c, OrderApi__Is_Required_Package_Item__c, OrderApi__Is_Shipping_Rate__c, OrderApi__Is_Subscription__c, OrderApi__Is_Tax__c, OrderApi__Is_Valid__c, OrderApi__Item_Class__c, OrderApi__Item__c, OrderApi__Line_Description__c, OrderApi__List_Price__c, OrderApi__Package_Item__c, OrderApi__Payment_Method__c, OrderApi__Price_Override__c, OrderApi__Price_Rule__c, OrderApi__Quantity__c, OrderApi__Required_Package_Items__c, OrderApi__Sale_Price__c, OrderApi__Sales_Order_Line__c, OrderApi__Shipping_City__c, OrderApi__Shipping_Contact__c, OrderApi__Shipping_Country__c, OrderApi__Shipping_Method__c, OrderApi__Shipping_Postal_Code__c, OrderApi__Shipping_State__c, OrderApi__Shipping_Street__c, OrderApi__Shipping_Tracking_Number__c, OrderApi__Subscription_Plan__c, OrderApi__Subscription__c, OrderApi__Subtotal__c, OrderApi__System_Override__c, OrderApi__Tax_Override__c, OrderApi__Tax_Percent__c, OrderApi__Total_Installment_Price__c, OrderApi__Total__c, EventApi__Attendee__c, EventApi__Event__c, EventApi__Schedule_Item__c, EventApi__Sponsor_Package__c, EventApi__Ticket_Type__c, ROEApi__Group_Registration_Key__c, DonorApi__Tax_Deductible_Amount__c, DonorApi__Write_In__c, ProgramApi__Program_Profile__c, ProgramApi__Program_Term__c, OrderApi__Do_Not_Collect_Payment__c, EventApi__Is_Required_Schedule_Item__c, OrderApi__Display_Item__c, OrderApi__Foreign_Key__c, OrderApi__Incomplete__c, OrderApi__Parent_Foreign_Key__c, OrderApi__Subscription_Start_Date__c, OrderApi__Item_Tax_Percent__c, OrderApi__Parent_Is_Installment_Calculated__c, OrderApi__Parent_Total_Installment_Price__c, OrderApi__Parent_Total__c, OrderApi__Tax_Amount__c, OrderApi__Total_with_Tax__c, OrderApi__AR_Account__c, OrderApi__Adjustment_Reason__c, OrderApi__Adjustments__c, OrderApi__Amount_Paid__c, OrderApi__Amount_Refunded__c, OrderApi__Balance_Due__c, OrderApi__Credit_Note__c, OrderApi__Credits_Applied__c, OrderApi__Deferred_Revenue_Adjustment__c, OrderApi__Is_Adjustment__c, OrderApi__Is_Line_Posted__c, OrderApi__Payment_Priority__c, OrderApi__Posted_Date__c, OrderApi__Credit_Memo__c, OrderApi__Item_Name__c, OrderApi__Overall_Total__c,Revenue_Category__c, Revenue_Subcategory__c, Program_Term_Is_Maintenance__c FROM OrderApi__Sales_Order_Line__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false,
+            "excludedFields":["OrderApi__Term__c"]
+        },
+        {
+            "query":"SELECT Id, External_Id__c,OrderApi__Sales_Order_Line__c FROM OrderApi__Subscription__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        }
+    ]
+}

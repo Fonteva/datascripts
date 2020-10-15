@@ -1,0 +1,28 @@
+{
+    "objects":[
+        {
+            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Active__c, OrderApi__Business_Group__c, OrderApi__Channel__c, LastViewedDate, LastReferencedDate FROM OrderApi__Source_Code__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, OrderApi__Average_Sale__c, OrderApi__Average_Visitor_Value__c, OrderApi__Business_Group__c, OrderApi__Conversion_Rate__c, OrderApi__Description__c, OrderApi__Expenses__c, OrderApi__Footer_Content__c, OrderApi__Goal__c, OrderApi__Header_Content__c, OrderApi__Is_Published__c, OrderApi__Name__c, OrderApi__Payment_Gateway__c, OrderApi__ROI__c, OrderApi__Sales__c, OrderApi__Shopping_Cart_Enabled__c, OrderApi__Site__c, OrderApi__Source_Code__c, OrderApi__Store__c, OrderApi__Theme__c, OrderApi__Title_Tag__c, OrderApi__Total_Revenue__c, OrderApi__Visits__c, EventApi__Event__c, LastViewedDate, LastReferencedDate FROM OrderApi__Campaign_Page__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, PagesApi__Component__c, PagesApi__HTML__c, PagesApi__Order__c, PagesApi__Page__c, OrderApi__Campaign_Page__c FROM PagesApi__Page_Element__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name, CreatedDate, LastModifiedDate, SystemModstamp, PagesApi__Page_Element__c, PagesApi__Key__c, PagesApi__Type__c, PagesApi__Value__c FROM PagesApi__Page_Element_Attribute__c",
+            "operation":"Upsert",
+            "externalId":"Id",
+            "excluded":false
+        }
+    ]
+}

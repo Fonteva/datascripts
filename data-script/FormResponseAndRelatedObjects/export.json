@@ -1,0 +1,88 @@
+{
+    "objects":[
+        {
+            "query":"SELECT Id, External_Id__c FROM Account",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM Contact",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Assignment__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Item__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Sales_Order_Line__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM OrderApi__Sales_Order__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM EventApi__Attendee__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM EventApi__Registration_Item__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM EventApi__Speaker__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM EventApi__Registration_Group__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM PagesApi__Field_Group__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, External_Id__c FROM PagesApi__Field__c",
+            "operation":"Readonly",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, LastActivityDate, PagesApi__Account__c, PagesApi__Contact__c, PagesApi__Date__c, PagesApi__Entity__c, PagesApi__Form__c, PagesApi__Responder_Link__c, OrderApi__Assignment__c, OrderApi__Item__c, OrderApi__Sales_Order_Line__c, OrderApi__Sales_Order__c, EventApi__Attendee__c, EventApi__Registration_Item__c, EventApi__Speaker__c, EventApi__Sponsor__c, EventApi__Registration_Group__c,OrderApi__Account__c,OrderApi__Contact__c FROM PagesApi__Form_Response__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        },
+        {
+            "query":"SELECT Id, IsDeleted, Name,External_Id__c, CreatedDate, LastModifiedDate, SystemModstamp, PagesApi__Field_Group__c, PagesApi__Field_Help_Text__c, PagesApi__Field_Label__c, PagesApi__Field_Order__c, PagesApi__Field_Type__c, PagesApi__Field__c, PagesApi__Form_Response__c, PagesApi__Mapped_Field__c, PagesApi__Report_Response__c, PagesApi__Response_Group__c, PagesApi__Response__c, PagesApi__System_Reference__c, OrderApi__Field_Group__c, OrderApi__Field__c, OrderApi__Form_Response__c, OrderApi__Form__c, EventApi__Attendee__c, EventApi__Speaker__c, EventApi__Sponsor__c, PagesApi__Field_Response__c,LastActivityDate FROM PagesApi__Field_Response__c",
+            "operation":"Upsert",
+            "externalId":"External_Id__c",
+            "excluded":false
+        }
+    ]
+}
