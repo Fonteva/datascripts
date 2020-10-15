@@ -1,0 +1,31 @@
+Id,Name,External_Id__c,PagesApi__Allow_Users_to_Delete_Mapped_Records__c,PagesApi__DML_Operation__c,PagesApi__Form__c,PagesApi__Instructions__c,PagesApi__Is_Multiple__c,PagesApi__Mapped_Object__c,PagesApi__Mapped_Relationship_Field__c,PagesApi__Order__c,PagesApi__Parent_Field_Group__c,PagesApi__SOQL_Filter__c,PagesApi__Form__r.Id,PagesApi__Parent_Field_Group__r.External_Id__c
+a0O4W00001UOoymUAD,My Events,1,false,Upsert,a0S4W00000WEbeJUAT,,true,eventapi__attendee__c,,1,,EventApi__Contact__c = '{{usr.ContactId}}',a0S4W00000WEbeJUAT,
+a0O4W00001UOoynUAD,Dietary Preferences,2,false,,a0S4W00000WEbeKUAT,,false,,,2,,,a0S4W00000WEbeKUAT,
+a0O4W00001UOoyoUAD,Event Feedback,3,false,,a0S4W00000WEbeLUAT,Thank you for participating in our event. We hope you had as much fun attending as we did organizing it. We want to hear your feedback so we can keep improving our logistics and content. Please fill this quick survey and let us know your thoughts (your answers will be anonymous).,false,,,1,,,a0S4W00000WEbeLUAT,
+a0O4W00001UOoypUAD,Sessions Feedback,4,false,,a0S4W00000WEbeLUAT,,false,,,2,,,a0S4W00000WEbeLUAT,
+a0O4W00001UOoyqUAD,Speaker Feedback,5,false,,a0S4W00000WEbeLUAT,,false,,,3,,,a0S4W00000WEbeLUAT,
+a0O4W00001UOoyrUAD,Venue Feedback,6,false,,a0S4W00000WEbeLUAT,,false,,,4,,,a0S4W00000WEbeLUAT,
+a0O4W00001UOoysUAD,Prospective Speaker Information,7,false,Insert,a0S4W00000WEbeMUAT,,false,eventapi__speaker__c,,,,,a0S4W00000WEbeMUAT,
+a0O4W00001UOoytUAD,Company Information,8,false,Insert,a0S4W00000WEbeNUAT,,false,account,,,,,a0S4W00000WEbeNUAT,
+a0O4W00001UOoyuUAD,Company,9,false,Upsert,a0S4W00000WEbeOUAT,,false,account,,,,Id ='{{usr.AccountId}}',a0S4W00000WEbeOUAT,
+a0O4W00001UOoyvUAD,Registrant Information,10,false,,a0S4W00000WEbePUAT,,false,,,1,,,a0S4W00000WEbePUAT,
+a0O4W00001UOoywUAD,Employee Information,11,false,Insert,a0S4W00000WEbeNUAT,Please enter the contact info for those individuals in your company that will be using benefits,true,contact,AccountId,,a0O4W00001UOoytUAD,,a0S4W00000WEbeNUAT,8
+a0O4W00001UOoyxUAD,Company information,12,false,Upsert,a0S4W00000WEbeQUAT,,false,contact,,1,,Id='{{usr.ContactId}}',a0S4W00000WEbeQUAT,
+a0O4W00001UOoyyUAD,Mailing Address,13,true,Upsert,a0S4W00000WEbeQUAT,,true,contact,,2,,Id='{{usr.ContactId}}',a0S4W00000WEbeQUAT,
+a0O4W00001UOoyzUAD,Donate to a cause,14,false,Upsert,a0S4W00000WEbeQUAT,,false,contact,,3,,Id='{{usr.ContactId}}',a0S4W00000WEbeQUAT,
+a0O4W00001UOoz0UAD,Community Group Member Information,15,false,Upsert,a0S4W00000WEbeRUAT,,false,pagesapi__community_group__c,,1,,Id= {{url.communitygroup}},a0S4W00000WEbeRUAT,
+a0O4W00001UOoz1UAD,Group Member Information,16,true,Upsert,a0S4W00000WEbeRUAT,,true,pagesapi__community_group_member__c,PagesApi__Community_Group__c,2,a0O4W00001UOoz0UAD,PagesApi__Community_Group__c='a0M6A000002qSha',a0S4W00000WEbeRUAT,15
+a0O4W00001UOoz2UAD,Company Information,17,false,Upsert,a0S4W00000WEbeSUAT,,false,account,,1,,Id='{{usr.AccountId}}',a0S4W00000WEbeSUAT,
+a0O4W00001UOoz3UAD,Contact Information,18,false,Upsert,a0S4W00000WEbeSUAT,,false,contact,AccountId,2,a0O4W00001UOoz2UAD,Id='{{usr.ContactId}}',a0S4W00000WEbeSUAT,17
+a0O4W00001UOoz4UAD,Terms,19,false,,a0S4W00000WEbeSUAT,,false,,,3,,,a0S4W00000WEbeSUAT,
+a0O4W00001UOoz5UAD,Account/Organization Name,20,false,Upsert,a0S4W00000WEbeTUAT,,false,account,,0,,Id= '{{usr.AccountId}}',a0S4W00000WEbeTUAT,
+a0O4W00001UOoz6UAD,Contacts/Constituents,21,true,Upsert,a0S4W00000WEbeTUAT,,true,contact,AccountId,1,a0O4W00001UOoz5UAD,AccountId ='{{usr.AccountId}}',a0S4W00000WEbeTUAT,20
+a0O4W00001UOoz7UAD,Contact Information,22,false,Upsert,a0S4W00000WEbeUUAT,,false,contact,,1,,Id='{{usr.ContactId}}',a0S4W00000WEbeUUAT,
+a0O4W00001UOoz8UAD,Credits,23,true,Upsert,a0S4W00000WEbeUUAT,,true,fon_credit__c,,2,,ContactId ='{{usr.ContactId}}',a0S4W00000WEbeUUAT,
+a0O4W00001UOoz9UAD,Update Contact Information,24,false,Upsert,a0S4W00000WEbeVUAT,,false,contact,,1,,Id='{{usr.ContactId}}',a0S4W00000WEbeVUAT,
+a0O4W00001UOozAUAT,Complete your Course details,25,true,Upsert,a0S4W00000WEbeVUAT,,true,fon_credit__c,Contact_Name__c,3,a0O4W00001UOoz9UAD,ContactId ='{{usr.ContactId}}',a0S4W00000WEbeVUAT,24
+a0O4W00001UOozBUAT,Registration Information,26,false,Upsert,a0S4W00000WEbeWUAT,,false,contact,,1,,Id='{{usr.ContactId}}',a0S4W00000WEbeWUAT,
+a0O4W00001UOozCUAT,Local and State Chapter Membership,27,false,Upsert,a0S4W00000WEbeXUAT,Please select a State and Local chapter that you would want to sign up,false,contact,,1,,id = '{{usr.contactId}}',a0S4W00000WEbeXUAT,
+a0O4W00001UOozDUAT,Sponsor Information,28,false,Upsert,a0S4W00000WEbeYUAT,,false,eventapi__sponsor__c,,1,,Id='{{usr.AccountId}}',a0S4W00000WEbeYUAT,
+a0O4W00001UOozEUAT,Account/Organization Name,29,false,Upsert,a0S4W00000WEbeZUAT,,false,account,,1,,Id= '{{usr.AccountId}}',a0S4W00000WEbeZUAT,
+a0O4W00001UOozFUAT,Associated Membership,30,false,Upsert,a0S4W00000WEbeZUAT,,true,orderapi__subscription__c,OrderApi__Account__c,2,a0O4W00001UOozEUAT,AccountId ='{{usr.AccountId}}' ORContactId ='{{usr.ContactId}}',a0S4W00000WEbeZUAT,29

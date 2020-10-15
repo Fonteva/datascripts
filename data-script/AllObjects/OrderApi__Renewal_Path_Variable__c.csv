@@ -1,0 +1,4 @@
+Id,Name,OrderApi__Renewal_Path__c,OrderApi__Field__c,OrderApi__Object__c,OrderApi__Operator__c,OrderApi__Value__c,OrderApi__Renewal_Path__r.Id
+a1F4W000008bjh8UAA,000000000,a1G4W00000K2X7yUAF,annualrevenue,account,greater than,500000,a1G4W00000K2X7yUAF
+a1F4W000008bjh9UAA,000000001,a1G4W00000K2X7zUAF,role__c,contact,not equal to,Student,a1G4W00000K2X7zUAF
+a1F4W000008bjhAUAQ,000000002,a1G4W00000K2X80UAF,role__c,contact,not equal to,Student,a1G4W00000K2X80UAF

@@ -1,0 +1,64 @@
+Id,Name,EventApi__Enable_Transition_for_Status__c,EventApi__Event__c,EventApi__Is_Current_Status_for_Event__c,EventApi__Is_Event_Active__c,EventApi__Is_Event_Published__c,EventApi__Order__c,EventApi__Status_Transition_Criteria__c,EventApi__Closed_Status_Text__c,EventApi__Filter_Transition_Criteria__c,EventApi__Event__r.Id
+a274W000009pP8WQAU,Active,false,a1Y4W000002r0bxUAA,false,true,true,1,,,,a1Y4W000002r0bxUAA
+a274W000009pP8XQAU,Closed,false,a1Y4W000002r0bxUAA,false,false,true,2,,,,a1Y4W000002r0bxUAA
+a274W000009pP8YQAU,Planned,false,a1Y4W000002r0bxUAA,true,false,false,0,,,,a1Y4W000002r0bxUAA
+a274W000009pP8ZQAU,Active,false,a1Y4W000002r0byUAA,false,true,true,1,,,,a1Y4W000002r0byUAA
+a274W000009pP8aQAE,Closed,false,a1Y4W000002r0byUAA,false,false,true,2,,,,a1Y4W000002r0byUAA
+a274W000009pP8bQAE,Planned,false,a1Y4W000002r0byUAA,true,false,false,0,,,,a1Y4W000002r0byUAA
+a274W000009pP8cQAE,Active,false,a1Y4W000002r0bzUAA,false,true,true,1,,,,a1Y4W000002r0bzUAA
+a274W000009pP8dQAE,Closed,false,a1Y4W000002r0bzUAA,false,false,true,2,,,,a1Y4W000002r0bzUAA
+a274W000009pP8eQAE,Planned,false,a1Y4W000002r0bzUAA,true,false,false,0,,,,a1Y4W000002r0bzUAA
+a274W000009pP8fQAE,Active,false,a1Y4W000002r0c0UAA,false,true,true,1,,,,a1Y4W000002r0c0UAA
+a274W000009pP8gQAE,Closed,false,a1Y4W000002r0c0UAA,false,false,true,2,,,,a1Y4W000002r0c0UAA
+a274W000009pP8hQAE,Planned,false,a1Y4W000002r0c0UAA,true,false,false,0,,,,a1Y4W000002r0c0UAA
+a274W000009pP8iQAE,Active,false,a1Y4W000002r0c2UAA,false,true,true,1,,,,a1Y4W000002r0c2UAA
+a274W000009pP8jQAE,Closed,false,a1Y4W000002r0c2UAA,false,false,true,2,,,,a1Y4W000002r0c2UAA
+a274W000009pP8kQAE,Planned,false,a1Y4W000002r0c2UAA,true,false,false,0,,,,a1Y4W000002r0c2UAA
+a274W000009pP8lQAE,Active,false,a1Y4W000002r0c2UAA,false,true,true,1,,,,a1Y4W000002r0c2UAA
+a274W000009pP8mQAE,Closed,false,a1Y4W000002r0c2UAA,false,false,true,2,,,,a1Y4W000002r0c2UAA
+a274W000009pP8nQAE,Planned,false,a1Y4W000002r0c2UAA,true,false,false,0,,,,a1Y4W000002r0c2UAA
+a274W000009pP8oQAE,Active,false,a1Y4W000002r0bqUAA,true,true,true,1,,,,a1Y4W000002r0bqUAA
+a274W000009pP8pQAE,Closed,false,a1Y4W000002r0bqUAA,false,false,true,2,,,,a1Y4W000002r0bqUAA
+a274W000009pP8qQAE,Planned,false,a1Y4W000002r0bqUAA,false,false,false,0,,,,a1Y4W000002r0bqUAA
+a274W000009pP8rQAE,Active,false,a1Y4W000002r0bwUAA,true,true,true,2,,,,a1Y4W000002r0bwUAA
+a274W000009pP8sQAE,Closed,false,a1Y4W000002r0bwUAA,false,false,true,3,,,,a1Y4W000002r0bwUAA
+a274W000009pP8tQAE,Planned,false,a1Y4W000002r0bwUAA,false,false,false,1,,,,a1Y4W000002r0bwUAA
+a274W000009pP8uQAE,Active,false,a1Y4W000002r0c3UAA,false,true,true,1,,,,a1Y4W000002r0c3UAA
+a274W000009pP8vQAE,Closed,false,a1Y4W000002r0c3UAA,false,false,true,2,,,,a1Y4W000002r0c3UAA
+a274W000009pP8wQAE,Planned,false,a1Y4W000002r0c3UAA,true,false,false,0,,,,a1Y4W000002r0c3UAA
+a274W000009pP8xQAE,Active,false,a1Y4W000002r0c3UAA,false,true,true,1,,,,a1Y4W000002r0c3UAA
+a274W000009pP8yQAE,Closed,false,a1Y4W000002r0c3UAA,false,false,true,2,,,,a1Y4W000002r0c3UAA
+a274W000009pP8zQAE,Planned,false,a1Y4W000002r0c3UAA,true,false,false,0,,,,a1Y4W000002r0c3UAA
+a274W000009pP90QAE,Planned,false,a1Y4W000002r0c5UAA,false,false,false,0,,,,a1Y4W000002r0c5UAA
+a274W000009pP91QAE,Active,false,a1Y4W000002r0c5UAA,false,true,true,1,,,,a1Y4W000002r0c5UAA
+a274W000009pP92QAE,Closed,false,a1Y4W000002r0c5UAA,true,false,false,2,,,,a1Y4W000002r0c5UAA
+a274W000009pP93QAE,Planned,false,a1Y4W000002r0brUAA,false,false,false,1,EventApi__Ticket_Sales_Start_Date__c > TODAY,,,a1Y4W000002r0brUAA
+a274W000009pP94QAE,Active,false,a1Y4W000002r0brUAA,true,true,true,2,EventApi__Ticket_Sales_Start_Date__c <= TODAY,,,a1Y4W000002r0brUAA
+a274W000009pP95QAE,Closed,false,a1Y4W000002r0brUAA,false,false,true,3,EventApi__End_Date__c < TODAY,,,a1Y4W000002r0brUAA
+a274W000009pP96QAE,Planned,false,a1Y4W000002r0btUAA,false,false,false,1,EventApi__Ticket_Sales_Start_Date__c > TODAY,,,a1Y4W000002r0btUAA
+a274W000009pP97QAE,Active,false,a1Y4W000002r0btUAA,true,true,true,2,EventApi__Ticket_Sales_Start_Date__c <= TODAY,,,a1Y4W000002r0btUAA
+a274W000009pP98QAE,Closed,false,a1Y4W000002r0btUAA,false,false,true,3,EventApi__End_Date__c < TODAY,,,a1Y4W000002r0btUAA
+a274W000009pP99QAE,Planned,false,a1Y4W000002r0buUAA,false,false,false,1,EventApi__Ticket_Sales_Start_Date__c > TODAY,,,a1Y4W000002r0buUAA
+a274W000009pP9AQAU,Active,false,a1Y4W000002r0buUAA,true,true,true,2,EventApi__Ticket_Sales_Start_Date__c <= TODAY,,,a1Y4W000002r0buUAA
+a274W000009pP9BQAU,Closed,false,a1Y4W000002r0buUAA,false,false,true,3,EventApi__End_Date__c < TODAY,,,a1Y4W000002r0buUAA
+a274W000009pP9CQAU,Planned,false,a1Y4W000002r0c4UAA,false,false,false,1,EventApi__Ticket_Sales_Start_Date__c > TODAY,,,a1Y4W000002r0c4UAA
+a274W000009pP9DQAU,Active,false,a1Y4W000002r0c4UAA,true,true,true,2,EventApi__Ticket_Sales_Start_Date__c <= TODAY,,,a1Y4W000002r0c4UAA
+a274W000009pP9EQAU,Closed,false,a1Y4W000002r0c4UAA,false,false,true,3,EventApi__End_Date__c < TODAY,,,a1Y4W000002r0c4UAA
+a274W000009pP9FQAU,Planned,false,a1Y4W000002r0bsUAA,false,false,false,1,,,,a1Y4W000002r0bsUAA
+a274W000009pP9GQAU,Active,false,a1Y4W000002r0bsUAA,true,true,true,2,,,,a1Y4W000002r0bsUAA
+a274W000009pP9HQAU,Closed,false,a1Y4W000002r0bsUAA,false,false,true,3,,,,a1Y4W000002r0bsUAA
+a274W000009pP9IQAU,Active,false,a1Y4W000002r0bmUAA,true,true,true,2,,,,a1Y4W000002r0bmUAA
+a274W000009pP9JQAU,Closed,false,a1Y4W000002r0bmUAA,false,false,true,3,,,,a1Y4W000002r0bmUAA
+a274W000009pP9KQAU,Planned,false,a1Y4W000002r0bmUAA,false,false,false,1,,,,a1Y4W000002r0bmUAA
+a274W000009pP9LQAU,Active,false,a1Y4W000002r0bnUAA,true,true,true,2,EventApi__Ticket_Sales_Start_Date__c <= TODAY,,,a1Y4W000002r0bnUAA
+a274W000009pP9MQAU,Closed,false,a1Y4W000002r0bnUAA,false,false,true,3,EventApi__End_Date__c < TODAY,,,a1Y4W000002r0bnUAA
+a274W000009pP9NQAU,Planned,false,a1Y4W000002r0bnUAA,false,false,false,1,EventApi__Ticket_Sales_Start_Date__c > TODAY,,,a1Y4W000002r0bnUAA
+a274W000009pP9OQAU,Active,false,a1Y4W000002r0bvUAA,true,true,true,2,EventApi__Ticket_Sales_Start_Date__c <= TODAY,,,a1Y4W000002r0bvUAA
+a274W000009pP9PQAU,Closed,false,a1Y4W000002r0bvUAA,false,false,true,3,EventApi__End_Date__c < TODAY,,,a1Y4W000002r0bvUAA
+a274W000009pP9QQAU,Planned,false,a1Y4W000002r0bvUAA,false,false,false,1,EventApi__Ticket_Sales_Start_Date__c > TODAY,,,a1Y4W000002r0bvUAA
+a274W000009pP9RQAU,Active,false,a1Y4W000002r0boUAA,true,true,true,2,EventApi__Ticket_Sales_Start_Date__c <= TODAY,,,a1Y4W000002r0boUAA
+a274W000009pP9SQAU,Closed,false,a1Y4W000002r0boUAA,false,false,true,3,EventApi__End_Date__c < TODAY,,,a1Y4W000002r0boUAA
+a274W000009pP9TQAU,Planned,false,a1Y4W000002r0boUAA,false,false,false,1,EventApi__Ticket_Sales_Start_Date__c > TODAY,,,a1Y4W000002r0boUAA
+a274W000009pP9UQAU,Active,false,a1Y4W000002r0c6UAA,true,true,true,2,EventApi__Ticket_Sales_Start_Date__c <= TODAY,,,a1Y4W000002r0c6UAA
+a274W000009pP9VQAU,Closed,false,a1Y4W000002r0c6UAA,false,false,true,3,EventApi__End_Date__c < TODAY,,,a1Y4W000002r0c6UAA
+a274W000009pP9WQAU,Planned,false,a1Y4W000002r0c6UAA,false,false,false,1,EventApi__Ticket_Sales_Start_Date__c > TODAY,,,a1Y4W000002r0c6UAA

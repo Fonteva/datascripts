@@ -1,0 +1,16 @@
+Id,Name,External_Id__c,OrderApi__Price_Rule__c,OrderApi__Field__c,OrderApi__Object__c,OrderApi__Operator__c,OrderApi__Value__c,OrderApi__Price_Rule__r.External_Id__c
+a1B4W00000UmdRXUAZ,000000087,1,a1C4W00000845ToUAI,state_chapter__c,contact,equals,Virginia,614
+a1B4W00000UmdRYUAZ,000000088,2,a1C4W00000845LVUAY,state_chapter__c,contact,equals,California,615
+a1B4W00000UmdRZUAZ,000000089,3,a1C4W00000845LVUAY,state_chapter__c,contact,equals,California,615
+a1B4W00000UmdRaUAJ,000000090,4,a1C4W00000845LVUAY,state_chapter__c,contact,equals,California,615
+a1B4W00000UmdRbUAJ,000000091,5,a1C4W00000845KPUAY,state_chapter__c,contact,contains,New York,616
+a1B4W00000UmdRcUAJ,000000092,6,a1C4W00000845KPUAY,state_chapter__c,contact,contains,New York,616
+a1B4W00000UmdRdUAJ,000000093,7,a1C4W00000845TpUAI,local_chapter__c,contact,equals,Arlington,617
+a1B4W00000UmdReUAJ,000000094,8,a1C4W00000845TpUAI,local_chapter__c,contact,equals,Arlington,617
+a1B4W00000UmdRfUAJ,000000095,9,a1C4W00000845TpUAI,local_chapter__c,contact,equals,Arlington,617
+a1B4W00000UmdRgUAJ,000000096,10,a1C4W00000845LPUAY,local_chapter__c,contact,equals,Los Angeles,618
+a1B4W00000UmdRhUAJ,000000097,11,a1C4W00000845LPUAY,local_chapter__c,contact,equals,Los Angeles,618
+a1B4W00000UmdRiUAJ,000000098,12,a1C4W00000845LQUAY,local_chapter__c,contact,equals,New York,619
+a1B4W00000UmdRjUAJ,000000100,13,a1C4W00000845TqUAI,assistantname,contact,not equal to,Sarah,478
+a1B4W00000UmdRkUAJ,000000009,14,a1C4W00000845TrUAI,name,contact,contains,Bob Kelly,484
+a1B4W00000UmdRlUAJ,000000056,15,a1C4W00000845TsUAI,name,account,equals,FON-ABC Corporations,491
