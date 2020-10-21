@@ -1,4 +1,6 @@
 {
+    "bulkThreshold": 10000,
+    "promptOnMissingParentObjects": false,
     "objects":[
         {
 			"query": "SELECT Id, Name, PagesApi__Body_Background_Color__c, PagesApi__Brand_Primary__c, PagesApi__Brand_Secondary__c, PagesApi__Custom_CSS__c, PagesApi__Custom_Print_Stylesheet_URL__c, PagesApi__Custom_Stylesheet_URL__c, PagesApi__Description__c, PagesApi__Favicon_Image__c, PagesApi__Footer__c, PagesApi__HTML_Head__c, PagesApi__Header__c, PagesApi__Link_Color__c, PagesApi__Logo_Image__c, PagesApi__Logo_Text__c, PagesApi__Logo_URL__c, PagesApi__Navbar_Background_Color__c, PagesApi__Navbar_Link_Color__c, PagesApi__Supernav_Background_Color__c, PagesApi__Supernav_HTML_Position_1__c, PagesApi__Supernav_HTML_Position_2__c, PagesApi__Supernav_HTML_Position_3__c, PagesApi__Supernav_Link_Color__c, PagesApi__Supernav_Text_Color__c, PagesApi__Text_Color__c, PagesApi__Community_Styles__c, PagesApi__Lightning_Community_Styles__c FROM PagesApi__Theme__c",
